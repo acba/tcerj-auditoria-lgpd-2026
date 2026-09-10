@@ -1,0 +1,51 @@
+# ==============================================================================
+# .gitignore - Auditoria de Conformidade LGPD 2026.2 (TCE-RJ)
+# ==============================================================================
+
+# Arquivos temporários e de sistema
+tmp/
+temp/
+.tmp/
+.scratch/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx
+~$*.xlsx
+~$*.pptx
+.~lock.*#
+
+# Ambientes virtuais e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.ipynb_checkpoints/
+.venv/
+/.venv/
+
+# Caches e artefatos Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.pkl
+
+# Gestão administrativa, ofícios expedidos e listas de contatos/destinatários
+99-Gestão/
+98-scripts/01-gera tsids/**/docx/
+98-scripts/01-gera tsids/**/pdf/
+98-scripts/99-enviar_emails/anexos/
+98-scripts/99-enviar_emails/fonte/
+
+# Pacotes compactados pesados de ofícios e comunicações
+*.zip
+!00-Estudos_Preliminares/00-Antecedentes/LGPD 2024/*.zip
+
+# Rascunhos e cópias temporárias
+*_revisada.docx
+* - Cópia.*
+* - Copia.*
+.env

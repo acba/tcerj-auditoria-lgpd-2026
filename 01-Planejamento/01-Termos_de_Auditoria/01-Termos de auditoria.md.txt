@@ -1,0 +1,182 @@
+# Termos de Auditoria
+
+## 1. Objeto
+
+Práticas correntes de proteção de dados pessoais adotadas pelas prefeituras jurisdicionadas deste Tribunal com ênfase no cumprimento das decisões proferidas no âmbito do Processo TCE-RJ nº 217.899-0/2024.
+
+---
+
+## 2. Critérios
+
+A fiscalização adotará como critérios:
+
+- Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais);
+- Acórdão nº 3931/2025, Auditoria de LGPD de 2024;
+- Resoluções, regulamentos, guias e orientações expedidos pela Autoridade Nacional de Proteção de Dados (ANPD);
+- Normas ABNT NBR ISO/IEC relacionadas à segurança da informação e à privacidade, especialmente as normas ISO/IEC 27001, 27002 e 27701;
+- Planos de ação apresentados pelas prefeituras em atendimento às decisões do Tribunal;
+- Programa de Privacidade e Segurança da Informação (PPSI) do Governo Federal.
+
+---
+
+## 3. Evidências
+
+Serão consideradas, entre outras, as seguintes fontes de evidência:
+
+- Respostas ao questionário de avaliação da adequação à LGPD;
+- Documentos comprobatórios encaminhados pelos jurisdicionados;
+- Planos de ação apresentados pelas prefeituras;
+- Políticas, normas e procedimentos de proteção de dados pessoais;
+- Políticas e normativos de segurança da informação;
+- Atos de designação do encarregado pelo tratamento de dados pessoais;
+- Inventários de dados pessoais e registros das operações de tratamento;
+- Relatórios de impacto à proteção de dados pessoais, quando existentes;
+- Avaliações e registros de riscos relacionados à privacidade;
+- Avisos de privacidade e informações disponibilizadas nos portais institucionais;
+- Procedimentos e registros de atendimento aos direitos dos titulares;
+- Procedimentos relacionados à resposta e comunicação de incidentes;
+- Evidências de ações de capacitação e conscientização;
+
+---
+
+## 4. Problema
+
+Fiscalização inicial realizada em 2022 para avaliar a adequação das prefeituras a LGPD identificou um cenário incipiente de adoção de práticas de segurança e proteção aos dados pessoais. Poucos municípios tomaram alguma iniciativa para se adequar à Lei.
+
+Trabalho posterior realizado em 2024 em conjunto com outros Tribunais mensurou uma evolução no panorama municipal, porém ainda infringindo diversos dispositivos legais.
+
+Diante disso, e alinhando-se a estratégia de fiscalização da especializada julgou-se pertinente reavaliar mediante uma auditoria de conformidade a evolução das práticas de proteção de dados pessoais e o grau de implementação das medidas destinadas ao cumprimento das decisões proferidas no Processo TCE-RJ nº 217.899-0/2024.
+
+---
+
+## 5. Stakeholders
+
+### Internos
+
+- Plenário do TCE-RJ;
+- Secretaria-Geral de Controle Externo;
+- DRC;
+- Equipe de auditoria;
+- Ministério Público de Contas.
+
+### Externos
+
+- Prefeitos municipais;
+- Controladorias internas;
+- Encarregados pelo tratamento de dados pessoais;
+- Unidades de Tecnologia da Informação;
+- Autoridade Nacional de Proteção de Dados (ANPD);
+- Titulares dos dados pessoais;
+
+---
+
+## 6. Nível de Asseguração
+
+A fiscalização será realizada com **nível de asseguração limitada**.
+
+---
+
+## 7. Objetivo
+
+Verificar o grau de conformidade das 91 prefeituras municipais jurisdicionadas com os requisitos selecionados da Lei nº 13.709/2018, bem como mensurar o nível de cumprimento das decisões proferidas no Processo TCE-RJ nº 217.899-0/2024, e comparação com os resultados da fiscalização realizada em 2024, a fim de identificar a evolução da conformidade, as pendências existentes e os riscos residuais relacionados à proteção de dados pessoais, propondo os encaminhamentos pertinentes.
+
+---
+
+## 8. Não Escopo
+
+Não integram o escopo da fiscalização:
+
+- Avaliação exaustiva de todas as operações de tratamento de dados pessoais realizadas pelos municípios;
+- Atuação do Encarregado de dados.
+- Avaliação da operacionalização dos controles de segurança da informação dos municípios.
+- Avaliação integral da conformidade de operadores ou empresas contratadas;
+- Avaliação de contratações relacionadas a proteção de dados pessoais;
+
+---
+
+## 9. Escopo
+
+A fiscalização abrangerá as 91 prefeituras municipais jurisdicionadas do Estado do Rio de Janeiro.
+
+Serão realizados:
+
+- Verificação dos requisitos da LGPD:
+    * Estrutura de governança de proteção de dados pessoais;
+    * Designação do encarregado pelo tratamento de dados pessoais;
+    * Políticas, normas e procedimentos de proteção de dados;
+    * Inventários de dados pessoais e registros de tratamento;
+    * Gestão de riscos relacionados à privacidade;
+    * Mecanismos de atendimento aos titulares;
+    * Procedimentos de resposta a incidentes;
+    * Capacitação e conscientização dos agentes públicos;
+    * Transparência e divulgação de informações de privacidade;
+- Propostas de encaminhamento para sanar inconformidades à LGPD;
+- Elaboração de material didático;
+- Cálculo do índice iLGPD;
+- Avaliação da evolução dos resultados em comparação com a fiscalização de 2024.
+- Verificação do cumprimento da decisão proferida no Processo TCE-RJ nº 217.899-0/2024;
+- Identificar causas de possíveis não cumprimentos de decisão.
+
+Itens adicionais do questionário:
+
+- Contratação de consultoria e soluções para LGPD 
+- Incidentes de vazamentos de dados
+- Opinião do auditado sobre o material didático produzido em 2024
+
+---
+
+## 10. Riscos da Fiscalização
+
+O risco de auditoria corresponde à possibilidade de que a equipe formule conclusão inadequada em decorrência de limitações dos procedimentos executados ou das informações obtidas.
+
+### 10.1. Riscos Inerentes
+
+- Grande volume de documentos a serem analisados;
+- Alterações organizacionais decorrentes de mudanças de gestão municipal;
+- Possibilidade de respostas autodeclaradas superestimarem/subestimarem a realidade;
+- Limitações inerentes à abordagem remota e documental.
+
+### 10.2. Riscos de Controle
+
+- Ausência de critérios uniformes de análise;
+- Interpretação divergente das respostas pela equipe;
+- Falhas na revisão e supervisão dos trabalhos;
+- Inconsistências na consolidação dos resultados;
+
+### 10.3. Riscos de Detecção
+
+- Não identificação de inconsistências entre respostas e documentos;
+- Aceitação de evidências insuficientes ou inadequadas;
+- Erros na consolidação dos dados coletados;
+- Conclusões inadequadas em razão de insuficiência dos procedimentos executados.
+
+---
+
+## 11. Entregas
+
+| Entrega | Data Prevista |
+|----------|----------|
+| Aprovação dos Termos de Auditoria | 02/09/2026 |
+| Conclusão da Matriz de Planejamento | 18/09/2026 |
+| Conclusão e validação do Questionário | 25/09/2026 |
+| Encaminhamento do Questionário aos Jurisdicionados | 28/09/2026 |
+| Prazo final para recebimento do questionário | 23/10/2026 |
+| Conclusão da análise das respostas e evidências | 06/11/2026 |
+| Encaminhamento do questionário de Comentários do Gestor | 09/11/2026 |
+| Prazo final para recebimento do questionário de Comentários do Gestor | 16/11/2026 |
+| Revisão técnica e supervisão | 24/11/2026 |
+| Conclusão do Relatório de Fiscalização | 27/11/2026 |
+
+---
+
+## 12. Ausências
+
+Não foram identificadas, na data de elaboração destes Termos de Auditoria, ausências programadas capazes de comprometer o desenvolvimento da fiscalização.
+
+Eventuais férias, licenças, afastamentos ou impedimentos supervenientes deverão ser registrados nos documentos internos de planejamento, com indicação:
+
+- Do integrante afetado;
+- Do período de ausência;
+- Das atividades impactadas;
+- Das medidas de redistribuição ou substituição adotadas;
+- Dos impactos sobre o cronograma e as entregas da fiscalização.
