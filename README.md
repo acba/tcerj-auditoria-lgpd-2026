@@ -18,12 +18,15 @@ Avaliar o grau de conformidade das 91 prefeituras municipais jurisdicionadas com
 ├── 01-Planejamento/               # Termos de auditoria, ata de reunião e matriz de planejamento (MD e DOCX)
 │   ├── 01-Termos_de_Auditoria/    # Termos de auditoria formalizados, ata e visualizações (SVG/PNG)
 │   └── 02-Matriz_de_Planejamento/ # Matriz de planejamento oficial e scripts de compilação
-└── 98-scripts/                    # Automação de geração de termos de solicitação (TSIDs) e rotinas de suporte
+├── 02-Execução/                   # Instrumentos e resultados da execução da fiscalização
+│   ├── 01-Questionário/           # SurveyMD, LSS e guia DOCX do questionário LGPD 2026
+│   └── 02-iLGPD/                  # Estrutura, metodologia e resultados do índice iLGPD 2026
+└── 98-scripts/                    # Scripts de geração e rotinas de suporte
 ```
 
 ## Escopo e Questões de Auditoria
 
-- **Q1**: Preparação Institucional, Governança em Privacidade e Encarregado de Dados (DPO)
+- **Q1**: Preparação Institucional, Governança em Privacidade e Encarregado de Dados (DPO), incluindo a justificativa condicional **Q21just** quando a organização selecionar “Não se aplica” em Q21
 - **Q2**: Políticas Institucionais, Normativos e Ações de Capacitação em Privacidade
 - **Q3**: Mapeamento, Inventário de Dados Pessoais, Registro das Operações (ROPA) e Bases Legais
 - **Q4**: Gestão de Riscos à Privacidade, Relatório de Impacto (RIPD) e Privacy by Design

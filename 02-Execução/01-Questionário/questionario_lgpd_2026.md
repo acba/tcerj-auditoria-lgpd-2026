@@ -1,11 +1,10 @@
 ---
-title: "Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais"
+title: "Fiscalização TCE-RJ nº 22/2026 — LGPD Municípios 2026"
 language: "pt-BR"
 sid: 220026
 admin: "Equipe da Auditoria LGPD — TCE-RJ"
 adminemail: "auditoria_lgpd@tcerj.tc.br"
 format: G
-template: fruity
 allowprev: Y
 allowsave: Y
 printanswers: Y
@@ -38,14 +37,6 @@ welcome: |
 
     <p style="color:#000000;">Nos campos de comentário, informe datas, unidades responsáveis e referências de atos, processos ou documentos que permitam compreender a resposta. Nos anexos, envie somente o conteúdo necessário e oculte dados pessoais, informações sigilosas, credenciais e detalhes técnicos sem pertinência para a fiscalização.</p>
 
-    <p style="color:#000000;">Segue documento para auxiliar o preenchimento do questionário:</p>
-    <ul>
-      <li>
-        <a class="btn" href="/limesurvey-novo/upload/surveys/220026/images/questionario_lgpd_2026.pdf" rel="noreferrer noopener" target="_blank">
-          <img alt="Ícone de arquivo PDF" height="50" src="https://img.icons8.com/ios/50/pdf--v1.png" width="50" />Questionário em formato PDF
-        </a>.
-      </li>
-    </ul>
 
     <p style="color:#000000;margin-top:5px;"><strong>Observações importantes:</strong></p>
     <ol>
@@ -72,7 +63,7 @@ endtext: |
   </div>
 ---
 
-# Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais
+# Fiscalização TCE-RJ nº 22/2026 — LGPD Municípios 2026
 
 ## Grupo: g01 | 1. Identificação do respondente
 > Este grupo identifica o servidor responsável pelo preenchimento do questionário e reúne apenas os dados funcionais necessários para eventual contato da equipe de auditoria. Antes de responder, consulte as áreas envolvidas na adequação à LGPD para que as informações representem a posição institucional da prefeitura.
@@ -105,15 +96,21 @@ subquestions:
 ### Q21 [single]
 question: **2.1. A organização conduziu iniciativas para identificar, planejar e executar medidas preparatórias com vistas à adequação à LGPD?**
 mandatory: true
-explain: Selecione a alternativa que melhor representa a situação atual e use o comentário para indicar datas, responsáveis, atos, processos e documentos relacionados.
+explain: Selecione a alternativa que melhor representa a situação atual. Se escolher “Não se aplica”, justifique a não aplicabilidade na pergunta exibida em seguida; para as demais alternativas, consulte as solicitações de evidências condicionais.
 options:
-- A1 | Não se aplica — justifique no campo de comentário
+- A1 | Não se aplica — justifique na pergunta seguinte
 - A2 | Não realizou medidas preparatórias com vistas à adequação à LGPD
 - A3 | Iniciou, mas ainda não concluiu iniciativa para identificar e planejar as medidas necessárias
 - A4 | Concluiu o planejamento e possui plano de ação, plano de projeto ou documento similar, mas ainda não formalizou normativo interno de proteção e privacidade de dados
 - A5 | Concluiu o planejamento e publicou política ou documento similar que considera princípios e aspectos gerais do tratamento de dados
 - A6 | Mapeou os principais processos de tratamento e publicou normativos sobre os aspectos mais importantes, mas ainda não possui programa de governança em privacidade implementado
 - A7 | Mapeou os processos de tratamento, publicou normativos abrangentes e possui programa de governança em privacidade implementado, monitorado e atualizado
+
+### Q21just [long]
+question: **2.1.A. Justifique a seleção da alternativa “Não se aplica” na questão 2.1, descrevendo por que as medidas preparatórias de adequação à LGPD não se aplicam à organização.**
+mandatory: true
+visible_if: Q21 == A1
+explain: Apresente fundamentos objetivos relacionados às competências, à estrutura ou às atividades da prefeitura. Não informe dados pessoais nem informações sigilosas desnecessárias.
 
 ### Q211evi [upload]
 question: **2.1.1. Anexe o plano de ação, plano de projeto ou instrumento equivalente que direciona a adequação à LGPD.**

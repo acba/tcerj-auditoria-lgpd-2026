@@ -33,7 +33,7 @@ fontes_de_informacao:
 - F3: Portal institucional oficial de cada prefeitura municipal.
 
 informacoes_requeridas:
-- IR1: Resposta sobre a execução de iniciativas preparatórias, a consideração dos encaminhamentos do Acórdão nº 3931/2025 e a elaboração e o registro do Plano de Ação determinado no item 1.1, acompanhada da comprovação documental do plano e do programa de governança em privacidade; [F1, F2, Q21, Q23, Q24, Q211evi, Q212evi]
+- IR1: Resposta sobre a execução de iniciativas preparatórias, justificativa de não aplicabilidade quando selecionada a alternativa A1, consideração dos encaminhamentos do Acórdão nº 3931/2025 e elaboração e o registro do Plano de Ação determinado no item 1.1, acompanhada da comprovação documental do plano e do programa de governança em privacidade; [F1, F2, Q21, Q21just, Q23, Q24, Q211evi, Q212evi]
 - IR2: Resposta e ato formal de nomeação do Encarregado de Dados publicado em diário oficial; [F1, F2, Q41[SQ004], Q414evi]
 - IR3: Informação da URL e comprovação da disponibilização pública dos contatos do Encarregado no sítio eletrônico; [F1, F3, Q41[SQ005], Q415]
 
@@ -90,7 +90,7 @@ criterios:
   apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Verificar nas respostas às questões Q21, Q23 e Q24 se a organização declarou ter realizado iniciativas preparatórias, elaborado plano de ação ou programa de governança em privacidade, considerado os encaminhamentos aplicáveis do Acórdão nº 3931/2025 e elaborado e registrado o Plano de Ação no prazo determinado; [IR1]
+- P1: Verificar nas respostas às questões Q21, Q23 e Q24 e, quando Q21 = A1, na justificativa Q21just se a organização declarou ter realizado iniciativas preparatórias, elaborado plano de ação ou programa de governança em privacidade, considerado os encaminhamentos aplicáveis do Acórdão nº 3931/2025 e elaborado e registrado o Plano de Ação no prazo determinado; [IR1]
 - P1.1: Examinar os documentos submetidos nos itens Q211evi e Q212evi para avaliar sua autenticidade aparente, aprovação, vigência e aderência mínima ao escopo declarado, incluindo ações, responsáveis e prazos para adequação à LGPD; [IR1]
 - P2: Verificar na resposta à questão Q41[SQ004] se a organização declarou ter designado formalmente o Encarregado pelo tratamento de dados pessoais; [IR2]
 - P2.1: Examinar o documento submetido no item Q414evi para confirmar a existência, validade, autoridade signatária, vigência e publicação oficial do ato de designação do Encarregado; [IR2]
@@ -98,7 +98,7 @@ procedimentos:
 - P3.1: Inspecionar o endereço eletrônico informado no item Q415 para confirmar a disponibilidade, clareza, atualidade e facilidade de acesso à identidade e aos canais de contato do Encarregado; [IR3]
 
 evidencias:
-- E1: Registro das respostas às questões Q21, Q23 e Q24 sobre iniciativas preparatórias, plano de ação, programa de governança em privacidade, consideração dos encaminhamentos do Acórdão nº 3931/2025 e elaboração e registro do Plano de Ação determinado no item 1.1; [P1]
+- E1: Registro das respostas às questões Q21, Q23 e Q24 e, quando aplicável, da justificativa Q21just sobre iniciativas preparatórias, plano de ação, programa de governança em privacidade, consideração dos encaminhamentos do Acórdão nº 3931/2025 e elaboração e registro do Plano de Ação determinado no item 1.1; [P1]
 - E1.1: Resultado da análise dos documentos Q211evi e Q212evi, com registro de existência, aprovação, vigência, conteúdo mínimo e eventuais inconsistências com a declaração; [P1.1]
 - E2: Registro da resposta à questão Q41[SQ004] sobre a designação formal do Encarregado; [P2]
 - E2.1: Resultado da análise do ato Q414evi, com registro de validade, autoridade signatária, vigência, publicação e eventuais inconsistências com a declaração; [P2.1]
