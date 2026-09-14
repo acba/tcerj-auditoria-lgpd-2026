@@ -1,0 +1,4347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>363</DBVersion>
+ <languages>
+  <language>pt-BR</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não realizou medidas preparatórias com vistas à adequação à LGPD</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Iniciou, mas ainda não concluiu iniciativa para identificar e planejar as medidas necessárias</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Concluiu o planejamento e possui plano de ação, plano de projeto ou documento similar, mas ainda não formalizou normativo interno de proteção e privacidade de dados</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Concluiu o planejamento e publicou política ou documento similar que considera princípios e aspectos gerais do tratamento de dados</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Mapeou os principais processos de tratamento e publicou normativos sobre os aspectos mais importantes, mas ainda não possui programa de governança em privacidade implementado</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[<p>Mapeou os processos de tratamento, publicou normativos abrangentes e possui programa de governança em privacidade implementado, monitorado e atualizado</p>]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10004]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10004]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10004]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10005]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim, os encaminhamentos aplicáveis foram considerados</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10005]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não, os encaminhamentos aplicáveis não foram considerados</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10005]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>A organização não conduziu iniciativa de adequação à LGPD</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10005]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO01]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO02]]></code>
+    <answer><![CDATA[<p>Não possui plano de capacitação e os colaboradores ainda não realizaram treinamento em proteção de dados pessoais</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO03]]></code>
+    <answer><![CDATA[<p>Não possui plano de capacitação, mas colaboradores específicos já realizaram treinamento em proteção de dados pessoais</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO04]]></code>
+    <answer><![CDATA[<p>Possui plano de capacitação sem conteúdo específico de proteção de dados, mas já realizou treinamento abrangente nessa área</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO05]]></code>
+    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados e já treinou a maioria dos colaboradores</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <code><![CDATA[AO06]]></code>
+    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados, prevê treinamento diferenciado para funções essenciais e já treinou todos os colaboradores</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <code><![CDATA[AO01]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <code><![CDATA[AO02]]></code>
+    <answer><![CDATA[<p>Não elaborou Política de Privacidade ou instrumento equivalente</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <code><![CDATA[AO03]]></code>
+    <answer><![CDATA[<p>Elaborou a política, mas não a divulga no portal institucional</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <code><![CDATA[AO04]]></code>
+    <answer><![CDATA[<p>Elaborou a política e a divulga no portal institucional</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <code><![CDATA[AO01]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <code><![CDATA[AO02]]></code>
+    <answer><![CDATA[<p>Não foram implementados mecanismos para atender aos direitos dos titulares</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <code><![CDATA[AO03]]></code>
+    <answer><![CDATA[<p>Foram implementados mecanismos para atender a alguns direitos, mas não a todos</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <code><![CDATA[AO04]]></code>
+    <answer><![CDATA[<p>Foram implementados mecanismos para atender a todos os direitos aplicáveis à organização</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Ainda não avaliou se realiza compartilhamentos ou não identificou todos os dados eventualmente compartilhados</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Avaliou a existência de compartilhamentos e identificou os dados compartilhados</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Identificou os dados e iniciou a avaliação dos compartilhamentos, mas ainda não pode atestar a conformidade de todos</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos e declara que todos atendem aos critérios legais, mas ainda não mantém registro dos eventos</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos, declara conformidade, disponibiliza informações sobre uso compartilhado e mantém registro detalhado dos eventos</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10027]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não identificou transferência internacional, mas ainda não avaliou todos os compartilhamentos</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10027]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e não há transferência internacional</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10027]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e há transferência internacional</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10028]]></qid>
+    <code><![CDATA[AO01]]></code>
+    <answer><![CDATA[<p>Ainda não avaliou todas as transferências internacionais</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10028]]></qid>
+    <code><![CDATA[AO02]]></code>
+    <answer><![CDATA[<p>Avaliou as transferências, mas elas ainda não atendem integralmente aos requisitos legais</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10028]]></qid>
+    <code><![CDATA[AO03]]></code>
+    <answer><![CDATA[<p>Avaliou as transferências e declara que elas atendem integralmente aos requisitos legais</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Nenhuma solução — 0%</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Mais de 0% até 25%</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Mais de 25% até 50%</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Mais de 50% até 75%</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Mais de 75% e menos de 100%</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Todas as soluções — 100%</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[<p>Não foi possível estimar</p>]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não conhecia o guia antes deste questionário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Conhecia o guia, mas não chegou a consultá-lo</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Consultou o guia, mas não o utilizou para orientar ações</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Utilizou o guia para orientar parte das ações de adequação</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Utilizou o guia como referência ampla para o processo de adequação</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U1]]></code>
+    <answer><![CDATA[<p>Nada útil</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U2]]></code>
+    <answer><![CDATA[<p>Pouco útil</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U3]]></code>
+    <answer><![CDATA[<p>Moderadamente útil</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U4]]></code>
+    <answer><![CDATA[<p>Muito útil</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U5]]></code>
+    <answer><![CDATA[<p>Extremamente útil</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <code><![CDATA[U6]]></code>
+    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[NIMP]]></code>
+    <answer><![CDATA[<p>Ainda não tentou implementar</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[MDIF]]></code>
+    <answer><![CDATA[<p>Muito difícil</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[DIF]]></code>
+    <answer><![CDATA[<p>Difícil</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[REG]]></code>
+    <answer><![CDATA[<p>Dificuldade intermediária</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[FAC]]></code>
+    <answer><![CDATA[<p>Fácil</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[MFAC]]></code>
+    <answer><![CDATA[<p>Muito fácil</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[<p>Não se aplica à organização</p>]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <code><![CDATA[NINF]]></code>
+    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
+    <sortorder><![CDATA[8]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10044]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10044]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <conditions>
+  <fields>
+   <fieldname>cid</fieldname>
+   <fieldname>qid</fieldname>
+   <fieldname>cqid</fieldname>
+   <fieldname>cfieldname</fieldname>
+   <fieldname>method</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>scenario</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <cid><![CDATA[1]]></cid>
+    <qid><![CDATA[10002]]></qid>
+    <cqid><![CDATA[10001]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[2]]></cid>
+    <qid><![CDATA[10002]]></qid>
+    <cqid><![CDATA[10001]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[3]]></cid>
+    <qid><![CDATA[10002]]></qid>
+    <cqid><![CDATA[10001]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A6]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[4]]></cid>
+    <qid><![CDATA[10002]]></qid>
+    <cqid><![CDATA[10001]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A7]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[5]]></cid>
+    <qid><![CDATA[10003]]></qid>
+    <cqid><![CDATA[10001]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A7]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[6]]></cid>
+    <qid><![CDATA[10007]]></qid>
+    <cqid><![CDATA[10006]]></cqid>
+    <cfieldname><![CDATA[220026X1002X10006SQ009]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[7]]></cid>
+    <qid><![CDATA[10008]]></qid>
+    <cqid><![CDATA[10006]]></cqid>
+    <cfieldname><![CDATA[220026X1002X10006SQ005]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[8]]></cid>
+    <qid><![CDATA[10010]]></qid>
+    <cqid><![CDATA[10009]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10009SQ003]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[9]]></cid>
+    <qid><![CDATA[10011]]></qid>
+    <cqid><![CDATA[10009]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10009SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[10]]></cid>
+    <qid><![CDATA[10012]]></qid>
+    <cqid><![CDATA[10009]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10009SQ002]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[11]]></cid>
+    <qid><![CDATA[10013]]></qid>
+    <cqid><![CDATA[10009]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10009SQ004]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[12]]></cid>
+    <qid><![CDATA[10014]]></qid>
+    <cqid><![CDATA[10009]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10009SQ005]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[13]]></cid>
+    <qid><![CDATA[10016]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO04]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[14]]></cid>
+    <qid><![CDATA[10016]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO05]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[15]]></cid>
+    <qid><![CDATA[10016]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO06]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[16]]></cid>
+    <qid><![CDATA[10017]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO03]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[17]]></cid>
+    <qid><![CDATA[10017]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO04]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[18]]></cid>
+    <qid><![CDATA[10017]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO05]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[19]]></cid>
+    <qid><![CDATA[10017]]></qid>
+    <cqid><![CDATA[10015]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO06]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[20]]></cid>
+    <qid><![CDATA[10019]]></qid>
+    <cqid><![CDATA[10018]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10018SQ008]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[21]]></cid>
+    <qid><![CDATA[10021]]></qid>
+    <cqid><![CDATA[10018]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10018SQ009]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[22]]></cid>
+    <qid><![CDATA[10023]]></qid>
+    <cqid><![CDATA[10022]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10022]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO03]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[23]]></cid>
+    <qid><![CDATA[10023]]></qid>
+    <cqid><![CDATA[10022]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10022]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO04]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[24]]></cid>
+    <qid><![CDATA[10025]]></qid>
+    <cqid><![CDATA[10024]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10024]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO03]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[25]]></cid>
+    <qid><![CDATA[10025]]></qid>
+    <cqid><![CDATA[10024]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10024]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[AO04]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[26]]></cid>
+    <qid><![CDATA[10027]]></qid>
+    <cqid><![CDATA[10026]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[27]]></cid>
+    <qid><![CDATA[10027]]></qid>
+    <cqid><![CDATA[10026]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[28]]></cid>
+    <qid><![CDATA[10027]]></qid>
+    <cqid><![CDATA[10026]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[29]]></cid>
+    <qid><![CDATA[10027]]></qid>
+    <cqid><![CDATA[10026]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A6]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[30]]></cid>
+    <qid><![CDATA[10028]]></qid>
+    <cqid><![CDATA[10027]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10027]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[31]]></cid>
+    <qid><![CDATA[10030]]></qid>
+    <cqid><![CDATA[10029]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10029SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[32]]></cid>
+    <qid><![CDATA[10033]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10032SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[33]]></cid>
+    <qid><![CDATA[10038]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[34]]></cid>
+    <qid><![CDATA[10038]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[35]]></cid>
+    <qid><![CDATA[10038]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[36]]></cid>
+    <qid><![CDATA[10039]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[37]]></cid>
+    <qid><![CDATA[10039]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[38]]></cid>
+    <qid><![CDATA[10039]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+  </rows>
+ </conditions>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[1000]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[1. Identificação do respondente]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description><![CDATA[<p>Este grupo identifica o servidor responsável pelo preenchimento do questionário e reúne apenas os dados funcionais necessários para eventual contato da equipe de auditoria. Antes de responder, consulte as áreas envolvidas na adequação à LGPD para que as informações representem a posição institucional da prefeitura.</p>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1001]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[2. Preparação institucional]]></group_name>
+    <group_order><![CDATA[1]]></group_order>
+    <description><![CDATA[<p>A preparação cria as condições para que a adequação à LGPD seja planejada, executada e acompanhada de forma coordenada. Ela pode começar com estudos, planos de ação, registros de reuniões e outras iniciativas que definam objetivos, responsáveis, recursos e prazos.</p>
+<p>Este grupo avalia o estágio das medidas preparatórias, a existência de comissão ou grupo de trabalho multissetorial, a participação do Encarregado e a consideração dos encaminhamentos do Acórdão nº 3931/2025. O envolvimento da alta administração e de áreas como tecnologia da informação, segurança da informação, jurídico, controle interno, ouvidoria e unidades finalísticas favorece uma visão completa dos tratamentos de dados pessoais.</p>
+<p>Em estágios iniciais, a organização identifica necessidades e formaliza um plano. Em estágios intermediários, publica políticas e outros normativos. No estágio mais avançado, mantém programa de governança em privacidade implementado, divulgado, monitorado e atualizado.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, art. 50, especialmente § 2º, I</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, item 5.4 — Planejamento</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controle 0, especialmente medidas 0.7 e 0.10</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1002]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[3. Contexto organizacional]]></group_name>
+    <group_order><![CDATA[2]]></group_order>
+    <description><![CDATA[<p>A organização precisa conhecer o contexto em que trata dados pessoais antes de definir controles e prioridades. Isso inclui identificar as normas aplicáveis, as categorias de titulares, os processos de negócio, os dados tratados, os locais de armazenamento, os agentes de tratamento e os riscos envolvidos.</p>
+<p>Dado pessoal é a informação relacionada a pessoa natural identificada ou identificável. Tratamento é qualquer operação realizada com esses dados, como coleta, acesso, uso, compartilhamento, armazenamento, alteração ou eliminação.</p>
+<p>Este grupo também verifica se a organização identifica operadores e controladores conjuntos, define responsabilidades nos instrumentos correspondentes e avalia riscos dos tratamentos. Esse conhecimento sustenta o inventário de dados, o Registro das Operações de Tratamento e a priorização das medidas de adequação.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 5º, 7º, 37 a 39, 42 a 46 e 50</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 5.2.1, 5.2.2, 5.4.1.2, 7.2.6, 7.2.7 e 7.2.8</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, medidas 0.17 e controles 19 e 23</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1003]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[4. Liderança e políticas institucionais]]></group_name>
+    <group_order><![CDATA[3]]></group_order>
+    <description><![CDATA[<p>A alta administração deve demonstrar apoio à adequação à LGPD, definir responsabilidades e assegurar que políticas e funções essenciais sejam formalizadas e mantidas.</p>
+<p>Este grupo avalia a Política de Segurança da Informação, a Política de Classificação da Informação e a Política de Proteção de Dados Pessoais. Esses instrumentos têm finalidades distintas, mas devem ser coerentes entre si, estar aprovados, vigentes e acessíveis às pessoas que precisam aplicá-los.</p>
+<p>Também se verifica a designação formal do Encarregado pelo tratamento de dados pessoais e a divulgação de sua identidade e de seus canais de contato. O Encarregado deve dispor de condições para atuar como canal de comunicação entre a organização, os titulares e a Autoridade Nacional de Proteção de Dados — ANPD.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 41, 46 e 50</a></li>
+<li>Resolução CD/ANPD nº 18/2024</li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 5.3.2, 6.2, 6.3.1 e 6.5.2</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, medidas 0.4, 0.10, 0.11 e 0.12 e controle 21</a></li>
+<li><a href="https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/Segunda_Versao_do_Guia_de_Agentes_de_Tratamento_retificada.pdf" rel="noreferrer noopener" target="_blank">Guia Orientativo para Definições dos Agentes de Tratamento e do Encarregado</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1004]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[5. Capacitação]]></group_name>
+    <group_order><![CDATA[4]]></group_order>
+    <description><![CDATA[<p>A proteção de dados pessoais depende de pessoas que conheçam suas responsabilidades e saibam aplicar as regras institucionais. Por isso, a organização deve promover ações de conscientização e capacitação compatíveis com as atividades desempenhadas.</p>
+<p>Este grupo avalia a existência de Plano de Capacitação, a realização de treinamentos desde janeiro de 2024 e o atendimento a públicos com diferentes níveis de responsabilidade. Pessoas que atuam em tratamentos de maior risco ou em funções essenciais devem receber conteúdo adequado às suas atribuições.</p>
+<p>Também se examina a integração entre proteção de dados pessoais e transparência pública. LGPD e Lei de Acesso à Informação possuem finalidades próprias e devem ser aplicadas de forma harmônica.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 12.527/2011 — Lei de Acesso à Informação</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 5.5.2, 5.5.3 e 5.5.4</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 14 e 20</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1005]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[6. Conformidade do tratamento]]></group_name>
+    <group_order><![CDATA[5]]></group_order>
+    <description><![CDATA[<p>A organização deve conhecer e documentar por que, como e por quanto tempo trata dados pessoais. Cada tratamento precisa ter finalidade legítima, base legal identificada e coleta limitada ao necessário.</p>
+<p>Este grupo avalia a documentação das finalidades e bases legais, a minimização dos dados coletados, os prazos de retenção, o Inventário de Dados Pessoais e o Registro das Operações de Tratamento.</p>
+<p>Para tratamentos que possam gerar risco relevante aos direitos e às liberdades dos titulares, a organização deve avaliar os riscos, elaborar o Relatório de Impacto à Proteção de Dados Pessoais — RIPD quando cabível e acompanhar as medidas de mitigação.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 5º, 6º, 7º, 37, 38 e 40</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 7.2.1, 7.2.2, 7.2.5, 7.2.8, 7.4.1 e 7.4.7</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 19, 23 e 25</a></li>
+<li><a href="https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd" rel="noreferrer noopener" target="_blank">Orientações da ANPD sobre o RIPD</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1006]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[7. Direitos dos titulares]]></group_name>
+    <group_order><![CDATA[6]]></group_order>
+    <description><![CDATA[<p>Os titulares devem receber informações claras e acessíveis sobre o tratamento de seus dados pessoais e dispor de meios para exercer os direitos previstos na LGPD.</p>
+<p>Este grupo avalia a elaboração e a divulgação da Política ou do Aviso de Privacidade. O documento deve explicar, em linguagem adequada ao público, as finalidades do tratamento, as formas e a duração, a identificação do controlador, os compartilhamentos realizados e os direitos dos titulares.</p>
+<p>Também se examinam os canais e os procedimentos usados para receber, autenticar, encaminhar, acompanhar e responder às solicitações dos titulares. Os mecanismos devem abranger os direitos aplicáveis e estar efetivamente disponíveis.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 6º, 9º, 17 a 23 e 50</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 7.3, 7.3.2 e 7.3.3</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 21 e 25</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1007]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[8. Compartilhamento de dados pessoais e computação em nuvem]]></group_name>
+    <group_order><![CDATA[7]]></group_order>
+    <description><![CDATA[<p>O compartilhamento ocorre quando dados pessoais são comunicados, transferidos ou disponibilizados a outro órgão, entidade, empresa ou agente de tratamento. A organização deve identificar esses fluxos, suas finalidades, os destinatários, as bases legais e os controles aplicáveis.</p>
+<p>Este grupo avalia o registro e a conformidade dos compartilhamentos, inclusive aqueles realizados com operadores e controladores conjuntos. Também verifica transferências internacionais e as salvaguardas adotadas quando os dados são tratados fora do Brasil.</p>
+<p>A utilização de computação em nuvem exige atenção ao local de armazenamento, às responsabilidades do provedor, à subcontratação, à gestão de acessos, aos registros de eventos, à criptografia, à eliminação dos dados e à resposta a incidentes. As perguntas também estimam a proporção das soluções que tratam dados pessoais e utilizam nuvem.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 26, 27, 30, 33 a 36, 39, 44 e 50</a></li>
+<li><a href="https://www.in.gov.br/en/web/dou/-/instrucao-normativa-n-5-de-30-de-agosto-de-2021-341649684" rel="noreferrer noopener" target="_blank">Instrução Normativa GSI/PR nº 5/2021, especialmente arts. 17 e 18</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 7.5.1 a 7.5.4</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 1, 15, 22 e 24</a></li>
+<li><a href="https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/documentos-de-publicacoes/guia-poder-publico-anpd-versao-final.pdf" rel="noreferrer noopener" target="_blank">Guia da ANPD sobre tratamento de dados pessoais pelo Poder Público</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1008]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[9. Incidentes com dados pessoais]]></group_name>
+    <group_order><![CDATA[8]]></group_order>
+    <description><![CDATA[<p>Incidentes com dados pessoais precisam ser identificados, registrados, tratados e comunicados de forma organizada. A resposta deve buscar conter o evento, reduzir seus efeitos, recuperar os serviços e evitar recorrências.</p>
+<p>Este grupo avalia a existência de Plano de Resposta a Incidentes, a definição de papéis e procedimentos, o registro dos incidentes e das providências adotadas e o monitoramento de eventos que possam indicar uma violação.</p>
+<p>Quando o incidente puder acarretar risco ou dano relevante aos titulares, a organização deve seguir procedimento padronizado para avaliar a ocorrência e realizar as comunicações exigidas à ANPD e aos titulares.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 48 e 50</a></li>
+<li><a href="https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024" rel="noreferrer noopener" target="_blank">Resolução CD/ANPD nº 15/2024 — Regulamento de Comunicação de Incidente de Segurança</a></li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 6.13.1.1, 6.13.1.4 e 6.13.1.5</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 17 e 20</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1009]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[10. Medidas de proteção]]></group_name>
+    <group_order><![CDATA[9]]></group_order>
+    <description><![CDATA[<p>A organização deve adotar medidas técnicas e administrativas compatíveis com os riscos dos tratamentos realizados. Essas medidas devem proteger os dados pessoais contra acesso não autorizado, perda, alteração, divulgação e outras formas de tratamento inadequado ou ilícito.</p>
+<p>Este grupo avalia a gestão de usuários e direitos de acesso, o registro e o monitoramento de eventos, a criptografia de dados em repouso e em trânsito e a definição de papéis e procedimentos de segurança.</p>
+<p>Também se examinam normas e ferramentas para mascaramento, ocultação ou tarjamento de dados pessoais, bem como a adoção de privacidade desde a concepção e por padrão — <em>privacy by design</em> e <em>privacy by default</em> — em processos e sistemas.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 44, 46, 49 e 50</a></li>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 12.527/2011 — Lei de Acesso à Informação</a></li>
+<li>ABNT NBR ISO/IEC 27002:2022, controles 5.15, 5.16, 5.18, 8.15 e 8.24</li>
+<li>ABNT NBR ISO/IEC 27701:2019, itens 6.6.2.1, 6.6.2.2, 6.7, 6.9.4.1 e 7.4</li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 3, 5, 6, 8, 16 e 20</a></li>
+<li><a href="https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd" rel="noreferrer noopener" target="_blank">Guia de Implementação da LGPD do TCE-RJ</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1010]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[11. Contratações de apoio à adequação à LGPD]]></group_name>
+    <group_order><![CDATA[10]]></group_order>
+    <description><![CDATA[<p>Este grupo identifica contratações mantidas desde janeiro de 2024 para apoiar a adequação à LGPD, como consultoria, assessoria jurídica especializada, capacitação, serviços de Encarregado e soluções tecnológicas.</p>
+<p>As respostas têm finalidade descritiva. A existência de contrato não comprova, por si só, a adequação à LGPD nem a regularidade da contratação. Informe apenas o objeto, a situação e a unidade gestora, sem incluir dados pessoais ou informações sigilosas desnecessárias.</p>
+<p><strong>Referências úteis:</strong></p>
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 13.709/2018 — LGPD, arts. 39 e 42</a></li>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm" rel="noreferrer noopener" target="_blank">Lei Federal nº 14.133/2021, art. 92</a></li>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 15 e 22</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1011]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[12. Avaliação do guia “Os 6 passos para adequação à LGPD”]]></group_name>
+    <group_order><![CDATA[11]]></group_order>
+    <description><![CDATA[<p>Este grupo avalia se a organização conheceu e utilizou o guia “Os 6 passos para adequação à LGPD”, disponibilizado pelo TCE-RJ como Anexo 07 do Relatório da Fiscalização nº 60/2024.</p>
+<p>As perguntas tratam da utilidade prática do material, da dificuldade de implementação de cada passo e de sugestões para novos instrumentos de orientação. As respostas não alteram diretamente o cálculo do iLGPD.</p>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[1012]]></gid>
+    <sid><![CDATA[220026]]></sid>
+    <group_name><![CDATA[13. Controle interno e considerações finais]]></group_name>
+    <group_order><![CDATA[12]]></group_order>
+    <description><![CDATA[<p>Este grupo reúne informações sobre avaliações realizadas pelo controle interno ou pela auditoria interna desde janeiro de 2024 e permite registrar desafios relevantes para a interpretação das respostas.</p>
+<p>A atuação do controle interno ajuda a verificar o cumprimento das normas, avaliar riscos e acompanhar a implementação dos controles. A ausência de avaliação não substitui nem reduz a responsabilidade das unidades gestoras pela proteção dos dados pessoais.</p>
+<p>Utilize os campos finais para informar limitações, deficiências e outras considerações necessárias. Se algum conteúdo do questionário for considerado não público, identifique apenas o item e a respectiva justificativa, sem repetir a informação protegida.</p>
+<p><strong>Referência útil:</strong></p>
+<ul>
+<li><a href="https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf" rel="noreferrer noopener" target="_blank">Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, medidas 0.1 e 0.16</a></li>
+</ul>]]></description>
+    <language><![CDATA[pt-BR]]></language>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[10000]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[Q]]></type>
+    <title><![CDATA[Q1]]></title>
+    <question><![CDATA[<p><strong>1.1. Dados do servidor responsável pela resposta ao questionário:</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Evite informar dados pessoais não solicitados.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10001]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q21]]></title>
+    <question><![CDATA[<p><strong>2.1. A organização conduziu iniciativas para identificar, planejar e executar medidas preparatórias com vistas à adequação à LGPD?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Selecione a alternativa que melhor representa a situação atual e use o comentário para indicar datas, responsáveis, atos, processos e documentos relacionados.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10002]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q211]]></title>
+    <question><![CDATA[<p><strong>2.1.1. Anexe o plano de ação, plano de projeto ou instrumento equivalente que direciona a adequação à LGPD.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie um PDF, DOCX ou ZIP contendo somente os elementos necessários; oculte dados pessoais e informações sigilosas sem pertinência.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1001X10001.NAOK == "A4" or 220026X1001X10001.NAOK == "A5" or 220026X1001X10001.NAOK == "A6" or 220026X1001X10001.NAOK == "A7")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10003]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q212]]></title>
+    <question><![CDATA[<p><strong>2.1.2. Anexe o programa de governança em privacidade da organização.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente, preferencialmente com referência ao ato ou processo de aprovação.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1001X10001.NAOK == "A7"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10004]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q22]]></title>
+    <question><![CDATA[<p><strong>2.2. A organização instituiu uma comissão ou grupo de trabalho multissetorial com a participação do encarregado pelo tratamento de dados pessoais, disposto no art. 41 da LGPD, para planejar, estabelecer, gerenciar e monitorar as medidas a serem tomadas na adequação do ente à Lei Geral de Proteção de Dados Pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Responda “Sim” somente se o colegiado tiver sido instituído, for multissetorial, contar com a participação do Encarregado e abranger as quatro finalidades indicadas. No comentário, informe o ato ou processo de instituição e as unidades representadas, quando existente.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10005]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q23]]></title>
+    <question><![CDATA[<p><strong>2.3. A organização considerou em sua iniciativa de adequação à LGPD os encaminhamentos do Acórdão nº 3931/2025?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Considere os encaminhamentos aplicáveis à organização. No comentário, indique o plano, processo, ato ou outra iniciativa em que foram considerados.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10006]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q31]]></title>
+    <question><![CDATA[<p><strong>3.1. A organização conduziu iniciativa com vistas a identificar os seguintes elementos?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10007]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q31riscoevi]]></title>
+    <question><![CDATA[<p><strong>3.1.1. Anexe a matriz, relatório ou registro utilizado para identificar e avaliar riscos associados aos tratamentos de dados pessoais.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>É suficiente um extrato que demonstre escopo, metodologia, riscos, responsáveis e tratamento previsto, com ocultação de informações desnecessárias.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1002X10006SQ009.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10008]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q31evi]]></title>
+    <question><![CDATA[<p><strong>3.1.2. Anexe instrumento contratual ou extrato que demonstre a definição de papéis e responsabilidades de operador ou controlador conjunto.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Oculte valores, assinaturas, dados pessoais e informações sigilosas que não sejam necessários à avaliação das cláusulas de proteção de dados.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1002X10006SQ005.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10009]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q41]]></title>
+    <question><![CDATA[<p><strong>4.1. A organização atende aos seguintes itens de liderança e formalização?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10010]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q411]]></title>
+    <question><![CDATA[<p><strong>4.1.1. Anexe a Política de Proteção de Dados Pessoais ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente, com referência ao ato de aprovação e à publicação, quando existente.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10009SQ003.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10011]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q412]]></title>
+    <question><![CDATA[<p><strong>4.1.2. Anexe a Política de Segurança da Informação ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10009SQ001.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10012]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q413]]></title>
+    <question><![CDATA[<p><strong>4.1.3. Anexe a Política de Classificação da Informação ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente, inclusive as regras aplicáveis a dados pessoais sensíveis e a dados de crianças e adolescentes.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10009SQ002.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10013]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q414]]></title>
+    <question><![CDATA[<p><strong>4.1.4. Anexe o ato formal de designação do Encarregado pelo tratamento de dados pessoais.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie o ato publicado ou documento que permita confirmar autoridade signatária, vigência e publicação oficial.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10009SQ004.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10014]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q415]]></title>
+    <question><![CDATA[<p><strong>4.1.5. Informe a URL da página do portal institucional que apresenta a identidade e os canais de contato do Encarregado.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Informe o endereço completo, iniciado por https:// ou http://.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10009SQ005.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10015]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q51]]></title>
+    <question><![CDATA[<p><strong>5.1. Acerca da capacitação dos colaboradores em proteção de dados pessoais, qual alternativa melhor representa a organização?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Use o comentário para identificar o plano, as ações, datas, públicos alcançados e unidades responsáveis.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10016]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q511]]></title>
+    <question><![CDATA[<p><strong>5.1.1. Anexe o Plano de Capacitação ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente; não inclua listas nominais quando dados agregados forem suficientes.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1004X10015.NAOK == "AO04" or 220026X1004X10015.NAOK == "AO05" or 220026X1004X10015.NAOK == "AO06")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10017]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q52]]></title>
+    <question><![CDATA[<p><strong>5.2. Nas ações de capacitação em proteção de dados pessoais realizadas desde janeiro de 2024, a organização:</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1004X10015.NAOK == "AO03" or 220026X1004X10015.NAOK == "AO04" or 220026X1004X10015.NAOK == "AO05" or 220026X1004X10015.NAOK == "AO06")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q61]]></title>
+    <question><![CDATA[<p><strong>6.1. A organização atende aos seguintes itens relativos às operações de tratamento?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10019]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q611]]></title>
+    <question><![CDATA[<p><strong>6.1.1. Anexe um Relatório de Impacto à Proteção de Dados Pessoais elaborado pela organização.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Oculte dados pessoais, detalhes técnicos exploráveis e outras informações não necessárias à avaliação da estrutura do RIPD.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10018SQ008.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10020]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q612]]></title>
+    <question><![CDATA[<p><strong>6.1.2. Anexe o Inventário de Dados Pessoais mantido pela organização.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>É suficiente versão ou extrato que permita avaliar aprovação, atualização e conteúdo; oculte registros individuais e dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10018SQ005.NAOK == "Y" or 220026X1005X10018SQ006.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q61controleevi]]></title>
+    <question><![CDATA[<p><strong>6.1.3. Anexe plano ou registro que demonstre a implementação e o monitoramento dos controles destinados a mitigar riscos apontados no RIPD.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie somente o necessário para identificar controle, responsável, prazo, situação e evidência de acompanhamento.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10018SQ009.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q71]]></title>
+    <question><![CDATA[<p><strong>7.1. A organização elaborou e divulga no portal institucional Política de Privacidade ou instrumento equivalente?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se houver publicação, informe no comentário a URL exata. Se não se aplicar, apresente a justificativa.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10023]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q711]]></title>
+    <question><![CDATA[<p><strong>7.1.1. Anexe a Política de Privacidade ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1006X10022.NAOK == "AO03" or 220026X1006X10022.NAOK == "AO04")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q72]]></title>
+    <question><![CDATA[<p><strong>7.2. Foram implementados mecanismos para atender aos direitos dos titulares aplicáveis à organização, previstos nos arts. 9º e 18 da LGPD?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>No comentário, informe os canais, os direitos atendidos, a forma de autenticação e o fluxo de encaminhamento das solicitações.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10025]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q72evi]]></title>
+    <question><![CDATA[<p><strong>7.2.1. Anexe o procedimento ou fluxo vigente para atendimento aos direitos dos titulares.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Oculte dados de requerentes e protocolos individuais; envie apenas o fluxo, formulário, norma ou registro necessário para demonstrar o mecanismo.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1006X10024.NAOK == "AO03" or 220026X1006X10024.NAOK == "AO04")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q81]]></title>
+    <question><![CDATA[<p><strong>8.1. Quanto aos compartilhamentos de dados pessoais com terceiros, qual alternativa melhor representa a organização?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Use o comentário para identificar os principais fluxos, destinatários, finalidades e registros existentes.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10027]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q811]]></title>
+    <question><![CDATA[<p><strong>8.1.1. A organização realiza transferência internacional de dados pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Use o comentário para identificar serviços, operadores e países ou regiões envolvidos, sem registrar dados pessoais.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1007X10026.NAOK == "A3" or 220026X1007X10026.NAOK == "A4" or 220026X1007X10026.NAOK == "A5" or 220026X1007X10026.NAOK == "A6")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10028]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q8111]]></title>
+    <question><![CDATA[<p><strong>8.1.1.1. As transferências internacionais identificadas foram avaliadas quanto aos requisitos da LGPD, em especial o art. 33?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>No comentário, identifique a hipótese ou salvaguarda considerada e o processo administrativo correspondente.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1007X10027.NAOK == "A3"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10029]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q812]]></title>
+    <question><![CDATA[<p><strong>8.1.2. Acerca do tratamento de dados pessoais em serviços de computação em nuvem, a organização:</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10030]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q812evi]]></title>
+    <question><![CDATA[<p><strong>8.1.2.1. Anexe contrato ou extrato contratual vigente com provedor de nuvem que trate dados pessoais.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>O extrato deve permitir avaliar as cláusulas de proteção de dados; oculte valores, assinaturas, credenciais e informações sem pertinência.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1007X10029SQ001.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q82]]></title>
+    <question><![CDATA[<p><strong>8.2. Qual é a proporção aproximada das soluções tecnológicas da organização que tratam dados pessoais e utilizam serviços de computação em nuvem?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Use como denominador o total de soluções tecnológicas conhecidas que tratam dados pessoais e, como numerador, aquelas que utilizam computação em nuvem. Considere sistemas, aplicações, armazenamento, cópias de segurança, correio eletrônico e ferramentas de colaboração. No comentário, indique a base da estimativa e os principais tipos de serviço considerados.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q91]]></title>
+    <question><![CDATA[<p><strong>9.1. A organização atende aos seguintes itens relativos a incidentes de segurança com dados pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[|]]></type>
+    <title><![CDATA[Q911]]></title>
+    <question><![CDATA[<p><strong>9.1.1. Anexe o Plano de Resposta a Incidentes ou instrumento equivalente.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Envie a versão aprovada e vigente; oculte contatos pessoais, credenciais e detalhes técnicos exploráveis não necessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1008X10032SQ001.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10034]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q101]]></title>
+    <question><![CDATA[<p><strong>10.1. A organização atende aos seguintes itens de segurança da informação e proteção de dados?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10035]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q111]]></title>
+    <question><![CDATA[<p><strong>11.1. Desde janeiro de 2024, a organização contratou ou manteve contratos para apoiar a adequação à LGPD nas seguintes categorias?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10036]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q112]]></title>
+    <question><![CDATA[<p><strong>11.2. Descreva sucintamente as contratações assinaladas, indicando categoria, objeto, situação do contrato e unidade gestora.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Não informe dados pessoais de representantes, valores sigilosos ou outras informações sem necessidade para o diagnóstico.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1010X10035CONS.NAOK == "Y" or 220026X1010X10035JUR.NAOK == "Y" or 220026X1010X10035DPO.NAOK == "Y" or 220026X1010X10035INV.NAOK == "Y" or 220026X1010X10035TIT.NAOK == "Y" or 220026X1010X10035SEG.NAOK == "Y" or 220026X1010X10035CAP.NAOK == "Y" or 220026X1010X10035OUT.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q121]]></title>
+    <question><![CDATA[<p><strong>12.1. Antes desta fiscalização, qual era o grau de conhecimento e utilização do guia “Os 6 passos para adequação à LGPD” pela organização?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Use o comentário para indicar como o material foi divulgado e utilizado pelas unidades municipais.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10038]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q122]]></title>
+    <question><![CDATA[<p><strong>12.2. Como a organização avalia a utilidade prática do guia para orientar sua adequação à LGPD?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1011X10037.NAOK == "A3" or 220026X1011X10037.NAOK == "A4" or 220026X1011X10037.NAOK == "A5")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10039]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[F]]></type>
+    <title><![CDATA[Q123]]></title>
+    <question><![CDATA[<p><strong>12.3. Como a organização avalia a dificuldade prática de implementação de cada passo apresentado no guia?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Considere o conteúdo de cada passo conforme identificado no próprio guia.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1011X10037.NAOK == "A3" or 220026X1011X10037.NAOK == "A4" or 220026X1011X10037.NAOK == "A5")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10040]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q124]]></title>
+    <question><![CDATA[<p><strong>12.4. Quais materiais ou ações do TCE-RJ poderiam apoiar melhor a adequação municipal à LGPD?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10041]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q125]]></title>
+    <question><![CDATA[<p><strong>12.5. Apresente críticas, sugestões de melhoria e exemplos de como o guia contribuiu — ou deixou de contribuir — para o processo de adequação.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Não inclua dados pessoais ou informações sigilosas desnecessárias.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10042]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q131]]></title>
+    <question><![CDATA[<p><strong>13.1. Desde janeiro de 2024, o controle interno ou a auditoria interna da organização realizou avaliação relacionada aos seguintes temas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10043]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q132]]></title>
+    <question><![CDATA[<p><strong>13.2. Registre os principais desafios, deficiências e pontos de atenção relacionados à adequação da organização à LGPD, bem como outras considerações pertinentes.</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Não inclua nomes de pessoas, dados de casos individuais, credenciais ou informações sigilosas desnecessárias.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10044]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[O]]></type>
+    <title><![CDATA[Q133]]></title>
+    <question><![CDATA[<p><strong>13.3. Há informações prestadas neste questionário que a organização considera não públicas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Em caso positivo, identifique no comentário os itens e apresente a justificativa e a referência do instrumento de classificação, sem repetir o conteúdo protegido.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[10045]]></qid>
+    <parent_qid><![CDATA[10000]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q11]]></title>
+    <question><![CDATA[<p>Nome completo</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10046]]></qid>
+    <parent_qid><![CDATA[10000]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q12]]></title>
+    <question><![CDATA[<p>E-mail institucional</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10047]]></qid>
+    <parent_qid><![CDATA[10000]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q13]]></title>
+    <question><![CDATA[<p>Telefone institucional com DDD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10048]]></qid>
+    <parent_qid><![CDATA[10000]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q14]]></title>
+    <question><![CDATA[<p>Cargo ou função</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10049]]></qid>
+    <parent_qid><![CDATA[10000]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1000]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q15]]></title>
+    <question><![CDATA[<p>Unidade de lotação</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10050]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Outros normativos, além da LGPD, que contêm comandos relacionados à proteção de dados pessoais aplicáveis à organização</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10051]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>As diferentes categorias de titulares de dados pessoais com as quais se relaciona</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10052]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ009]]></title>
+    <question><![CDATA[<p>Os riscos associados aos processos de tratamento de dados pessoais identificados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>A existência de tratamento de dados que envolva controlador conjunto</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10054]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Os operadores e controladores conjuntos e a adequação dos respectivos contratos, convênios ou acordos quanto a papéis e responsabilidades</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10055]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Os processos de negócio que realizam tratamento de dados pessoais e os respectivos responsáveis</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10056]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ007]]></title>
+    <question><![CDATA[<p>Os dados pessoais tratados pela organização</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10057]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ008]]></title>
+    <question><![CDATA[<p>Os locais de armazenamento dos dados pessoais, inclusive serviços de nuvem e meios físicos</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <parent_qid><![CDATA[10006]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1002]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ010]]></title>
+    <question><![CDATA[<p>A organização ainda não conduziu iniciativa para identificar qualquer dos elementos anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10059]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Instituiu formalmente e mantém atualizada Política de Segurança da Informação ou instrumento equivalente</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10060]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Instituiu formalmente e mantém atualizada Política de Classificação da Informação que aborde dados pessoais, dados sensíveis e dados de crianças e adolescentes</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10061]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Instituiu formalmente e mantém atualizada Política de Proteção de Dados Pessoais ou instrumento equivalente</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10062]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Designou o Encarregado pelo tratamento de dados pessoais e publicou o ato em veículo oficial</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10063]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Divulga no portal institucional a identidade e as informações de contato do Encarregado em local de fácil acesso</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10064]]></qid>
+    <parent_qid><![CDATA[10009]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Ainda não atende a nenhum dos itens anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10065]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Considerou a necessidade de complementar a capacitação com conteúdo sobre transparência da gestão e Lei de Acesso à Informação</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10066]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Capacitou em transparência da gestão mais de 50% dos colaboradores que receberam treinamento em proteção de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10067]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Ofereceu ação que abordou conjuntamente proteção de dados pessoais e transparência da gestão</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10068]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Orientou os participantes sobre os enunciados da Portaria Normativa CGU nº 71/2023</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10069]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Orientou os participantes sobre as diretrizes do Parecer da CGU sobre acesso à informação elaborado em 2023</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <parent_qid><![CDATA[10017]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Não atendeu a nenhum dos itens anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Identificou e documentou as finalidades de todas as principais atividades de tratamento de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Avaliou se coleta somente os dados estritamente necessários às finalidades identificadas</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10073]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Avaliou se os dados pessoais são retidos apenas durante o tempo necessário às finalidades identificadas</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10074]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Identificou e documentou as bases legais das principais atividades de tratamento</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10075]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Possui Inventário de Dados Pessoais ou registro equivalente para consolidar as características das atividades de tratamento</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10076]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Catalogou no inventário informações que abrangem todas as principais atividades de tratamento</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10077]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ007]]></title>
+    <question><![CDATA[<p>Mantém Registro das Operações de Tratamento de Dados Pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10078]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ008]]></title>
+    <question><![CDATA[<p>Elaborou Relatório de Impacto à Proteção de Dados Pessoais — RIPD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10079]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ009]]></title>
+    <question><![CDATA[<p>Implementou controles para mitigar os riscos identificados no RIPD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10080]]></qid>
+    <parent_qid><![CDATA[10018]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ010]]></title>
+    <question><![CDATA[<p>Ainda não atende a nenhum dos itens anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10081]]></qid>
+    <parent_qid><![CDATA[10029]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Realiza tratamento de dados pessoais em nuvem, ainda que somente armazenamento</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10082]]></qid>
+    <parent_qid><![CDATA[10029]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Avaliou e pode assegurar que não há armazenamento de dados pessoais em território estrangeiro</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10083]]></qid>
+    <parent_qid><![CDATA[10029]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Realizou avaliação de riscos desse tratamento, apoiada em análise e relatório de impacto submetidos às instâncias competentes</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10084]]></qid>
+    <parent_qid><![CDATA[10029]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Incluiu nos contratos com provedores cláusulas sobre sigilo, segurança, transferência a terceiros, eliminação ao término e limitação de uso dos dados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10085]]></qid>
+    <parent_qid><![CDATA[10029]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1007]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Não realiza tratamento de dados pessoais em nuvem</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10086]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Elaborou e mantém atualizado Plano de Resposta a Incidentes que aborda violações de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10087]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Registra todos os incidentes com dados pessoais em sistema apropriado</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10088]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Registra as ações adotadas para tratar cada incidente, inclusive soluções de contorno</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10089]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Monitora de forma proativa e contínua eventos que possam indicar incidentes com dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10090]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Estabeleceu e executa procedimentos padronizados para comunicar à ANPD e aos titulares incidentes que possam acarretar risco ou dano relevante</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10091]]></qid>
+    <parent_qid><![CDATA[10032]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Ainda não atende a nenhum dos itens anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10092]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Adota medidas técnicas e administrativas aptas a proteger os dados pessoais e definiu papéis, responsabilidades e procedimentos</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10093]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Implementou processo formal para registro, cancelamento e provisionamento de usuários nos sistemas que tratam dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10094]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Registra e monitora eventos ou logs relacionados às atividades de tratamento de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10095]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ004]]></title>
+    <question><![CDATA[<p>Utiliza criptografia para proteger dados pessoais em repouso</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10096]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ005]]></title>
+    <question><![CDATA[<p>Utiliza criptografia para proteger dados pessoais em trânsito nas redes internas ou na Internet</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10097]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ006]]></title>
+    <question><![CDATA[<p>Possui norma interna sobre mascaramento, ocultação ou tarjamento de dados pessoais em documentos de interesse coletivo ou geral</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10098]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ007]]></title>
+    <question><![CDATA[<p>Disponibiliza ferramenta para mascaramento, ocultação ou tarjamento de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10099]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ008]]></title>
+    <question><![CDATA[<p>Adota medidas de privacidade desde a concepção e por padrão em processos e sistemas</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10100]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ009]]></title>
+    <question><![CDATA[<p>Ainda não atende a nenhum dos itens anteriores</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10101]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[CONS]]></title>
+    <question><![CDATA[<p>Consultoria em privacidade ou proteção de dados pessoais</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10102]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[JUR]]></title>
+    <question><![CDATA[<p>Assessoria jurídica especializada em proteção de dados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10103]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[DPO]]></title>
+    <question><![CDATA[<p>Encarregado pelo tratamento de dados pessoais como serviço</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10104]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[INV]]></title>
+    <question><![CDATA[<p>Solução para inventário de dados ou Registro das Operações de Tratamento</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10105]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[TIT]]></title>
+    <question><![CDATA[<p>Solução para atendimento aos direitos dos titulares</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10106]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SEG]]></title>
+    <question><![CDATA[<p>Serviços ou soluções de segurança da informação relacionados à proteção de dados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10107]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[CAP]]></title>
+    <question><![CDATA[<p>Capacitação especializada em LGPD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10108]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[OUT]]></title>
+    <question><![CDATA[<p>Outra categoria de serviço ou solução tecnológica</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10109]]></qid>
+    <parent_qid><![CDATA[10035]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1010]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[NENHUM]]></title>
+    <question><![CDATA[<p>Não contratou nem manteve contrato dessas categorias no período</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10110]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P1]]></title>
+    <question><![CDATA[<p>Passo 1</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10111]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P2]]></title>
+    <question><![CDATA[<p>Passo 2</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10112]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P3]]></title>
+    <question><![CDATA[<p>Passo 3</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10113]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P4]]></title>
+    <question><![CDATA[<p>Passo 4</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10114]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P5]]></title>
+    <question><![CDATA[<p>Passo 5</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10115]]></qid>
+    <parent_qid><![CDATA[10039]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[P6]]></title>
+    <question><![CDATA[<p>Passo 6</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10116]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[MOD]]></title>
+    <question><![CDATA[<p>Modelos editáveis de políticas, planos, inventários e RIPD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10117]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[GUI]]></title>
+    <question><![CDATA[<p>Guias temáticos mais detalhados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10118]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[CON]]></title>
+    <question><![CDATA[<p>Modelos de cláusulas contratuais de proteção de dados</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10119]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[CAP]]></title>
+    <question><![CDATA[<p>Capacitações ou oficinas práticas</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10120]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[CAS]]></title>
+    <question><![CDATA[<p>Estudos de caso e exemplos de implementação municipal</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10121]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[FER]]></title>
+    <question><![CDATA[<p>Ferramentas ou planilhas de apoio</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10122]]></qid>
+    <parent_qid><![CDATA[10040]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1011]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[OUT]]></title>
+    <question><![CDATA[<p>Outro material ou ação</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10123]]></qid>
+    <parent_qid><![CDATA[10042]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ001]]></title>
+    <question><![CDATA[<p>Proteção de dados pessoais — LGPD</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10124]]></qid>
+    <parent_qid><![CDATA[10042]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ002]]></title>
+    <question><![CDATA[<p>Transparência da gestão — LAI</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10125]]></qid>
+    <parent_qid><![CDATA[10042]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1012]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[SQ003]]></title>
+    <question><![CDATA[<p>Não realizou avaliação de nenhum desses temas</p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+  </rows>
+ </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[10002]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10002]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10002]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10003]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10003]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10003]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10006]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10006]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ010]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10007]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10007]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10007]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10008]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10008]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10008]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10009]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10009]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ006]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10010]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10010]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10010]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10011]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10011]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10011]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10012]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10012]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10012]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10013]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10013]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10013]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10016]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10016]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10016]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10017]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10017]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ006]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ010]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10019]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10019]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10019]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10020]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10020]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10020]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10023]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10023]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10023]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10025]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10025]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10025]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10029]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10029]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ005]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10030]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10030]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10030]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ006]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10034]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10034]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ009]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10035]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10035]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[NENHUM]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10040]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10042]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10042]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value><![CDATA[SQ003]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>gsid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>showsurveypolicynotice</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[220026]]></sid>
+    <gsid><![CDATA[1]]></gsid>
+    <admin><![CDATA[Equipe da Auditoria LGPD — TCE-RJ]]></admin>
+    <expires><![CDATA[]]></expires>
+    <startdate><![CDATA[]]></startdate>
+    <adminemail><![CDATA[auditoria_lgpd@tcerj.tc.br]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto><![CDATA[]]></faxto>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[fruity]]></template>
+    <language><![CDATA[pt-BR]]></language>
+    <additional_languages><![CDATA[]]></additional_languages>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[Y]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[Y]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <showsurveypolicynotice><![CDATA[0]]></showsurveypolicynotice>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[N]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email><![CDATA[auditoria_lgpd@tcerj.tc.br]]></bounce_email>
+    <attributedescriptions><![CDATA[]]></attributedescriptions>
+    <emailresponseto><![CDATA[]]></emailresponseto>
+    <emailnotificationto><![CDATA[]]></emailnotificationto>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[N]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime><![CDATA[]]></bouncetime>
+    <bounceprocessing><![CDATA[G]]></bounceprocessing>
+    <bounceaccounttype><![CDATA[]]></bounceaccounttype>
+    <bounceaccounthost><![CDATA[]]></bounceaccounthost>
+    <bounceaccountpass><![CDATA[]]></bounceaccountpass>
+    <bounceaccountencryption><![CDATA[]]></bounceaccountencryption>
+    <bounceaccountuser><![CDATA[]]></bounceaccountuser>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <questionindex><![CDATA[0]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[]]></googleanalyticsstyle>
+    <googleanalyticsapikey><![CDATA[]]></googleanalyticsapikey>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_policy_notice</fieldname>
+   <fieldname>surveyls_policy_error</fieldname>
+   <fieldname>surveyls_policy_notice_label</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[220026]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[pt-BR]]></surveyls_language>
+    <surveyls_title><![CDATA[Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais]]></surveyls_title>
+    <surveyls_description><![CDATA[]]></surveyls_description>
+    <surveyls_welcometext><![CDATA[<div class="container mt-3" style="margin-top:20px;margin-bottom:20px;">
+  <div class="row align-items-center">
+    <div class="col-md-4">
+      <img alt="Logotipo TCE-RJ" class="img-fluid" src="https://www.tcerj.tc.br/cdn-storage/logos/logo-horizontal-colorida-para_fundo_branco@3x.png" style="max-width:300px;" />
+    </div>
+    <div class="col-md-8">
+      <h1 style="font-size:16px;font-weight:bold;color:#444;margin:0;margin-top:20px;">SECRETARIA-GERAL DE CONTROLE EXTERNO</h1>
+      <p style="font-size:12px;color:#666;margin:2px 0;">SUBSECRETARIA DE CONTROLE DE POLÍTICAS DE CIDADANIA</p>
+      <p style="font-size:12px;color:#666;margin:2px 0;">COORDENADORIA DE AUDITORIA EM POLÍTICAS DE TECNOLOGIA DA INFORMAÇÃO</p>
+    </div>
+  </div>
+</div>
+<div style="text-align:justify;color:#000000;">
+  <p style="color:#000000;">O Tribunal de Contas do Estado do Rio de Janeiro (TCE-RJ), por meio da Coordenadoria de Auditoria em Políticas de Tecnologia da Informação (CAD-TI), está realizando a Fiscalização TCE-RJ nº 22/2026, que tem por objetivo verificar a conformidade das 91 prefeituras municipais jurisdicionadas com a Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD), bem como monitorar o cumprimento das decisões proferidas no Processo TCE-RJ nº 217.899-0/2024.</p>
+
+  <p style="color:#000000;">O método utilizado compreende a autoavaliação de controles internos (do inglês <em>Control Self-Assessment</em> – CSA), mediante questionário eletrônico estruturado com base na LGPD, em regulamentações da Autoridade Nacional de Proteção de Dados (ANPD), nas decisões do TCE-RJ e em referenciais técnicos aplicáveis. As respostas prestadas constituirão declarações institucionais da prefeitura municipal.</p>
+
+  <p style="color:#000000;">O questionário busca levantar informações sobre a situação atual da prefeitura quanto à preparação institucional, governança em privacidade, atuação do Encarregado pelo tratamento de dados pessoais, políticas e capacitação, inventário e registro das operações de tratamento, gestão de riscos e relatórios de impacto, direitos dos titulares, compartilhamento e computação em nuvem, segurança da informação e resposta a incidentes. Nos itens indicados, será solicitada documentação complementar para subsidiar a análise da equipe de auditoria.</p>
+
+  <p style="color:#000000;">As informações coletadas também permitirão acompanhar a execução das medidas e dos planos de ação relacionados ao Acórdão nº 3931/2025, comparar a situação municipal com o ciclo de fiscalização de 2024, atualizar o índice iLGPD e avaliar a utilização do guia “Os 6 passos para adequação à LGPD”.</p>
+
+  <p style="color:#000000;">As respostas devem refletir a situação vigente na data do preenchimento. Para perguntas sobre iniciativas, contratações, capacitações e avaliações realizadas, considere o período de janeiro de 2024 até a data da resposta, salvo quando o próprio item indicar período diferente.</p>
+
+  <p style="color:#000000;">Recomenda-se que o responsável pelo preenchimento reúna previamente as informações necessárias e consulte, conforme a estrutura da prefeitura, as unidades responsáveis por proteção de dados e privacidade, Encarregado, tecnologia da informação, segurança da informação, gestão de pessoas e capacitação, contratações, planejamento e governança, assessoria jurídica, transparência, ouvidoria, controle interno e áreas finalísticas que realizem tratamentos relevantes de dados pessoais.</p>
+
+  <p style="color:#000000;">Nos campos de comentário, informe datas, unidades responsáveis e referências de atos, processos ou documentos que permitam compreender a resposta. Nos anexos, envie somente o conteúdo necessário e oculte dados pessoais, informações sigilosas, credenciais e detalhes técnicos sem pertinência para a fiscalização.</p>
+
+  <p style="color:#000000;">Segue documento para auxiliar o preenchimento do questionário:</p>
+  <ul>
+    <li>
+      <a class="btn" href="/limesurvey-novo/upload/surveys/220026/images/questionario_lgpd_2026.pdf" rel="noreferrer noopener" target="_blank">
+        <img alt="Ícone de arquivo PDF" height="50" src="https://img.icons8.com/ios/50/pdf--v1.png" width="50" />Questionário em formato PDF
+      </a>.
+    </li>
+  </ul>
+
+  <p style="color:#000000;margin-top:5px;"><strong>Observações importantes:</strong></p>
+  <ol>
+    <li style="margin-bottom:10px;">As informações consolidadas poderão ser utilizadas pelo TCE-RJ para elaboração de diagnósticos, indicadores, comparações com o ciclo de 2024, painéis e relatórios da fiscalização, observadas as restrições legais e institucionais aplicáveis.</li>
+    <li style="margin-bottom:10px;">O questionário não possui caráter exaustivo. Quando a alternativa “não se aplica” estiver disponível, sua seleção deverá ser justificada de acordo com a realidade, a estrutura e as competências da prefeitura.</li>
+    <li style="margin-bottom:10px;">As respostas serão consideradas declarações institucionais. Os anexos solicitados em itens específicos e outros documentos eventualmente requisitados poderão ser examinados separadamente pela equipe de auditoria para compreender e corroborar as informações prestadas.</li>
+    <li style="margin-bottom:10px;">Nos itens que exigem anexo, será permitido o envio de um arquivo nos formatos PDF, ZIP ou DOCX. Caso seja necessário apresentar mais de um documento, reúna-os em um único arquivo ZIP, respeitando o limite de tamanho indicado pelo sistema.</li>
+    <li style="margin-bottom:10px;">Dúvidas sobre o preenchimento podem ser encaminhadas para <strong>auditoria_lgpd@tcerj.tc.br</strong>.</li>
+  </ol>
+</div>]]></surveyls_welcometext>
+    <surveyls_endtext><![CDATA[<div style="text-align:justify;color:#000000;">
+  <p style="color:#000000;">Prezado(a),</p>
+
+  <p style="color:#000000;">Agradecemos pela participação na Fiscalização TCE-RJ nº 22/2026, destinada a verificar a conformidade das prefeituras municipais jurisdicionadas com a Lei Geral de Proteção de Dados Pessoais (LGPD) e a monitorar o cumprimento das decisões proferidas no Processo TCE-RJ nº 217.899-0/2024.</p>
+
+  <p style="color:#000000;">As informações fornecidas contribuirão para o diagnóstico da governança em privacidade e da proteção de dados pessoais nas administrações municipais, para a atualização do índice iLGPD e para a análise da evolução observada desde o ciclo de 2024.</p>
+
+  <p style="color:#000000;">As respostas e os documentos submetidos poderão ser analisados pela equipe de auditoria para verificação de consistência, acompanhamento dos planos de ação e elaboração dos produtos da fiscalização.</p>
+
+  <p style="color:#000000;">Após a consolidação e a análise dos resultados, poderão ser encaminhadas comunicações, solicitações complementares, relatórios preliminares ou outras interações relacionadas à fiscalização.</p>
+
+  <p style="color:#000000;">Em caso de dúvidas, entre em contato com a Coordenadoria de Auditoria em Políticas de Tecnologia da Informação (CAD-TI) pelo e-mail <strong>auditoria_lgpd@tcerj.tc.br</strong>.</p>
+</div>]]></surveyls_endtext>
+    <surveyls_policy_notice><![CDATA[]]></surveyls_policy_notice>
+    <surveyls_policy_error><![CDATA[]]></surveyls_policy_error>
+    <surveyls_policy_notice_label><![CDATA[]]></surveyls_policy_notice_label>
+    <surveyls_url><![CDATA[]]></surveyls_url>
+    <surveyls_urldescription><![CDATA[]]></surveyls_urldescription>
+    <surveyls_email_invite_subj><![CDATA[Convite para responder: Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[Prezado(a),<br /><br />Solicitamos o preenchimento do questionário {SURVEYNAME}.]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Lembrete: Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Prezado(a),<br /><br />Este é um lembrete para preenchimento do questionário {SURVEYNAME}.]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Confirmação de inscrição]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[Confirmação de inscrição na pesquisa {SURVEYNAME}.]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmação de resposta: Auditoria de Conformidade LGPD 2026 — Prefeituras Municipais]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Confirmamos o recebimento da resposta ao questionário {SURVEYNAME}.]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[1]]></surveyls_dateformat>
+    <surveyls_attributecaptions><![CDATA[]]></surveyls_attributecaptions>
+    <email_admin_notification_subj><![CDATA[Nova resposta para {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[Uma nova resposta foi submetida para {SURVEYNAME}.]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[Nova resposta para {SURVEYNAME}]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[Uma nova resposta foi submetida para {SURVEYNAME}.]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+    <attachments><![CDATA[]]></attachments>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+ <themes>
+  <fields>
+  </fields>
+  <rows>
+  </rows>
+ </themes>
+ <themes_inherited>
+  <fields>
+  </fields>
+  <rows>
+  </rows>
+ </themes_inherited>
+</document>

@@ -20,8 +20,8 @@ import gerar_matriz_planejamento as gmp
 
 WORKSPACE_DIR = Path(r"F:\CAD-TI\AUDITORIAS\2026.2-Auditoria LGPD\01-Planejamento\02-Matriz_de_Planejamento")
 MD_PATH = WORKSPACE_DIR / "matriz_planejamento.md"
-DOCX_PATH = WORKSPACE_DIR / "AN02 – Matriz de planejamento.docx"
-TEMPLATE_PATH = r"C:\Users\augustocba\Documents\workspace\tcerj-igovti-2026\01-Planejamento\03-Estrategia_e_Plano\04-Matriz_Planejamento\AN02 – Matriz de planejamento.docx"
+DOCX_PATH = WORKSPACE_DIR / "matriz_planejamento.docx"
+TEMPLATE_PATH = r"C:\Users\augustocba\Documents\workspace\tcerj-igovti-2026\01-Planejamento\03-Estrategia_e_Plano\04-Matriz_Planejamento\matriz_planejamento.docx"
 
 def update_header_xml_lgpd(header_xml: bytes) -> bytes:
     root = ET.fromstring(header_xml)

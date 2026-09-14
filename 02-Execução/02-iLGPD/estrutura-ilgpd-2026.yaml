@@ -1,0 +1,154 @@
+metadata:
+  nome: iLGPD-2026
+  versao: "2026"
+  raiz: iLGPD
+
+dimensoes:
+  iPrep:
+    tipo: escala
+    coluna: Q21
+    valores:
+      A1: 0
+      A2: 0
+      A3: 0.10
+      A4: 0.24
+      A5: 0.42
+      A6: 0.67
+      A7: 1
+
+  iOrg:
+    tipo: media_binaria
+    componentes:
+      - Q31[SQ001]
+      - Q31[SQ002]
+      - Q31[SQ004]
+      - Q31[SQ005]
+      - Q31[SQ006]
+      - Q31[SQ007]
+      - Q31[SQ008]
+      - Q31[SQ009]
+    opcao_exclusiva_negativa: Q31[SQ010]
+
+  iLid:
+    tipo: media_binaria
+    componentes:
+      - Q41[SQ001]
+      - Q41[SQ002]
+      - Q41[SQ003]
+      - Q41[SQ004]
+      - Q41[SQ005]
+    opcao_exclusiva_negativa: Q41[SQ006]
+
+  iCap:
+    tipo: escala
+    coluna: Q51
+    valores:
+      A1: 0
+      A2: 0
+      A3: 0.15
+      A4: 0.35
+      A5: 0.63
+      A6: 1
+
+  iConf:
+    tipo: media_binaria
+    componentes:
+      - Q61[SQ001]
+      - Q61[SQ002]
+      - Q61[SQ003]
+      - Q61[SQ004]
+      - Q61[SQ005]
+      - Q61[SQ006]
+      - Q61[SQ007]
+      - Q61[SQ008]
+      - Q61[SQ009]
+    opcao_exclusiva_negativa: Q61[SQ010]
+
+  iDir:
+    tipo: media_ponderada_escalas
+    componentes:
+      - coluna: Q71
+        peso: 0.4
+        valores:
+          A1: 0
+          A2: 0
+          A3: 0.43
+          A4: 1
+      - coluna: Q72
+        peso: 0.6
+        valores:
+          A1: 0
+          A2: 0
+          A3: 0.43
+          A4: 1
+
+  iComp:
+    tipo: escala
+    coluna: Q81
+    valores:
+      A1: 0
+      A2: 0
+      A3: 0.15
+      A4: 0.35
+      A5: 0.63
+      A6: 1
+
+  iResp:
+    tipo: media_binaria
+    componentes:
+      - Q91[SQ001]
+      - Q91[SQ002]
+      - Q91[SQ003]
+      - Q91[SQ004]
+      - Q91[SQ005]
+    opcao_exclusiva_negativa: Q91[SQ006]
+
+  iProt:
+    tipo: media_binaria
+    componentes:
+      - Q101[SQ001]
+      - Q101[SQ002]
+      - Q101[SQ003]
+      - Q101[SQ004]
+      - Q101[SQ005]
+      - Q101[SQ006]
+      - Q101[SQ007]
+      - Q101[SQ008]
+    opcao_exclusiva_negativa: Q101[SQ009]
+
+agregados:
+  iLGPD:
+    componentes:
+      - id: iPrep
+        peso: 1
+      - id: iOrg
+        peso: 1
+      - id: iLid
+        peso: 2
+      - id: iCap
+        peso: 1.5
+      - id: iConf
+        peso: 2
+      - id: iDir
+        peso: 2
+      - id: iComp
+        peso: 2
+      - id: iResp
+        peso: 1.5
+      - id: iProt
+        peso: 2
+
+niveis_maturidade:
+  - nome: Inexpressivo
+    min: 0
+    max: 0.15
+  - nome: Iniciando
+    min: 0.15
+    max: 0.40
+  - nome: Intermediário
+    min: 0.40
+    max: 0.70
+  - nome: Aprimorado
+    min: 0.70
+    max: 1
+    inclui_max: true

@@ -1,5 +1,8 @@
 ---
 title: "Fiscalização TCE-RJ nº 22/2026 - Auditoria de Conformidade LGPD 2026.2"
+fiscalizacao: "22/2026"
+jurisdicionados: "91 prefeituras municipais jurisdicionadas ao TCE-RJ"
+objetivo_auditoria: "Verificar a conformidade das prefeituras municipais jurisdicionadas à Lei 13.709/2018 (Lei Geral de Proteção aos Dados – LGPD), bem como monitorar o cumprimento das decisões do processo TCE-RJ nº 217.899-0/2024"
 ---
 
 # Matriz de Planejamento
@@ -15,6 +18,7 @@ questao: Q1. A organização conduziu iniciativas preparatórias de adequação 
 
 subquestoes:
 - A organização conduziu iniciativas para identificar, planejar e executar medidas preparatórias para adequação à LGPD, formalizando plano de ação ou programa de governança em privacidade?
+-	A organização considerou em sua iniciativa de adequação à LGPD os encaminhamentos do Acórdão nº 3931/2025?
 - A organização nomeou formalmente o Encarregado pelo tratamento de dados pessoais (DPO) e publicou o ato de designação em veículo oficial?
 - A identidade e as informações de contato do Encarregado (nome, e-mail e telefone) estão divulgadas publicamente, em local de fácil acesso, no sítio eletrônico oficial da organização?
 
@@ -24,12 +28,12 @@ riscos:
 - R1.3: Devido à falta de divulgação da identidade e dos canais de contato do Encarregado no portal oficial, poderá haver restrição indevida ao exercício de direitos pelos cidadãos, o que poderá levar à frustração de garantias fundamentais e a representações perante órgãos de controle, impactando a publicidade dos atos administrativos.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q21, Q41[SQ004], Q41[SQ005]).
-- F2: Evidências documentais e artefatos anexados pelos jurisdicionados (itens Q211, Q212, Q414).
-- F3: Endereço eletrônico (URL) informado pelo gestor e inspeção do sítio eletrônico oficial do município (item Q415).
+- F1: Gestores municipais responsáveis pela governança em privacidade e pelo preenchimento do questionário eletrônico de auditoria da LGPD.
+- F2: Unidades administrativas das prefeituras responsáveis pela governança em privacidade e pela gestão dos atos de designação do Encarregado.
+- F3: Portal institucional oficial de cada prefeitura municipal.
 
 informacoes_requeridas:
-- IR1: Resposta e comprovação documental da execução de iniciativas preparatórias, plano de ação e programa de governança em privacidade; [F1, F2, Q21, Q211, Q212]
+- IR1: Resposta sobre a execução de iniciativas preparatórias e a consideração dos encaminhamentos do Acórdão nº 3931/2025, acompanhada da comprovação documental do plano de ação e do programa de governança em privacidade; [F1, F2, Q21, Q21[comment], Q23, Q23[comment], Q211, Q212]
 - IR2: Resposta e ato formal de nomeação do Encarregado de Dados publicado em diário oficial; [F1, F2, Q41[SQ004], Q414]
 - IR3: Informação da URL e comprovação da disponibilização pública dos contatos do Encarregado no sítio eletrônico; [F1, F3, Q41[SQ005], Q415]
 
@@ -69,21 +73,22 @@ criterios:
     Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.3 — Determinação aos jurisdicionados para publicar em seu portal institucional, de forma clara e objetiva, a identidade e informações de contato do encarregado pelo tratamento de dados pessoais.
   natureza_fundamento: decisao_tce
   apto_a_fundamentar_determinacao: true
-- id: C8
-  descricao: >-
-    Constituição Federal de 1988, art. 37, caput — Princípios da legalidade, publicidade e eficiência na Administração Pública.
-  natureza_fundamento: norma_geral
-  apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Verificar, por meio das respostas à questão Q21 e da análise dos anexos Q211 e Q212, se a organização elaborou plano de ação ou programa de governança em privacidade para adequação à LGPD; [IR1]
-- P2: Verificar, por meio da resposta à questão Q41[SQ004] e do documento anexado à Q414, a existência de ato administrativo formal e válido de nomeação do Encarregado de dados publicado em veículo oficial; [IR2]
-- P3: Inspecionar o endereço eletrônico informado na questão Q415 e a resposta à questão Q41[SQ005] para constatar a divulgação pública e acessível da identidade e canais de contato do DPO; [IR3]
+- P1: Verificar nas respostas às questões Q21 e Q23 se a organização declarou ter realizado iniciativas preparatórias, elaborado plano de ação ou programa de governança em privacidade e considerado os encaminhamentos aplicáveis do Acórdão nº 3931/2025; [IR1]
+- P1.1: Examinar os documentos submetidos nos itens Q211 e Q212 para avaliar sua autenticidade aparente, aprovação, vigência e aderência mínima ao escopo declarado, incluindo ações, responsáveis e prazos para adequação à LGPD; [IR1]
+- P2: Verificar na resposta à questão Q41[SQ004] se a organização declarou ter designado formalmente o Encarregado pelo tratamento de dados pessoais; [IR2]
+- P2.1: Examinar o documento submetido no item Q414 para confirmar a existência, validade, autoridade signatária, vigência e publicação oficial do ato de designação do Encarregado; [IR2]
+- P3: Verificar na resposta à questão Q41[SQ005] se a organização declarou divulgar publicamente a identidade e os canais de contato do Encarregado; [IR3]
+- P3.1: Inspecionar o endereço eletrônico informado no item Q415 para confirmar a disponibilidade, clareza, atualidade e facilidade de acesso à identidade e aos canais de contato do Encarregado; [IR3]
 
 evidencias:
-- E1: Resposta negativa ou ausência de documentos comprobatórios de plano de ação ou programa de governança em privacidade; [P1]
-- E2: Resposta negativa ou ausência de ato publicado de nomeação do Encarregado de dados; [P2]
-- E3: Ausência de divulgação clara e acessível da identidade e contatos do DPO no portal eletrônico do município; [P3]
+- E1: Registro das respostas às questões Q21 e Q23 sobre iniciativas preparatórias, plano de ação, programa de governança em privacidade e consideração dos encaminhamentos do Acórdão nº 3931/2025; [P1]
+- E1.1: Resultado da análise dos documentos Q211 e Q212, com registro de existência, aprovação, vigência, conteúdo mínimo e eventuais inconsistências com a declaração; [P1.1]
+- E2: Registro da resposta à questão Q41[SQ004] sobre a designação formal do Encarregado; [P2]
+- E2.1: Resultado da análise do ato Q414, com registro de validade, autoridade signatária, vigência, publicação e eventuais inconsistências com a declaração; [P2.1]
+- E3: Registro da resposta à questão Q41[SQ005] sobre a divulgação pública da identidade e dos contatos do Encarregado; [P3]
+- E3.1: Registro da inspeção do endereço Q415, incluindo disponibilidade da página, conteúdo publicado, atualidade e facilidade de acesso; [P3.1]
 
 possiveis_achados:
 - A1: Deficiência na preparação institucional, governança em privacidade incipiente e ausência ou irregularidade na atuação do Encarregado pelo tratamento de dados pessoais.
@@ -93,8 +98,8 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q21, Q211, Q212]
         regra_de_identificacao:
-        - (Q21 == 'Não (a organização não realizou medidas preparatórias com vistas a se adequar à LGPD)') | ((Q21 != 'Não...') & (Q211[filecount] == 0) & (Q212[filecount] == 0))
-        referencias_matriz: [R1.1, P1, E1]
+        - (Q21 in ['A2', 'A3']) | ((Q21 in ['A4', 'A5', 'A6', 'A7']) & (Q211[filecount] == 0)) | ((Q21 == 'A7') & (Q212[filecount] == 0))
+        referencias_matriz: [R1.1, P1, P1.1, E1, E1.1]
         criterios: [C4, C5]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância ao art. 50, caput e § 2º, I, da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.1 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
@@ -104,8 +109,8 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q41[SQ004], Q414]
         regra_de_identificacao:
-        - (Q41[SQ004] == 'Não') | (Q414[filecount] == 0)
-        referencias_matriz: [R1.2, P2, E2]
+        - (Q41[SQ004] != 'Y') | ((Q41[SQ004] == 'Y') & (Q414[filecount] == 0))
+        referencias_matriz: [R1.2, P2, P2.1, E2, E2.1]
         criterios: [C1, C3, C6]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância ao art. 41, caput, da Lei Federal nº 13.709/2018 (LGPD), aos arts. 4º e 5º da Resolução CD/ANPD nº 18/2024 e ao item 1.2 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
@@ -115,11 +120,11 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q41[SQ004], Q41[SQ005], Q415]
         regra_de_identificacao:
-        - (Q41[SQ004] == 'Sim') & ((Q41[SQ005] == 'Não') | (Q415 é vazia ou URL inválida))
-        referencias_matriz: [R1.3, P3, E3]
-        criterios: [C2, C3, C7, C8]
+        - (Q41[SQ004] == 'Y') & ((Q41[SQ005] != 'Y') | (Q415 == '') | (Q415 !~ '^https?://'))
+        referencias_matriz: [R1.3, P3, P3.1, E3, E3.1]
+        criterios: [C2, C3, C7]
         tipo_encaminhamento: Determinação
-        fundamentacao_encaminhamento: em observância ao art. 41, § 1º, da Lei Federal nº 13.709/2018 (LGPD), ao art. 5º da Resolução CD/ANPD nº 18/2024, ao item 1.3 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e ao princípio da publicidade previsto no art. 37, caput, da Constituição Federal
+        fundamentacao_encaminhamento: em observância ao art. 41, § 1º, da Lei Federal nº 13.709/2018 (LGPD), ao art. 5º da Resolução CD/ANPD nº 18/2024, ao item 1.3 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
         encaminhamento: disponibilize no sítio eletrônico oficial da prefeitura, em local de destaque e de fácil acesso aos cidadãos, a identidade completa e os canais diretos de contato (nome, e-mail institucional e telefone) do Encarregado pelo tratamento de dados pessoais
 ---
 
@@ -138,8 +143,8 @@ riscos:
 - R2.3: Devido à falta de capacitação periódica e conscientização dos colaboradores, poderá haver erros operacionais no manuseio diário de dados de cidadãos, o que poderá levar a incidentes de segurança e vazamentos acidentais, impactando a confiança da sociedade na gestão pública.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q41[SQ001], Q41[SQ002], Q41[SQ003], Q51, Q52).
-- F2: Evidências documentais anexadas (itens Q411, Q412, Q413, Q511).
+- F1: Gestores municipais responsáveis pela governança em privacidade, segurança da informação e capacitação de pessoal.
+- F2: Unidades administrativas das prefeituras responsáveis pela edição e custódia das políticas institucionais e dos registros de capacitação.
 
 informacoes_requeridas:
 - IR1: Resposta e ato formal comprobatório da Política de Proteção de Dados Pessoais; [F1, F2, Q41[SQ003], Q411]
@@ -164,7 +169,7 @@ criterios:
   apto_a_fundamentar_determinacao: true
 - id: C4
   descricao: >-
-    Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.6 — Determinação aos jurisdicionados para elaborar, aprovar e publicar sua Política de Proteção de Dados Pessoais (PPDP), observando as melhores práticas do PPSI do Governo Federal e da ABNT NBR ISO/IEC 27701:2019.
+    Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.6 — Determinação aos jurisdicionados para elaborar, aprovar e publicar sua Política de Proteção de Dados Pessoais (PPDP), observando as melhores práticas do PPSI do Governo Federal e da ABNT NBR ISO/IEC 27701:2019, em especial a cláusula 5.3.2 e a cláusula 6.2.1.1.
   natureza_fundamento: decisao_tce
   apto_a_fundamentar_determinacao: true
 - id: C5
@@ -182,26 +187,32 @@ criterios:
     Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.13 — Recomendação aos jurisdicionados para avaliar a oportunidade e conveniência de elaborar plano de capacitação e desenvolver ações contínuas de capacitação e conscientização em proteção de dados pessoais.
   natureza_fundamento: decisao_tce
   apto_a_fundamentar_determinacao: false
-- id: C8
-  descricao: >-
-    ABNT NBR ISO/IEC 27001:2022 e 27002:2022 — Diretrizes para elaboração de Políticas de Segurança da Informação, classificação de ativos informacionais e capacitação contínua em segurança.
-  natureza_fundamento: boa_pratica
-  apto_a_fundamentar_determinacao: false
 - id: C9
   descricao: >-
-    ABNT NBR ISO/IEC 27701:2019 — Sistema de Gestão da Privacidade da Informação: diretrizes e controles para implementação de políticas de privacidade nas organizações.
+    ABNT NBR ISO/IEC 27701:2019, cláusula 5.3.2 e cláusula 6.2.1.1 — Requer que a política do sistema de gestão da segurança da informação seja estendida por declarações pertinentes à proteção de informações de identificação pessoal e que as políticas de segurança contemplem os requisitos de privacidade aplicáveis.
+  natureza_fundamento: boa_pratica
+  apto_a_fundamentar_determinacao: false
+- id: C10
+  descricao: >-
+    ABNT NBR ISO/IEC 27002:2022, controle 5.1, controle 5.12 e controle 6.3 — Orienta a definição e revisão das políticas de segurança da informação, a classificação da informação segundo as necessidades de proteção e a realização periódica de conscientização, educação e treinamento em segurança da informação.
   natureza_fundamento: boa_pratica
   apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Verificar, por meio da resposta à questão Q41[SQ003] e do anexo Q411, se a organização formalizou sua Política de Proteção de Dados Pessoais; [IR1]
-- P2: Verificar, por meio das respostas às questões Q41[SQ001] e Q41[SQ002] e dos anexos Q412 e Q413, a instituição da PSI e da Política de Classificação da Informação; [IR2]
-- P3: Analisar, por meio das questões Q51, Q511 e Q52, a existência de plano de capacitação e a realização efetiva de treinamentos de servidores que integrem proteção de dados e transparência; [IR3]
+- P1: Verificar na resposta à questão Q41[SQ003] se a organização declarou ter formalizado sua Política de Proteção de Dados Pessoais; [IR1]
+- P1.1: Examinar o documento submetido no item Q411 para avaliar sua autenticidade aparente, aprovação, vigência, publicação, escopo institucional e conteúdo mínimo de proteção de dados pessoais; [IR1]
+- P2: Verificar nas respostas às questões Q41[SQ001] e Q41[SQ002] se a organização declarou ter instituído a Política de Segurança da Informação e a Política de Classificação da Informação; [IR2]
+- P2.1: Examinar os documentos submetidos nos itens Q412 e Q413 para avaliar aprovação, vigência, publicação, responsabilidades, controles de segurança e regras de classificação aplicáveis a dados pessoais sensíveis e a dados de crianças e adolescentes; [IR2]
+- P3: Verificar nas respostas às questões Q51 e Q52 se a organização declarou possuir plano de capacitação e realizar treinamentos que integrem proteção de dados pessoais e transparência; [IR3]
+- P3.1: Examinar o documento submetido no item Q511 para avaliar aprovação, vigência, público-alvo, conteúdo programático e periodicidade prevista das ações de capacitação; [IR3]
 
 evidencias:
-- E1: Inexistência ou falta de comprovação de Política de Proteção de Dados Pessoais formalizada; [P1]
-- E2: Inexistência de Política de Segurança da Informação (PSI) ou de Política de Classificação da Informação; [P2]
-- E3: Ausência de plano de capacitação ou inexistência de treinamentos ministrados aos colaboradores sobre proteção de dados e LAI; [P3]
+- E1: Registro da resposta à questão Q41[SQ003] sobre a formalização da Política de Proteção de Dados Pessoais; [P1]
+- E1.1: Resultado da análise da política Q411, com registro de aprovação, vigência, publicação, conteúdo mínimo e eventuais inconsistências com a declaração; [P1.1]
+- E2: Registro das respostas às questões Q41[SQ001] e Q41[SQ002] sobre a instituição da PSI e da Política de Classificação da Informação; [P2]
+- E2.1: Resultado da análise das políticas Q412 e Q413, com registro de formalização, conteúdo mínimo e eventuais inconsistências com as declarações; [P2.1]
+- E3: Registro das respostas às questões Q51 e Q52 sobre o plano de capacitação e os treinamentos realizados; [P3]
+- E3.1: Resultado da análise do plano Q511, com indicação de aprovação, vigência, abrangência temática, público-alvo, periodicidade e eventuais inconsistências com a declaração; [P3.1]
 
 possiveis_achados:
 - A2: Inexistência ou insuficiência de políticas normativas institucionais e carência de capacitação periódica de servidores em proteção de dados pessoais.
@@ -211,33 +222,33 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q41[SQ003], Q411]
         regra_de_identificacao:
-        - (Q41[SQ003] == 'Não') | (Q411[filecount] == 0)
-        referencias_matriz: [R2.1, P1, E1]
+        - (Q41[SQ003] != 'Y') | ((Q41[SQ003] == 'Y') & (Q411[filecount] == 0))
+        referencias_matriz: [R2.1, P1, P1.1, E1, E1.1]
         criterios: [C1, C4, C9]
         tipo_encaminhamento: Determinação
-        fundamentacao_encaminhamento: em observância ao art. 50, § 2º, I, "a", da Lei Federal nº 13.709/2018 (LGPD), ao item 1.6 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e à norma ABNT NBR ISO/IEC 27701:2019
+        fundamentacao_encaminhamento: em observância ao art. 50, § 2º, I, "a", da Lei Federal nº 13.709/2018 (LGPD), ao item 1.6 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e às cláusulas 5.3.2 e 6.2.1.1 da ABNT NBR ISO/IEC 27701:2019
         encaminhamento: elabore e publique formalmente a Política de Proteção de Dados Pessoais do município, estabelecendo princípios, direitos dos titulares, salvaguardas operacionais e diretrizes para o tratamento legítimo de dados nos órgãos municipais
     - S2.2:
         descricao: Inexistência de Política de Segurança da Informação (PSI) ou de Política de Classificação da Informação formalmente instituídas.
         severidade: alta
         itens_questionario: [Q41[SQ001], Q41[SQ002], Q412, Q413]
         regra_de_identificacao:
-        - ((Q41[SQ001] == 'Não') | (Q412[filecount] == 0)) | ((Q41[SQ002] == 'Não') | (Q413[filecount] == 0))
-        referencias_matriz: [R2.1, R2.2, P2, E2]
-        criterios: [C2, C5, C6, C8]
+        - (Q41[SQ001] != 'Y') | ((Q41[SQ001] == 'Y') & (Q412[filecount] == 0)) | (Q41[SQ002] != 'Y') | ((Q41[SQ002] == 'Y') & (Q413[filecount] == 0))
+        referencias_matriz: [R2.1, R2.2, P2, P2.1, E2, E2.1]
+        criterios: [C2, C5, C6, C10]
         tipo_encaminhamento: Determinação
-        fundamentacao_encaminhamento: em observância ao art. 46 da Lei Federal nº 13.709/2018 (LGPD), às normas ABNT NBR ISO/IEC 27001 e 27002, e aos itens 1.5 (determinação) e 1.14 (recomendação) do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
+        fundamentacao_encaminhamento: em observância ao art. 46 da Lei Federal nº 13.709/2018 (LGPD), aos controles 5.1 e 5.12 da ABNT NBR ISO/IEC 27002:2022 e aos itens 1.5 (determinação) e 1.14 (recomendação) do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
         encaminhamento: institua formalmente a Política de Segurança da Informação (PSI) e a Política de Classificação da Informação, incorporando regras específicas para identificação e tratamento de dados pessoais sensíveis e de dados de crianças e adolescentes
     - S2.3:
         descricao: Ausência de plano de capacitação e de ações periódicas de conscientização de servidores em proteção de dados pessoais e transparência pública.
         severidade: media
         itens_questionario: [Q51, Q511, Q52]
         regra_de_identificacao:
-        - (Q51 == 'Não possui PLANO DE CAPACITAÇÃO (ou instrumento similar) e seus colaboradores ainda não realizaram treinamento em proteção de dados pessoais') & (Q511[filecount] == 0)
-        referencias_matriz: [R2.3, P3, E3]
-        criterios: [C3, C7, C8]
+        - (Q51 in ['A2', 'A3', 'A4']) | ((Q51 in ['A5', 'A6']) & (Q511[filecount] == 0)) | ((Q51 in ['A3', 'A4', 'A5', 'A6']) & (Q52[SQ003] != 'Y'))
+        referencias_matriz: [R2.3, P3, P3.1, E3, E3.1]
+        criterios: [C3, C7, C10]
         tipo_encaminhamento: Recomendação
-        fundamentacao_encaminhamento: em consonância com o art. 50, § 2º, I, "c", da Lei Federal nº 13.709/2018 (LGPD), com o item 1.13 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e com a norma ABNT NBR ISO/IEC 27002:2022
+        fundamentacao_encaminhamento: em consonância com o art. 50, § 2º, I, "c", da Lei Federal nº 13.709/2018 (LGPD), com o item 1.13 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e com o controle 6.3 da ABNT NBR ISO/IEC 27002:2022
         encaminhamento: institua plano contínuo de capacitação e realize programas periódicos de treinamento e conscientização para os servidores públicos municipais, abordando de maneira integrada as temáticas da proteção de dados pessoais (LGPD) e da transparência pública (LAI)
 ---
 
@@ -259,11 +270,11 @@ riscos:
 - R3.4: Devido à inobservância dos princípios da minimização e limitação de retenção, poderá haver acúmulo desnecessário de dados obsoletos, o que poderá levar ao aumento desnecessário da superfície de risco de vazamentos, impactando a segurança institucional.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q31[SQ006], Q31[SQ007], Q31[SQ008], Q61[SQ001] a Q61[SQ007]).
-- F2: Evidências documentais anexadas (item Q612 - Inventário de Dados Pessoais).
+- F1: Gestores municipais responsáveis pelos processos de negócio e pela governança em privacidade.
+- F2: Unidades administrativas das prefeituras responsáveis pelo Inventário de Dados Pessoais e pelo Registro das Operações de Tratamento.
 
 informacoes_requeridas:
-- IR1: Resposta sobre iniciativas de identificação de processos, dados tratados e locais de armazenamento; [F1, Q31[SQ006], Q31[SQ007], Q31[SQ008]]
+- IR1: Resposta e registros sobre iniciativas de identificação de processos, dados tratados e locais de armazenamento; [F1, F2, Q31[SQ006], Q31[SQ007], Q31[SQ008]]
 - IR2: Resposta sobre documentação de finalidades, minimização, retenção e bases legais; [F1, Q61[SQ001], Q61[SQ002], Q61[SQ003], Q61[SQ004]]
 - IR3: Resposta e documento comprobatório do Inventário de Dados Pessoais; [F1, F2, Q61[SQ005], Q61[SQ006], Q612]
 - IR4: Resposta sobre a manutenção de Registro das Operações de Tratamento (ROPA); [F1, Q61[SQ007]]
@@ -291,16 +302,20 @@ criterios:
   apto_a_fundamentar_determinacao: true
 
 procedimentos:
-- P1: Verificar, por meio das respostas aos itens Q31[SQ006], Q31[SQ007] e Q31[SQ008], se a organização identificou processos, dados tratados e locais de armazenamento; [IR1]
-- P2: Verificar, por meio das respostas aos itens Q61[SQ001] a Q61[SQ004], a documentação das finalidades públicas, das bases legais e a avaliação da minimização e tempo de retenção; [IR2]
-- P3: Analisar, por meio dos itens Q61[SQ005], Q61[SQ006] e do anexo Q612, a existência e a abrangência do Inventário de Dados Pessoais; [IR3]
-- P4: Verificar, por meio da resposta ao item Q61[SQ007], a manutenção formal do Registro das Operações de Tratamento (ROPA); [IR4]
+- P1: Verificar nas respostas aos itens Q31[SQ006], Q31[SQ007] e Q31[SQ008] se a organização declarou ter identificado os processos de negócio, os dados pessoais tratados e os locais de armazenamento; [IR1]
+- P1.1: Examinar o Inventário de Dados Pessoais submetido no item Q612 para avaliar se identifica processos, dados tratados, responsáveis e locais de armazenamento de forma compatível com as declarações; [IR1]
+- P2: Verificar nas respostas aos itens Q61[SQ001] a Q61[SQ004] se a organização declarou ter documentado as finalidades públicas e as bases legais e avaliado a minimização e o tempo de retenção; [IR2]
+- P3: Verificar nas respostas aos itens Q61[SQ005] e Q61[SQ006] se a organização declarou possuir e manter atualizado o Inventário de Dados Pessoais; [IR3]
+- P3.1: Examinar o documento submetido no item Q612 para avaliar aprovação, vigência, atualização e abrangência quanto a processos, finalidades, bases legais, categorias de dados e titulares, responsáveis, armazenamento e compartilhamentos; [IR3]
+- P4: Verificar na resposta ao item Q61[SQ007] se a organização declarou manter formalmente o Registro das Operações de Tratamento (ROPA); [IR4]
 
 evidencias:
-- E1: Resposta negativa quanto à identificação de processos, dados tratados e locais de armazenamento; [P1]
-- E2: Ausência de identificação e documentação formal das finalidades públicas e das bases legais para as operações de tratamento; [P2]
-- E3: Inexistência de Inventário de Dados Pessoais ou anexo comprobatório ausente/insuficiente; [P3]
-- E4: Ausência de Registro das Operações de Tratamento de Dados Pessoais (ROPA); [P4]
+- E1: Registro das respostas aos itens Q31[SQ006], Q31[SQ007] e Q31[SQ008] sobre processos, dados tratados e locais de armazenamento; [P1]
+- E1.1: Resultado do exame do Inventário Q612 quanto à identificação dos processos, dados, responsáveis e locais de armazenamento e à consistência com as declarações; [P1.1]
+- E2: Registro das respostas aos itens Q61[SQ001] a Q61[SQ004] sobre finalidades, bases legais, minimização e tempo de retenção; [P2]
+- E3: Registro das respostas aos itens Q61[SQ005] e Q61[SQ006] sobre existência e atualização do Inventário de Dados Pessoais; [P3]
+- E3.1: Resultado da análise do documento Q612, com registro de aprovação, vigência, atualização, abrangência e eventuais inconsistências com as declarações; [P3.1]
+- E4: Registro da resposta ao item Q61[SQ007] sobre a manutenção formal do ROPA; [P4]
 
 possiveis_achados:
 - A3: Ausência de mapeamento das atividades de tratamento, inexistência de Inventário de Dados Pessoais e descumprimento da manutenção do Registro das Operações (ROPA).
@@ -310,8 +325,8 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q31[SQ006], Q31[SQ007], Q61[SQ005], Q612]
         regra_de_identificacao:
-        - (Q61[SQ005] == 'Não') | (Q612[filecount] == 0) | (Q31[SQ007] == 'Não')
-        referencias_matriz: [R3.1, R3.3, P1, P3, E1, E3]
+        - (Q61[SQ005] != 'Y') | ((Q61[SQ005] == 'Y') & (Q612[filecount] == 0)) | (Q31[SQ007] != 'Y')
+        referencias_matriz: [R3.1, R3.3, P1, P1.1, P3, P3.1, E1, E1.1, E3, E3.1]
         criterios: [C3, C4]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância ao art. 50 da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.4 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
@@ -321,7 +336,7 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q61[SQ001], Q61[SQ004]]
         regra_de_identificacao:
-        - (Q61[SQ001] == 'Não') | (Q61[SQ004] == 'Não')
+        - (Q61[SQ001] != 'Y') | (Q61[SQ004] != 'Y')
         referencias_matriz: [R3.2, P2, E2]
         criterios: [C2, C4]
         tipo_encaminhamento: Determinação
@@ -332,49 +347,42 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q61[SQ007]]
         regra_de_identificacao:
-        - (Q61[SQ007] == 'Não')
+        - (Q61[SQ007] != 'Y')
         referencias_matriz: [R3.3, P4, E4]
         criterios: [C1, C4]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em estrita observância ao art. 37 da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.4 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
         encaminhamento: implemente e mantenha atualizado o Registro das Operações de Tratamento de Dados Pessoais (ROPA), na forma do art. 37 da LGPD, contendo a descrição das categorias de dados, finalidades, compartilhamentos e medidas de segurança adotadas
+
 ---
 
-## Questão 04 - Gestão de Riscos à Privacidade, Relatório de Impacto (RIPD) e Privacy by Design
+## Questão 04 - Gestão de Riscos à Privacidade e Relatório de Impacto (RIPD)
 
-questao: Q4. A organização avaliou os riscos aos processos de tratamento, elaborou Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e adotou medidas de privacidade desde a concepção (Privacy by Design)?
+questao: Q4. A organização avaliou os riscos aos processos de tratamento e elaborou Relatório de Impacto à Proteção de Dados Pessoais (RIPD)?
 
 subquestoes:
 - A organização conduziu iniciativas para identificar e avaliar os riscos associados aos processos de tratamento de dados pessoais?
 - A organização elaborou Relatório de Impacto à Proteção de Dados Pessoais (RIPD), nos termos do art. 5º, XVII, e art. 38 da LGPD?
 - Foram implementados controles mitigadores para os riscos identificados por meio da elaboração do RIPD?
-- A organização adota medidas para assegurar que processos e sistemas sejam projetados, desde a concepção, em conformidade com a LGPD (Privacy by Design e Privacy by Default)?
 
 riscos:
 - R4.1: Devido à ausência de identificação e avaliação de riscos aos processos de tratamento, vulnerabilidades críticas permanecerão ocultas, o que poderá levar à materialização de incidentes graves, impactando a continuidade dos serviços públicos municipais.
 - R4.2: Devido à falta de elaboração de Relatório de Impacto à Proteção de Dados (RIPD), tratamentos de alto risco e dados sensíveis serão executados sem salvaguardas adequadas, o que poderá levar a sanções por descumprimento ao art. 38 da LGPD, impactando a conformidade legal.
 - R4.3: Devido à não implementação de controles mitigadores dos riscos identificados no RIPD, as análises de risco restarão inócuas, o que poderá levar à repetição de falhas conhecidas, impactando a proteção efetiva dos titulares.
-- R4.4: Devido à não observância de diretrizes de Privacy by Design e Privacy by Default na aquisição ou desenvolvimento de novos sistemas, as soluções municipais já nascerão em desconformidade, o que poderá levar a custos elevados de retrabalho e adaptações a posteriori, impactando o erário municipal.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q31[SQ009], Q61[SQ008], Q61[SQ009], Q101[SQ008]).
-- F2: Evidências documentais anexadas (item Q611 - Relatório de Impacto à Proteção de Dados Pessoais).
+- F1: Gestores municipais responsáveis pela gestão de riscos e pela governança em privacidade.
+- F2: Unidades administrativas das prefeituras responsáveis pela gestão dos riscos à privacidade, pela implementação dos controles mitigadores e pela elaboração e custódia dos Relatórios de Impacto à Proteção de Dados Pessoais.
 
 informacoes_requeridas:
-- IR1: Resposta sobre a condução de iniciativas de identificação e avaliação de riscos a processos de tratamento; [F1, Q31[SQ009]]
+- IR1: Resposta e registros sobre a condução de iniciativas de identificação e avaliação de riscos a processos de tratamento; [F1, F2, Q31[SQ009], Q31riscoevi]
 - IR2: Resposta e documento comprobatório de Relatório de Impacto à Proteção de Dados Pessoais (RIPD); [F1, F2, Q61[SQ008], Q611]
-- IR3: Resposta sobre a implementação de controles para mitigar riscos identificados no RIPD; [F1, Q61[SQ009]]
-- IR4: Resposta sobre a adoção de medidas de Privacy by Design e Privacy by Default; [F1, Q101[SQ008]]
+- IR3: Resposta e registros sobre a implementação de controles para mitigar riscos identificados no RIPD; [F1, F2, Q61[SQ009], Q61controleevi]
 
 criterios:
 - id: C1
   descricao: >-
     Lei Federal nº 13.709/2018 (LGPD), art. 5º, XVII, e art. 38, parágrafo único — Definição e obrigatoriedade de elaboração do Relatório de Impacto à Proteção de Dados Pessoais (RIPD) para operações de tratamento de dados que possam gerar riscos às liberdades civis e direitos fundamentais.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
-- id: C2
-  descricao: >-
-    Lei Federal nº 13.709/2018 (LGPD), art. 46, § 2º — As medidas de segurança e governança deverão ser observadas desde a fase de concepção do produto ou do serviço até a sua execução (Privacy by Design e Privacy by Default).
   natureza_fundamento: norma_legal_vinculante
   apto_a_fundamentar_determinacao: true
 - id: C3
@@ -389,58 +397,52 @@ criterios:
   apto_a_fundamentar_determinacao: true
 - id: C5
   descricao: >-
-    ABNT NBR ISO/IEC 27701:2019 — Gestão da privacidade da informação: sistemática de avaliação de impacto à privacidade (PIA/RIPD) e estabelecimento de controles mitigadores de riscos.
+    ABNT NBR ISO/IEC 27701:2019, cláusula 5.4.1.2, cláusula 5.4.1.3 e cláusula 7.2.5 — Requer avaliação e tratamento dos riscos de segurança da informação relacionados à privacidade e avaliação de impacto à privacidade para novos tratamentos ou alterações em tratamentos existentes de informações de identificação pessoal.
   natureza_fundamento: boa_pratica
   apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Verificar, por meio da resposta à questão Q31[SQ009], se a organização identificou e avaliou os riscos associados aos processos de tratamento de dados; [IR1]
-- P2: Analisar, por meio da resposta à questão Q61[SQ008] e do documento anexado à Q611, a existência e a consistência do RIPD; [IR2]
-- P3: Verificar, por meio da resposta à questão Q61[SQ009], a implementação efetiva de controles para mitigar os riscos apontados no RIPD; [IR3]
-- P4: Verificar, por meio da resposta à questão Q101[SQ008], a aplicação de medidas de Privacy by Design e Privacy by Default nos sistemas municipais; [IR4]
+- P1: Verificar na resposta à questão Q31[SQ009] se a organização declarou ter identificado e avaliado os riscos associados aos processos de tratamento de dados pessoais; [IR1]
+- P1.1: Examinar as matrizes, os relatórios ou os registros de riscos submetidos no item Q31riscoevi para avaliar escopo, metodologia, identificação, análise, avaliação, responsáveis e consistência com a declaração; [IR1]
+- P2: Verificar na resposta à questão Q61[SQ008] se a organização declarou ter elaborado Relatório de Impacto à Proteção de Dados Pessoais; [IR2]
+- P2.1: Examinar o documento submetido no item Q611 para avaliar autenticidade aparente, aprovação, vigência, vinculação às operações inventariadas e presença dos elementos mínimos do RIPD; [IR2]
+- P3: Verificar na resposta à questão Q61[SQ009] se a organização declarou ter implementado controles para mitigar os riscos identificados no RIPD; [IR3]
+- P3.1: Examinar os planos de tratamento e os registros de implantação e monitoramento submetidos no item Q61controleevi para avaliar a implementação, o responsável, o prazo, o estado e a efetividade documentada dos controles mitigadores; [IR3]
 
 evidencias:
-- E1: Resposta negativa quanto à condução de iniciativas de identificação e avaliação de riscos a processos de tratamento; [P1]
-- E2: Inexistência de Relatório de Impacto à Proteção de Dados Pessoais (RIPD) ou anexo ausente/inválido; [P2]
-- E3: Ausência de implementação de controles mitigadores dos riscos identificados; [P3]
-- E4: Resposta negativa quanto à adoção de Privacy by Design e Privacy by Default; [P4]
+- E1: Registro da resposta à questão Q31[SQ009] sobre identificação e avaliação dos riscos associados aos tratamentos; [P1]
+- E1.1: Resultado do exame do documento Q31riscoevi, com indicação de escopo, metodologia, completude e eventuais inconsistências com a declaração; [P1.1]
+- E2: Registro da resposta à questão Q61[SQ008] sobre elaboração do RIPD; [P2]
+- E2.1: Resultado da análise do documento Q611, com registro de aprovação, vigência, operações abrangidas, conteúdo mínimo e eventuais inconsistências com a declaração; [P2.1]
+- E3: Registro da resposta à questão Q61[SQ009] sobre implementação dos controles mitigadores; [P3]
+- E3.1: Resultado da análise do documento Q61controleevi, incluindo responsáveis, prazos, estado e efetividade documentada dos controles; [P3.1]
 
 possiveis_achados:
-- A4: Fragilidade na gestão de riscos à privacidade, ausência de elaboração de RIPD e inobservância de diretrizes de Privacy by Design.
+- A4: Fragilidade na gestão de riscos à privacidade.
   situacoes_encontradas:
     - S4.1:
         descricao: Ausência de iniciativas formais para identificação e avaliação dos riscos associados aos processos de tratamento de dados pessoais.
         severidade: media
-        itens_questionario: [Q31[SQ009]]
+        itens_questionario: [Q31[SQ009], Q31riscoevi]
         regra_de_identificacao:
-        - (Q31[SQ009] == 'Não')
-        referencias_matriz: [R4.1, P1, E1]
+        - (Q31[SQ009] != 'Y') | ((Q31[SQ009] == 'Y') & (Q31riscoevi[filecount] == 0))
+        referencias_matriz: [R4.1, P1, P1.1, E1, E1.1]
         criterios: [C3, C5]
         tipo_encaminhamento: Recomendação
-        fundamentacao_encaminhamento: alinhando-se ao art. 50 da Lei Federal nº 13.709/2018 (LGPD) e aos padrões da norma ABNT NBR ISO/IEC 27701:2019
+        fundamentacao_encaminhamento: alinhando-se ao art. 50 da Lei Federal nº 13.709/2018 (LGPD) e às cláusulas 5.4.1.2 e 5.4.1.3 da ABNT NBR ISO/IEC 27701:2019
         encaminhamento: estabeleça metodologia corporativa para identificação, análise e tratamento contínuo dos riscos associados às operações de tratamento de dados pessoais conduzidas pelos órgãos municipais
     - S4.2:
         descricao: Ausência de elaboração de Relatório de Impacto à Proteção de Dados Pessoais (RIPD) para as atividades de tratamento cabíveis.
         severidade: alta
-        itens_questionario: [Q61[SQ008], Q61[SQ009], Q611]
+        itens_questionario: [Q61[SQ008], Q61[SQ009], Q611, Q61controleevi]
         regra_de_identificacao:
-        - (Q61[SQ008] == 'Não') | (Q611[filecount] == 0)
-        referencias_matriz: [R4.2, R4.3, P2, P3, E2, E3]
+        - (Q61[SQ008] != 'Y') | ((Q61[SQ008] == 'Y') & (Q611[filecount] == 0)) | ((Q61[SQ009] == 'Y') & (Q61controleevi[filecount] == 0))
+        referencias_matriz: [R4.2, R4.3, P2, P2.1, P3, P3.1, E2, E2.1, E3, E3.1]
         criterios: [C1, C4, C5]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância ao art. 5º, XVII, e art. 38, parágrafo único, da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.9 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
         encaminhamento: elabore Relatórios de Impacto à Proteção de Dados Pessoais (RIPD) para os processos municipais que envolvam dados sensíveis, vigilância em larga escala ou que possam gerar risco relevante às liberdades civis dos titulares, implementando os respectivos controles mitigadores
-    - S4.3:
-        descricao: Inexistência de adoção de diretrizes de Privacy by Design e Privacy by Default na concepção de processos e sistemas.
-        severidade: media
-        itens_questionario: [Q101[SQ008]]
-        regra_de_identificacao:
-        - (Q101[SQ008] == 'Não')
-        referencias_matriz: [R4.4, P4, E4]
-        criterios: [C2, C5]
-        tipo_encaminhamento: Recomendação
-        fundamentacao_encaminhamento: em observância ao art. 46, § 2º, da Lei Federal nº 13.709/2018 (LGPD) e aos padrões da norma ABNT NBR ISO/IEC 27701:2019
-        encaminhamento: incorpore formalmente diretrizes de privacidade por concepção (Privacy by Design) e por padrão (Privacy by Default) no desenvolvimento, customização ou contratação de soluções de tecnologia da informação e novos processos administrativos
+
 ---
 
 ## Questão 05 - Transparência Pública, Avisos de Privacidade e Atendimento aos Direitos dos Titulares
@@ -456,13 +458,13 @@ riscos:
 - R5.2: Devido à inexistência de mecanismos formais de atendimento às requisições dos titulares, os cidadãos enfrentarão obstáculos para exercer seus direitos fundamentais (acesso, retificação, eliminação), o que poderá levar a representações judiciais e perante a ANPD, impactando a segurança jurídica municipal.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q71, Q72).
-- F2: Evidências documentais anexadas (item Q711 - Política de Privacidade).
-- F3: Comentários e endereços (URLs) informados no formulário (itens Q71[comment], Q72[comment]).
+- F1: Gestores municipais responsáveis pela governança em privacidade e pelo atendimento aos direitos dos titulares.
+- F2: Unidades administrativas das prefeituras responsáveis pela edição e custódia da Política de Privacidade.
+- F3: Portal institucional oficial de cada prefeitura municipal.
 
 informacoes_requeridas:
 - IR1: Resposta, declaração de divulgação e documento anexado da Política de Privacidade; [F1, F2, F3, Q71, Q71[comment], Q711]
-- IR2: Resposta e detalhamento dos mecanismos implementados para atender aos direitos dos titulares; [F1, F3, Q72, Q72[comment]]
+- IR2: Resposta, procedimentos e detalhamento dos mecanismos implementados para atender aos direitos dos titulares; [F1, F2, F3, Q72, Q72[comment], Q72evi]
 
 criterios:
 - id: C1
@@ -485,19 +487,20 @@ criterios:
     Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.8 — Determinação aos jurisdicionados para implementar mecanismos para atender a todos os direitos dos titulares relacionados no art. 18 da LGPD.
   natureza_fundamento: decisao_tce
   apto_a_fundamentar_determinacao: true
-- id: C5
-  descricao: >-
-    Constituição Federal de 1988, art. 37, caput — Princípio da publicidade na Administração Pública.
-  natureza_fundamento: norma_geral
-  apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Analisar, por meio da resposta à questão Q71 e da evidência anexada à Q711, a elaboração e a divulgação efetiva da Política de Privacidade no sítio eletrônico da prefeitura; [IR1]
-- P2: Verificar, por meio da resposta e comentários prestados à questão Q72, a implementação de mecanismos para atendimento aos direitos dos titulares previstos nos arts. 9º e 18 da LGPD; [IR2]
+- P1: Verificar na resposta e nos comentários da questão Q71 se a organização declarou ter elaborado e divulgado sua Política de Privacidade no sítio eletrônico institucional; [IR1]
+- P1.1: Examinar o documento submetido no item Q711 para avaliar aprovação, vigência, clareza, acessibilidade e conteúdo mínimo sobre finalidades, duração do tratamento, controlador, compartilhamentos e direitos dos titulares; [IR1]
+- P1.2: Inspecionar o portal institucional da prefeitura para confirmar a publicação, atualidade, integridade e facilidade de acesso à Política de Privacidade declarada; [IR1]
+- P2: Verificar na resposta e nos comentários da questão Q72 se a organização declarou ter implementado mecanismos para atendimento aos direitos dos titulares previstos nos arts. 9º e 18 da LGPD; [IR2]
+- P2.1: Examinar o procedimento ou fluxo submetido no item Q72evi e inspecionar os canais divulgados no portal institucional para avaliar quais direitos podem ser exercidos, as formas de autenticação, o encaminhamento das solicitações, a gratuidade e o acompanhamento dos pedidos; [IR2]
 
 evidencias:
-- E1: Resposta indicando ausência de elaboração ou falta de divulgação da Política de Privacidade no sítio oficial; [P1]
-- E2: Resposta indicando inexistência ou incompletude de mecanismos implementados para atendimento aos direitos dos titulares; [P2]
+- E1: Registro da resposta e dos comentários da questão Q71 sobre elaboração e divulgação da Política de Privacidade; [P1]
+- E1.1: Resultado da análise da política Q711, com registro de aprovação, vigência, clareza, acessibilidade, conteúdo mínimo e eventuais inconsistências com a declaração; [P1.1]
+- E1.2: Registro da inspeção do portal institucional, incluindo endereço, data de acesso, disponibilidade, conteúdo publicado e facilidade de localização da política; [P1.2]
+- E2: Registro da resposta e dos comentários da questão Q72 sobre os mecanismos de atendimento aos direitos dos titulares; [P2]
+- E2.1: Resultado do exame do documento Q72evi e da inspeção dos canais de atendimento, com indicação dos direitos atendidos, formas de autenticação, fluxo, gratuidade e eventuais inconsistências com a declaração; [P2.1]
 
 possiveis_achados:
 - A5: Falta de transparência ativa em privacidade e ausência ou precariedade de mecanismos para atendimento aos direitos dos titulares de dados pessoais.
@@ -507,19 +510,19 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q71, Q711]
         regra_de_identificacao:
-        - (Q71 == 'A organização NÃO ELABOROU POLÍTICA DE PRIVACIDADE (ou instrumento similar)') | (Q71 == 'A organização ELABOROU A POLÍTICA DE PRIVACIDADE (ou instrumento similar), MAS NÃO A DIVULGA em seu sítio eletrônico institucional') | (Q711[filecount] == 0)
-        referencias_matriz: [R5.1, P1, E1]
-        criterios: [C1, C3, C5]
+        - (Q71 in ['A2', 'A3']) | ((Q71 == 'A4') & (Q711[filecount] == 0))
+        referencias_matriz: [R5.1, P1, P1.1, P1.2, E1, E1.1, E1.2]
+        criterios: [C1, C3]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância aos arts. 6º, VI, e 9º da Lei Federal nº 13.709/2018 (LGPD), ao item 1.7 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e ao princípio da publicidade do art. 37, caput, da Constituição Federal
         encaminhamento: publique Política de Privacidade em linguagem acessível e em local de destaque no sítio eletrônico oficial da prefeitura, informando de modo transparente as finalidades, as bases legais, as categorias de dados tratados e os direitos garantidos aos titulares
     - S5.2:
         descricao: Ausência ou incompletude de mecanismos implementados para atendimento às requisições e direitos dos titulares de dados pessoais.
         severidade: alta
-        itens_questionario: [Q72]
+        itens_questionario: [Q72, Q72evi]
         regra_de_identificacao:
-        - (Q72 == 'Não foram implementados mecanismos para atender os direitos dos titulares (LGPD, arts. 9º e 18)') | (Q72 == 'Foram implementados mecanismos para atender alguns dos direitos dos titulares (LGPD, arts. 9º e 18), mas não todos')
-        referencias_matriz: [R5.2, P2, E2]
+        - (Q72 in ['A2', 'A3']) | ((Q72 == 'A4') & (Q72evi[filecount] == 0))
+        referencias_matriz: [R5.2, P2, P2.1, E2, E2.1]
         criterios: [C2, C4]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em estrita observância aos arts. 9º e 18 da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.8 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
@@ -528,31 +531,29 @@ possiveis_achados:
 
 ## Questão 06 - Segurança da Informação, Controle de Acesso, Compartilhamento e Resposta a Incidentes
 
-questao: Q6. A organização implementou controles de segurança da informação, disciplina o compartilhamento de dados e contratos com operadores de TI e instituiu Plano de Resposta a Incidentes de Segurança?
+questao: Q6. A organização implementou medidas técnicas e administrativas a fim de assegurar a segurança da informação e privacidade?
 
 subquestoes:
-- A organização implementou processo formal de registro, cancelamento e provisionamento de usuários e mantém registro e monitoramento de logs de auditoria dos tratamentos?
-- A organização utiliza criptografia de armazenamento (dados em repouso) e criptografia de ponta a ponta (dados em trânsito) para proteger dados pessoais?
-- A organização elaborou e mantém atualizado Plano de Resposta a Incidentes de Segurança com violação de dados pessoais e estabeleceu procedimentos para comunicar à ANPD e aos titulares?
+- A organização implementou processo formal de registro, cancelamento e provisionamento de usuários?
+- A organização utiliza criptografia de ponta a ponta (dados em trânsito)?
+- A organização elaborou e mantém atualizado Plano de Resposta a Incidentes de Segurança?
+- A organização estabeleceu procedimentos para comunicar à ANPD e aos titulares os incidentes de violação de dados pessoais?
 - A organização adequou seus instrumentos contratuais com operadores de TI e provedores de computação em nuvem, prevendo salvaguardas de sigilo e responsabilidades pela proteção de dados?
-- A organização avaliou a conformidade dos compartilhamentos de dados pessoais com terceiros e observa os critérios legais para transferências internacionais de dados?
 
 riscos:
 - R6.1: Devido à falta de controle formal de acessos e ausência de logs de auditoria, acessos indevidos passarão despercebidos, o que poderá levar ao vazamento e alteração ilícita de dados de cidadãos, impactando a confidencialidade e a integridade da administração pública.
 - R6.2: Devido à inexistência de Plano de Resposta a Incidentes e fluxo de comunicação formal, violações de segurança não serão contidas tempestivamente, o que poderá levar à ampliação dos danos causados aos titulares e a severas penalidades administrativas, impactando a continuidade dos serviços públicos.
 - R6.3: Devido à ausência de cláusulas de proteção de dados em contratos com operadores terceirizados de TI e provedores de computação em nuvem, o ente público perderá o controle sobre seus ativos informacionais, o que poderá levar ao uso indevido de dados por terceiros, impactando a governança contratual.
-- R6.4: Devido à realização de compartilhamentos de dados com terceiros ou transferências internacionais sem amparo legal, haverá vulneração aos preceitos da LGPD, o que poderá levar a litígios e sanções regulatórias, impactando a regularidade jurídica municipal.
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD (itens Q31[SQ005], Q81, Q811, Q8111, Q812, Q91, Q101).
-- F2: Evidências documentais anexadas (item Q911 - Plano de Resposta a Incidentes).
+- F1: Gestores municipais responsáveis pela tecnologia da informação, segurança da informação, privacidade e gestão contratual.
+- F2: Unidades administrativas das prefeituras responsáveis pela elaboração e custódia do Plano de Resposta a Incidentes e dos contratos de serviços de tecnologia.
 
 informacoes_requeridas:
 - IR1: Resposta sobre processo formal de concessão de acessos, logs e uso de criptografia; [F1, Q101[SQ002], Q101[SQ003], Q101[SQ004], Q101[SQ005]]
 - IR2: Resposta e documento do Plano de Resposta a Incidentes de Segurança com dados pessoais; [F1, F2, Q91[SQ001], Q911]
 - IR3: Resposta sobre procedimento de notificação de incidentes à ANPD e aos titulares; [F1, Q91[SQ005]]
-- IR4: Resposta sobre adequação contratual com operadores de TI e provedores de nuvem; [F1, Q31[SQ005], Q812[SQ001], Q812[SQ004]]
-- IR5: Resposta sobre avaliação de compartilhamento com terceiros e transferência internacional; [F1, Q81, Q811, Q8111]
+- IR4: Resposta e instrumentos contratuais sobre a adequação dos ajustes com operadores de TI e provedores de nuvem; [F1, F2, Q31[SQ005], Q31evi, Q812[SQ001], Q812[SQ004], Q812evi]
 
 criterios:
 - id: C1
@@ -580,16 +581,6 @@ criterios:
     Lei Federal nº 13.709/2018 (LGPD), arts. 39 e 42 — Responsabilidades legais do operador e dever de observância às instruções e salvaguardas contratuais pactuadas com o controlador.
   natureza_fundamento: norma_legal_vinculante
   apto_a_fundamentar_determinacao: true
-- id: C6
-  descricao: >-
-    Lei Federal nº 14.133/2021 (Lei de Licitações e Contratos Administrativos), art. 92 — Cláusulas necessárias dos contratos administrativos relativas à segurança da informação, sigilo e proteção de dados pessoais.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
-- id: C7
-  descricao: >-
-    Lei Federal nº 13.709/2018 (LGPD), arts. 26, 27 e 33 — Condições vinculantes para o compartilhamento de dados pelo Poder Público e requisitos restritivos para transferências internacionais de dados pessoais.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
 - id: C8
   descricao: >-
     Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.10 — Determinação aos jurisdicionados para instituir formalmente e manter atualizado Plano de Resposta a Incidentes, conforme disposto no art. 48 e art. 50, § 2º, I, "g", da LGPD.
@@ -605,25 +596,27 @@ criterios:
     Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, item 1.15 — Recomendação aos jurisdicionados para adoção de medidas técnicas e administrativas de segurança (gestão de acessos, criptografia TLS/HTTPS e repouso, firewall e proteção de perímetro).
   natureza_fundamento: decisao_tce
   apto_a_fundamentar_determinacao: false
-- id: C11
+- id: C12
   descricao: >-
-    ABNT NBR ISO/IEC 27001:2022 e 27002:2022 — Controles normativos de gestão de acessos de usuários, logs de auditoria, criptografia e tratamento de incidentes de segurança da informação.
+    ABNT NBR ISO/IEC 27002:2022, controle 5.15, controle 5.16, controle 5.18, controles 5.24 a 5.27, controle 8.15 e controle 8.24 — Orienta a implementação do controle de acesso, da gestão de identidades e direitos de acesso, do registro de eventos, do uso de criptografia e da gestão de incidentes de segurança da informação.
   natureza_fundamento: boa_pratica
   apto_a_fundamentar_determinacao: false
 
 procedimentos:
-- P1: Verificar, por meio das respostas aos itens Q101[SQ002] a Q101[SQ005], a existência de processo formal de concessão de acessos, logs de sistemas e uso de criptografia; [IR1]
-- P2: Analisar, por meio da resposta ao item Q91[SQ001] e do anexo Q911, a formalização do Plano de Resposta a Incidentes de Segurança com violação de dados; [IR2]
-- P3: Verificar, por meio do item Q91[SQ005], se a organização possui procedimentos padronizados para notificar a ANPD e os titulares em caso de incidentes relevantes; [IR3]
-- P4: Analisar, por meio dos itens Q31[SQ005] e Q812[SQ004], a adequação dos contratos firmados com operadores de TI e provedores de computação em nuvem; [IR4]
-- P5: Analisar, por meio dos itens Q81, Q811 e Q8111, a regularidade dos compartilhamentos de dados com terceiros e das transferências internacionais; [IR5]
+- P1: Verificar nas respostas aos itens Q101[SQ002] a Q101[SQ005] se a organização declarou possuir processo formal de concessão de acessos, logs de sistemas e uso de criptografia; [IR1]
+- P2: Verificar na resposta ao item Q91[SQ001] se a organização declarou ter formalizado Plano de Resposta a Incidentes de Segurança com violação de dados pessoais; [IR2]
+- P2.1: Examinar o documento submetido no item Q911 para avaliar aprovação, vigência, papéis e responsabilidades, critérios de gravidade, fluxos de detecção, contenção, comunicação e recuperação e periodicidade de revisão e testes; [IR2]
+- P3: Verificar na resposta ao item Q91[SQ005] se a organização declarou possuir procedimentos padronizados para notificar a ANPD e os titulares em caso de incidentes relevantes; [IR3]
+- P4: Verificar nas respostas aos itens Q31[SQ005], Q812[SQ001] e Q812[SQ004] se a organização declarou ter adequado os contratos firmados com operadores de TI e provedores de computação em nuvem; [IR4]
+- P4.1: Examinar os instrumentos contratuais submetidos nos itens Q31evi e Q812evi para avaliar a existência de cláusulas sobre objeto e finalidade do tratamento, instruções do controlador, confidencialidade, medidas de segurança, subcontratação, comunicação de incidentes, devolução ou eliminação dos dados e responsabilidades das partes; [IR4]
 
 evidencias:
-- E1: Fragilidade ou ausência de controle formal de acessos e falta de logs de auditoria em sistemas com dados pessoais; [P1]
-- E2: Inexistência de Plano de Resposta a Incidentes de Segurança com dados pessoais; [P2]
-- E3: Ausência de procedimento padronizado para notificação de incidentes à ANPD e aos titulares; [P3]
-- E4: Contratos com operadores de TI e provedores de nuvem sem cláusulas expressas de proteção de dados e sigilo; [P4]
-- E5: Compartilhamentos com terceiros não avaliados ou transferências internacionais sem observância aos preceitos da LGPD; [P5]
+- E1: Registro das respostas aos itens Q101[SQ002] a Q101[SQ005] sobre controle de acessos, logs de sistemas e uso de criptografia; [P1]
+- E2: Registro da resposta ao item Q91[SQ001] sobre a formalização do Plano de Resposta a Incidentes; [P2]
+- E2.1: Resultado da análise do plano Q911, com registro de aprovação, vigência, conteúdo mínimo e eventuais inconsistências com a declaração; [P2.1]
+- E3: Registro da resposta ao item Q91[SQ005] sobre procedimento de notificação de incidentes à ANPD e aos titulares; [P3]
+- E4: Registro das respostas aos itens Q31[SQ005], Q812[SQ001] e Q812[SQ004] sobre a adequação dos contratos com operadores e provedores de nuvem; [P4]
+- E4.1: Resultado da análise dos instrumentos contratuais Q31evi e Q812evi, com registro das cláusulas de proteção de dados existentes, ausentes ou insuficientes e de eventuais inconsistências com a declaração; [P4.1]
 
 possiveis_achados:
 - A6: Vulnerabilidade nos controles de segurança da informação, ausência de plano de resposta a incidentes e desproteção em contratos com operadores e compartilhamentos de dados.
@@ -633,20 +626,20 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q101[SQ002], Q101[SQ003]]
         regra_de_identificacao:
-        - (Q101[SQ002] == 'Não') | (Q101[SQ003] == 'Não')
+        - (Q101[SQ002] != 'Y') | (Q101[SQ003] != 'Y')
         referencias_matriz: [R6.1, P1, E1]
-        criterios: [C1, C10, C11]
+        criterios: [C1, C10, C12]
         tipo_encaminhamento: Determinação
-        fundamentacao_encaminhamento: em observância ao art. 46 da Lei Federal nº 13.709/2018 (LGPD), ao item 1.15 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e às normas ABNT NBR ISO/IEC 27001 e 27002
+        fundamentacao_encaminhamento: em observância ao art. 46 da Lei Federal nº 13.709/2018 (LGPD), ao item 1.15 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024) e aos controles 5.15, 5.16, 5.18, 8.15 e 8.24 da ABNT NBR ISO/IEC 27002:2022
         encaminhamento: estabeleça procedimento formal para concessão, revisão periódica e revogação imediata de acessos a sistemas e bases de dados pessoais, assegurando autenticação segura e registro de logs de auditoria das operações de tratamento
     - S6.2:
         descricao: Inexistência de Plano de Resposta a Incidentes de Segurança da Informação envolvendo dados pessoais.
         severidade: alta
         itens_questionario: [Q91[SQ001], Q911]
         regra_de_identificacao:
-        - (Q91[SQ001] == 'Não') | (Q911[filecount] == 0)
-        referencias_matriz: [R6.2, P2, E2]
-        criterios: [C1, C4, C8]
+        - (Q91[SQ001] != 'Y') | ((Q91[SQ001] == 'Y') & (Q911[filecount] == 0))
+        referencias_matriz: [R6.2, P2, P2.1, E2, E2.1]
+        criterios: [C1, C4, C8, C12]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância aos arts. 48 e 50, § 2º, I, "g", da Lei Federal nº 13.709/2018 (LGPD) e ao item 1.10 do Voto condutor do Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo nº 217.899-0/2024)
         encaminhamento: elabore e aprove Plano de Resposta a Incidentes de Segurança da Informação com violação de dados pessoais, estabelecendo equipe técnica responsável, critérios de gravidade, fluxos de contenção e ações de remediação
@@ -655,7 +648,7 @@ possiveis_achados:
         severidade: alta
         itens_questionario: [Q91[SQ001], Q91[SQ005]]
         regra_de_identificacao:
-        - (Q91[SQ005] == 'Não')
+        - (Q91[SQ005] != 'Y')
         referencias_matriz: [R6.2, P3, E3]
         criterios: [C2, C3, C9]
         tipo_encaminhamento: Determinação
@@ -664,94 +657,54 @@ possiveis_achados:
     - S6.4:
         descricao: Inexistência de cláusulas de proteção de dados e salvaguardas nos contratos firmados com operadores de TI e provedores de nuvem.
         severidade: alta
-        itens_questionario: [Q31[SQ005], Q812[SQ001], Q812[SQ004]]
+        itens_questionario: [Q31[SQ005], Q31evi, Q812[SQ001], Q812[SQ004], Q812evi]
         regra_de_identificacao:
-        - (Q31[SQ005] == 'Não') | ((Q812[SQ001] == 'Sim') & (Q812[SQ004] == 'Não'))
-        referencias_matriz: [R6.3, P4, E4]
-        criterios: [C5, C6]
+        - (Q31[SQ005] != 'Y') | ((Q31[SQ005] == 'Y') & (Q31evi[filecount] == 0)) | ((Q812[SQ001] == 'Y') & ((Q812[SQ004] != 'Y') | (Q812evi[filecount] == 0)))
+        referencias_matriz: [R6.3, P4, P4.1, E4, E4.1]
+        criterios: [C5]
         tipo_encaminhamento: Determinação
         fundamentacao_encaminhamento: em observância aos arts. 39 e 42 da Lei Federal nº 13.709/2018 (LGPD) e ao art. 92 da Lei Federal nº 14.133/2021
         encaminhamento: adite e adeque os contratos vigentes firmados com fornecedores de tecnologia da informação e provedores de computação em nuvem que tratem dados do município, inserindo cláusulas expressas de confidencialidade, salvaguardas de segurança, dever de notificação de incidentes e responsabilidade civil
-    - S6.5:
-        descricao: Ausência de avaliação de conformidade legal nos compartilhamentos de dados com terceiros e em transferências internacionais.
-        severidade: alta
-        itens_questionario: [Q81, Q811, Q8111]
-        regra_de_identificacao:
-        - (Q81 == 'AINDA NÃO AVALIOU se os realiza ou AINDA NÃO IDENTIFICOU todos os dados eventualmente compartilhados') | ((Q811 == 'Todos os compartilhamentos foram avaliados e HÁ TRANSFERÊNCIA INTERNACIONAL DE DADOS') & (Q8111 != 'As transferências internacionais de dados pessoais estão de acordo...'))
-        referencias_matriz: [R6.4, P5, E5]
-        criterios: [C7]
-        tipo_encaminhamento: Determinação
-        fundamentacao_encaminhamento: em observância aos arts. 26, 27 e 33 da Lei Federal nº 13.709/2018 (LGPD)
-        encaminhamento: avalie a regularidade dos compartilhamentos de dados pessoais com terceiros e condicione eventuais transferências internacionais de dados ao estrito cumprimento das hipóteses e salvaguardas do art. 33 da LGPD
+
 ---
 
-## Questão Transversal - Monitoramento das Decisões do Processo TCE-RJ nº 217.899-0/2024 e Mapeamento Dinâmico de Causas de Não Cumprimento
+## Questão Transversal - Monitoramento das Decisões do Processo TCE-RJ nº 217.899-0/2024
 
 natureza: levantamento
 gera_achado: false
-questao: QT1. Qual é o grau de cumprimento, pelas prefeituras municipais, das decisões proferidas pelo TCE-RJ no Processo nº 217.899-0/2024 (Acórdão nº 3931/2025), e quais são as causas específicas associadas ao não cumprimento de determinações e recomendações, mapeadas dinamicamente a partir dos controles pendentes?
+questao: QT1. Qual é o grau de cumprimento, pelas prefeituras municipais, das decisões proferidas pelo TCE-RJ no Processo nº 217.899-0/2024 (Acórdão nº 3931/2025), inferido a partir das respostas aos controles correspondentes no questionário de 2026?
 
 subquestoes:
 - Os municípios implementaram as determinações e recomendações formuladas no Acórdão nº 3931/2025 no âmbito do Processo TCE-RJ nº 217.899-0/2024?
-- Quais prefeituras reincidiram na ausência de controles específicos objeto de deliberação prévia, confrontando as respostas do questionário de 2026 com o baseline de encaminhamentos individualizados de 2024 (tabela_encaminhamentos.xlsx e tabela_situacao_encontrada.xlsx)?
-- Quais foram as causas e justificativas declaradas pelos gestores, por meio das questões dinâmicas e condicionais do formulário (exibidas unicamente quando a organização declara não possuir o controle que deveria ter implementado em cumprimento a encaminhamento anterior), para o não atendimento de cada deliberação?
-- Como se distribuem as causas de descumprimento entre os 12 temas de controle monitorados (Encarregado/DPO, divulgação do DPO no portal, PSI, Política de Classificação da Informação, Política de Proteção de Dados, Plano de Capacitação, Inventário de Dados Pessoais, RIPD, Política de Privacidade no portal, Mecanismos para Direitos dos Titulares, Plano de Resposta a Incidentes e Notificação à ANPD/titulares)?
-- Os planos de ação municipais protocolados no Tribunal foram tempestiva e integralmente executados?
+- Quais prefeituras reincidiram na ausência de controles específicos objeto da decisão prévia, confrontando as respostas do questionário de 2026 com os encaminhamentos individualizados de 2024?
+- Como se distribuem os casos de cumprimento e descumprimento entre os 12 temas de controle monitorados (Encarregado/DPO, divulgação do DPO no portal, PSI, Política de Classificação da Informação, Política de Proteção de Dados, Plano de Capacitação, Inventário de Dados Pessoais, RIPD, Política de Privacidade no portal, Mecanismos para Direitos dos Titulares, Plano de Resposta a Incidentes e Notificação à ANPD/titulares)?
 
 fontes_de_informacao:
-- F1: Respostas ao questionário eletrônico de auditoria da LGPD 2026 (itens gerais de controle Q21 a Q101 e módulo estendido de questões dinâmicas/condicionais Q703 sobre causas de não cumprimento).
-- F2: Base de dados consolidada de situações encontradas e encaminhamentos individualizados da fiscalização anterior (tabela_encaminhamentos.xlsx e tabela_situacao_encontrada.xlsx, geradas em 99-Scripts/02-gera_achados/resultados).
-- F3: Autos do Processo TCE-RJ nº 217.899-0/2024 (Acórdão nº 3931/2025) e planos de ação municipais protocolados.
-- F4: Documentos comprobatórios da execução superveniente das medidas corretivas municipais (item Q701evi).
+- F1: Gestores municipais responsáveis pelo preenchimento do questionário eletrônico de auditoria da LGPD 2026.
+- F2: Sistema de apoio à fiscalização do TCE-RJ, que consolida as situações encontradas e os encaminhamentos individualizados da fiscalização de 2024.
+- F3: Sistema oficial de processo eletrônico do TCE-RJ, no qual tramitam os autos do Processo nº 217.899-0/2024 e os planos de ação municipais.
 
 informacoes_requeridas:
 - IR1: Baseline de deliberações e controles esperados por município estabelecido a partir da tabela_encaminhamentos.xlsx e da tabela_situacao_encontrada.xlsx da fiscalização de 2024; [F2, F3]
-- IR2: Respostas fornecidas pelas prefeituras no questionário de 2026 indicando a manutenção ou saneamento das omissões anteriormente apontadas; [F1, Q21 a Q101]
-- IR3: Justificativas, fatores limitadores e causas de descumprimento capturados dinamicamente pelo survey para cada controle pendente objeto de encaminhamento anterior; [F1, Q703]
-- IR4: Situação declarada e percentual de execução dos planos de ação municipais protocolados no TCE-RJ; [F1, F3, Q702]
-- IR5: Documentos comprobatórios da implementação superveniente das medidas corretivas determinadas pelo Tribunal; [F1, F4, Q701evi]
-
-criterios:
-- id: C1
-  descricao: >-
-    Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Voto do Relator, itens 1.1 a 1.15 — Determinações e recomendações proferidas pelo Tribunal aos 91 municípios fluminenses.
-  natureza_fundamento: decisao_tce
-  apto_a_fundamentar_determinacao: true
-- id: C2
-  descricao: >-
-    Lei Complementar Estadual nº 63/1990 (Lei Orgânica do TCE-RJ), art. 3º, e Regimento Interno do TCE-RJ, art. 15, I — Competência fiscalizatória e poder de controle externo para fixar prazo para o cumprimento da lei e determinar a adoção de medidas saneadoras pelos jurisdicionados.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
-- id: C3
-  descricao: >-
-    Lei Federal nº 13.709/2018 (LGPD), art. 50 — Dever permanente de governança e implementação continuada de boas práticas em proteção de dados pessoais.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
-- id: C4
-  descricao: >-
-    Constituição Federal de 1988, art. 37, caput — Princípios constitucionais da legalidade, publicidade, eficiência e dever de cumprimento das ordens legítimas expedidas pelas Cortes de Contas.
-  natureza_fundamento: norma_geral
-  apto_a_fundamentar_determinacao: false
+- IR2: Respostas fornecidas pelas prefeituras no questionário de 2026 sobre os 12 controles monitorados; [F1, Q41[SQ004], Q41[SQ005], Q41[SQ001], Q41[SQ002], Q41[SQ003], Q51, Q61[SQ005], Q61[SQ008], Q71, Q72, Q91[SQ001], Q91[SQ005]]
 
 procedimentos:
 - P1: Mapear a matriz de deliberações anteriores importando a tabela_encaminhamentos.xlsx e a tabela_situacao_encontrada.xlsx de 2024 para parametrizar a aplicação de regras dinâmicas e o baseline de controles de cada prefeitura; [IR1]
 - P2: Confrontar as declarações de controle do questionário de 2026 com o baseline individualizado para identificar situações de reincidência e pendência no atendimento às deliberações; [IR2]
-- P3: Tabular e categorizar as manifestações coletadas pelas questões dinâmicas/condicionais do survey, classificando as causas de descumprimento alegadas em eixos analíticos (orçamentárias/financeiras, escassez de equipe técnica de TI, entraves licitatórios/contratuais, descontinuidade administrativa/transição de governo e ausência de priorização pela alta administração); [IR3]
-- P4: Avaliar o status de execução dos planos de ação formalizados pelas prefeituras e conferir as evidências documentais anexadas; [IR4, IR5]
+- P3: Tabular, por município e tema, as respostas negativas ou insuficientes aos 12 controles monitorados, classificando como possível descumprimento apenas os itens constantes do baseline individualizado do respectivo município; [IR1, IR2]
 
 evidencias:
 - E1: Matriz comparativa de cumprimento/reincidência por deliberação monitorada e por prefeitura (cruzamento do baseline 2024 com o survey 2026); [P1, P2]
-- E2: Painel diagnóstico das causas de não cumprimento mapeadas dinamicamente pelo questionário, estratificadas por dimensão temática de controle e por tipologia de entrave alegada pelos gestores; [P3]
-- E3: Relatório analítico sobre o grau de aderência e execução dos planos de ação municipais protocolados no Tribunal; [P4]
+- E2: Tabela consolidada da distribuição dos casos de cumprimento e possível descumprimento por tema de controle e prefeitura; [P3]
 
 o_que_a_analise_permite_dizer:
 - O percentual consolidado e individualizado de cumprimento das 12 deliberações do Acórdão nº 3931/2025 pelas 91 prefeituras fluminenses.
-- A identificação empírica e discriminada das causas reais que impediram a implementação dos controles exigidos, permitindo distinguir entre omissão injustificada e entraves estruturais legítimos (como restrições fiscais ou carência de pessoal qualificado de TI).
-- O grau de comprometimento e efetividade das administrações municipais na condução dos planos de ação protocolados perante a Corte de Contas.
-- Elementos fáticos e técnicos substanciais para orientar a deliberação definitiva do Plenário do TCE-RJ no monitoramento, subsidiando a eventual aplicação de sanções legais em casos de inércia contumaz ou a concessão de novos prazos e medidas orientativas focadas nos entraves reais mapeados.
+- A identificação dos municípios que declararam não possuir controles que deveriam ter implementado em razão dos encaminhamentos individualizados de 2024.
+- A distribuição dos possíveis descumprimentos entre os 12 temas monitorados.
 
 limitacoes_e_cautelas:
-- As causas de não cumprimento capturadas nas questões dinâmicas decorrem de manifestação autodeclarada dos gestores, devendo ser analisadas à luz da consistência das evidências fornecidas e dos indicadores de capacidade técnica do município.
+- A classificação decorre de respostas autodeclaradas e da correspondência entre cada resposta negativa ou insuficiente e o encaminhamento individualizado aplicável ao município.
+- O questionário não coleta causas específicas para cada possível descumprimento nem percentual de execução dos planos de ação.
 - A análise deste levantamento subsidia o processo de monitoramento sem substituir o julgamento plenário definitivo do cumprimento das deliberações.
 ---
 
@@ -762,7 +715,7 @@ gera_achado: false
 questao: QT2. Qual é o perfil de maturidade em proteção de dados pessoais das 91 prefeituras segundo o índice iLGPD 2026, qual a evolução observada desde 2024 e qual é a avaliação dos gestores sobre a efetividade do material didático "Os 6 passos para adequação à LGPD"?
 
 subquestoes:
-- Qual é o nível de maturidade (inicial, básico, intermediário ou aprimorado) alcançado por cada município no iLGPD 2026?
+- Qual é o nível de maturidade (Inexpressivo, Iniciando, Intermediário ou Aprimorado) alcançado por cada município no iLGPD 2026?
 - Houve avanço, estagnação ou retrocesso das práticas municipais entre 2024 e 2026 nos indicadores comparáveis?
 - Em que medida os municípios contrataram consultorias ou soluções tecnológicas de terceiros para suporte à adequação à LGPD?
 - O material didático orientativo elaborado pela equipe de auditoria do TCE-RJ no ciclo anterior ("Os 6 passos para adequação à LGPD" - Anexo 07 do Relatório da Fiscalização nº 60/2024) foi conhecido e utilizado pelas equipes municipais?
@@ -771,38 +724,26 @@ subquestoes:
 - Quais são os principais desafios, deficiências estruturais e pontos de atenção relatados abertamente pelos jurisdicionados?
 
 fontes_de_informacao:
-- F1: Base de dados consolidada das respostas ao questionário eletrônico de 2026 (todos os 11 grupos temáticos).
-- F2: Base histórica de respostas e pontuações da fiscalização temática de 2024 (Processo nº 217.899-0/2024, arquivo results-survey832871.xlsx).
-- F3: Módulos estendidos do questionário (contratações de suporte de TI Q801, avaliação do guia "Os 6 passos" Q802 e considerações abertas Q112).
-- F4: Documento didático de referência do TCE-RJ ("Os 6 passos para adequação à LGPD", Anexo 07 do Relatório da Fiscalização nº 60/2024).
+- F1: Sistema de questionários eletrônicos do TCE-RJ utilizado na fiscalização da LGPD de 2026.
+- F2: Sistema de apoio à fiscalização do TCE-RJ, que mantém a base histórica de respostas e pontuações da fiscalização temática de 2024.
+- F3: Gestores municipais responsáveis pelas informações sobre contratações, pela avaliação do guia "Os 6 passos" e pelas considerações abertas.
+- F4: Repositório institucional do TCE-RJ que mantém o guia "Os 6 passos para adequação à LGPD", Anexo 07 do Relatório da Fiscalização nº 60/2024.
 
 informacoes_requeridas:
 - IR1: Pontuações por dimensão temática e índice geral iLGPD 2026 calculadas para as 91 prefeituras; [F1]
 - IR2: Indicadores comparáveis e histórico de notas do questionário de 2024; [F2]
-- IR3: Informações prestadas sobre contratação de consultorias especializadas e soluções de software para LGPD; [F1, F3, Q801]
-- IR4: Respostas quantitativas e qualitativas sobre o conhecimento, grau de utilização, utilidade prática e efetividade do guia "Os 6 passos para adequação à LGPD" no processo de adequação municipal; [F1, F3, F4, Q802]
-- IR5: Opiniões, críticas e propostas de aprimoramento sugeridas pelos auditados para futuros guias e materiais didáticos do Tribunal; [F1, F3, Q802]
-- IR6: Relatos abertos registrados pelos jurisdicionados sobre os principais desafios e deficiências para a conformidade à LGPD; [F1, Q112]
-
-criterios:
-- id: C1
-  descricao: >-
-    Lei Federal nº 13.709/2018 (LGPD), art. 50 — Parâmetros gerais de governança, maturidade e fomento de boas práticas em privacidade no setor público.
-  natureza_fundamento: norma_legal_vinculante
-  apto_a_fundamentar_determinacao: true
-- id: C2
-  descricao: >-
-    Acórdão nº 3931/2025 do Plenário do TCE-RJ (Processo TCE-RJ nº 217.899-0/2024), Relatório e Voto condutores — Diretriz pedagógica, dialógica e orientadora de controle externo, visando induzir e apoiar o aprimoramento institucional da maturidade em governança e proteção de dados nas prefeituras fluminenses.
-  natureza_fundamento: decisao_tce
-  apto_a_fundamentar_determinacao: false
+- IR3: Informações prestadas sobre contratação de consultorias especializadas e soluções de software para LGPD; [F1, F3, Q111, Q112]
+- IR4: Respostas quantitativas e qualitativas sobre o conhecimento, grau de utilização, utilidade prática e efetividade do guia "Os 6 passos para adequação à LGPD" no processo de adequação municipal; [F1, F3, F4, Q121, Q121[comment], Q122, Q123, Q125]
+- IR5: Opiniões, críticas e propostas de aprimoramento sugeridas pelos auditados para futuros guias e materiais didáticos do Tribunal; [F1, F3, Q124, Q125]
+- IR6: Relatos abertos registrados pelos jurisdicionados sobre os principais desafios e deficiências para a conformidade à LGPD; [F1, Q132]
 
 procedimentos:
 - P1: Calcular o índice iLGPD 2026 para os 91 municípios aplicando a metodologia ponderada do Tribunal; [IR1]
 - P2: Confrontar os índices de 2026 com os resultados históricos de 2024 para mensurar a variação percentual agregada e individual; [IR2]
-- P3: Consolidar os dados relativos a contratações de serviços de terceiros e soluções tecnológicas voltadas à LGPD; [IR3]
-- P4: Tabular e analisar qualitativamente a avaliação dos gestores e Encarregados de dados sobre o guia "Os 6 passos para adequação à LGPD", mensurando seu índice de utilização, relevância percebida e gargalos enfrentados na execução de cada passo; [IR4]
-- P5: Compilar e classificar as propostas de melhoria, críticas e demandas formuladas pelos auditados para subsidiar o aprimoramento pedagógico do Tribunal e potencializar os impactos da fiscalização corrente; [IR5]
-- P6: Mapear e categorizar tematicamente as manifestações abertas registradas pelos gestores no item Q112; [IR6]
+- P3: Consolidar as respostas aos itens Q111 e Q112 relativas a contratações de serviços de terceiros e soluções tecnológicas voltadas à LGPD; [IR3]
+- P4: Tabular e analisar as respostas aos itens Q121, Q122, Q123 e Q125 sobre o guia "Os 6 passos para adequação à LGPD", mensurando utilização, relevância percebida e gargalos enfrentados na execução de cada passo; [IR4]
+- P5: Compilar e classificar as propostas de melhoria, críticas e demandas formuladas nos itens Q124 e Q125 para subsidiar o aprimoramento pedagógico do Tribunal e potencializar os impactos da fiscalização corrente; [IR5]
+- P6: Mapear e categorizar tematicamente as manifestações abertas registradas pelos gestores no item Q132; [IR6]
 
 evidencias:
 - E1: Tabela de escores, ranking e distribuição dos níveis de maturidade no índice iLGPD 2026; [P1]
@@ -816,8 +757,8 @@ o_que_a_analise_permite_dizer:
 - O panorama atualizado e comparativo do grau de conformidade e maturidade das administrações municipais em relação às exigências da LGPD.
 - A mensuração do impacto pedagógico e orientador da atuação prévia do TCE-RJ por meio do guia "Os 6 passos para adequação à LGPD", identificando em que medida o material serviu de suporte prático aos municípios e quais foram seus pontos fortes e limitações.
 - As principais carências, desafios técnicos e demandas relatadas pelos municípios, orientando futuras ações capacitadoras, notas técnicas e materiais instrucionais da Corte de Contas.
-- O mapeamento do ecossistema de contratações públicas de consultorias e soluções tecnológicas no Estado do Rio de Janeiro voltadas à governança em privacidade.
+- O mapeamento do ecossistema de contratações públicas de consultorias e soluções tecnológicas no âmbito municipal voltadas à governança em privacidade.
 
 limitacoes_e_cautelas:
 - Os dados do iLGPD baseiam-se em respostas declaratórias e amostragens documentais, expressando uma aproximação diagnóstica da maturidade institucional.
-- A avaliação qualitativa sobre o material pedagógico reflete a percepção dos atuais gestores e Encarregados, podendo sofrer variações em virtude da rotatividade de equipes decorrente do ciclo eleitoral municipal.
+- A avaliação do material didático expressa a percepção dos respondentes e pode ser influenciada pela rotatividade das equipes municipais.

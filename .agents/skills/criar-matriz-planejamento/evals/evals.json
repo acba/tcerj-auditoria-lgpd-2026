@@ -1,0 +1,29 @@
+[
+  {
+    "name": "normativa_sem_criterio_especifico",
+    "prompt": "Revise uma questão normativa cujo critério diz apenas 'ABNT NBR ISO/IEC 27001:2022' e cujo procedimento diz 'avaliar a governança'.",
+    "expected": [
+      "apontar critério genérico",
+      "exigir cláusula/controle/item específico",
+      "tornar o procedimento executável e específico"
+    ]
+  },
+  {
+    "name": "levantamento_sem_achado",
+    "prompt": "Crie uma questão para descrever a distribuição de maturidade entre os auditados, sem avaliar conformidade individual.",
+    "expected": [
+      "natureza: levantamento",
+      "gera_achado: false",
+      "sem possíveis achados",
+      "com fontes, informações requeridas, procedimentos, evidências e limitações"
+    ]
+  },
+  {
+    "name": "rastreabilidade_quebrada",
+    "prompt": "Revise matriz em que E3 aponta para P5 inexistente e S2.1 referencia C4 inexistente.",
+    "expected": [
+      "detectar ambas as referências inexistentes",
+      "bloquear geração até correção"
+    ]
+  }
+]

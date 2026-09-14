@@ -1,0 +1,40 @@
+{
+  "skill_name": "elaborar-survey-limesurvey",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Valide o SurveyMD anexado e gere o pacote a enviar: um LSS importável e um guia DOCX legível para acompanhar o link do LimeSurvey. Relate grupos, perguntas, erros e avisos.",
+      "expected_output": "Um LSS válido, um DOCX para o respondente e um resumo estrutural sem erros.",
+      "files": ["evals/files/survey-basico.md"],
+      "expectations": [
+        "O comando de revisão termina sem erros estruturais",
+        "O arquivo LSS contém grupos, perguntas, respostas e configurações do survey",
+        "A validação do LSS termina sem erros",
+        "O DOCX contém orientações, perguntas e alternativas, mas não expõe diretivas SurveyMD"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Revise este questionário de autoavaliação. Confirme que a pergunta adoption gera justificativa de não aplicabilidade, detalhamento e upload condicionado, e produza o LSS e o guia DOCX do respondente.",
+      "expected_output": "Um LSS com a macro expandida e um DOCX que apresente o mesmo fluxo em linguagem legível.",
+      "files": ["evals/files/survey-adocao.md"],
+      "expectations": [
+        "O LSS contém os códigos q0201, q0201nsa, q0201ext e q0201evi",
+        "O upload aceita pdf, docx e zip e permite um arquivo",
+        "As expressões de relevância do detalhamento e da evidência dependem do nível de adoção",
+        "O DOCX informa em linguagem humana quando aparecem as perguntas condicionais"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Avalie o SurveyMD anexado e não gere o LSS se houver referência condicional quebrada. Explique o código afetado.",
+      "expected_output": "Falha bloqueante identificando a pergunta inexistente referenciada por visible_if.",
+      "files": ["evals/files/survey-invalido.md"],
+      "expectations": [
+        "A validação retorna código diferente de zero",
+        "A mensagem identifica a referência q9999 como inexistente",
+        "Nenhum LSS é tratado como produto válido"
+      ]
+    }
+  ]
+}

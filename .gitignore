@@ -49,3 +49,6 @@ htmlcov/
 * - Cópia.*
 * - Copia.*
 .env
+
+# Scripts legados da fiscalização LGPD 2024
+00-Estudos_Preliminares/00-Antecedentes/LGPD 2024/99-Scripts/
