@@ -22,6 +22,7 @@ Trate questionários e pareceres produzidos por IA como minutas. A equipe respon
 - `references/quality-review.md`: roteiro de avaliação metodológica, auditorial e de privacidade;
 - `assets/survey-template.md`: ponto de partida editável;
 - `assets/template-questionario.docx`: reference DOCX incorporado para o Pandoc;
+- `assets/template-questionario-tcerj.docx`: template institucional versionado do TCE-RJ para o guia DOCX deste projeto;
 - `evals/`: casos de avaliação da própria skill.
 
 Os scripts não dependem do repositório do usuário, de PyYAML nem de pacotes do LimeSurvey. A geração DOCX segue preferencialmente a abordagem Pandoc com `reference-docx`; se Pandoc não estiver disponível, usa `python-docx` para produzir um documento funcional.

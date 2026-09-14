@@ -28,6 +28,14 @@ from docx.shared import Cm, Inches, Pt, RGBColor
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_REFERENCE_DOCX = (
+    PROJECT_ROOT
+    / ".agents"
+    / "skills"
+    / "elaborar-survey-limesurvey"
+    / "assets"
+    / "template-questionario-tcerj.docx"
+)
 SURVEY_SKILL_SCRIPTS = (
     PROJECT_ROOT / ".agents" / "skills" / "elaborar-survey-limesurvey" / "scripts"
 )
@@ -103,8 +111,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("output", type=Path, help="DOCX institucional de saída.")
     parser.add_argument(
         "--reference-docx",
-        required=True,
         type=Path,
+        default=DEFAULT_REFERENCE_DOCX,
         help="DOCX institucional usado como referência de estilos, cabeçalho e rodapé.",
     )
     return parser.parse_args()
