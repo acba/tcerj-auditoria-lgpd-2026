@@ -98,16 +98,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10004]]></qid>
-    <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10005]]></qid>
+    <qid><![CDATA[10007]]></qid>
     <code><![CDATA[A1]]></code>
     <answer><![CDATA[<p>Sim, os encaminhamentos aplicáveis foram considerados</p>]]></answer>
     <sortorder><![CDATA[1]]></sortorder>
@@ -116,7 +107,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10005]]></qid>
+    <qid><![CDATA[10007]]></qid>
     <code><![CDATA[A2]]></code>
     <answer><![CDATA[<p>Não, os encaminhamentos aplicáveis não foram considerados</p>]]></answer>
     <sortorder><![CDATA[2]]></sortorder>
@@ -125,502 +116,52 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10005]]></qid>
+    <qid><![CDATA[10007]]></qid>
     <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>A organização não conduziu iniciativa de adequação à LGPD</p>]]></answer>
+    <answer><![CDATA[<p>A organização ainda não conduziu iniciativa de adequação à LGPD</p>]]></answer>
     <sortorder><![CDATA[3]]></sortorder>
     <assessment_value><![CDATA[0]]></assessment_value>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10005]]></qid>
-    <code><![CDATA[A4]]></code>
-    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO01]]></code>
-    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO02]]></code>
-    <answer><![CDATA[<p>Não possui plano de capacitação e os colaboradores ainda não realizaram treinamento em proteção de dados pessoais</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO03]]></code>
-    <answer><![CDATA[<p>Não possui plano de capacitação, mas colaboradores específicos já realizaram treinamento em proteção de dados pessoais</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO04]]></code>
-    <answer><![CDATA[<p>Possui plano de capacitação sem conteúdo específico de proteção de dados, mas já realizou treinamento abrangente nessa área</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO05]]></code>
-    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados e já treinou a maioria dos colaboradores</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10015]]></qid>
-    <code><![CDATA[AO06]]></code>
-    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados, prevê treinamento diferenciado para funções essenciais e já treinou todos os colaboradores</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10022]]></qid>
-    <code><![CDATA[AO01]]></code>
-    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10022]]></qid>
-    <code><![CDATA[AO02]]></code>
-    <answer><![CDATA[<p>Não elaborou Política de Privacidade ou instrumento equivalente</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10022]]></qid>
-    <code><![CDATA[AO03]]></code>
-    <answer><![CDATA[<p>Elaborou a política, mas não a divulga no portal institucional</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10022]]></qid>
-    <code><![CDATA[AO04]]></code>
-    <answer><![CDATA[<p>Elaborou a política e a divulga no portal institucional</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10024]]></qid>
-    <code><![CDATA[AO01]]></code>
-    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10024]]></qid>
-    <code><![CDATA[AO02]]></code>
-    <answer><![CDATA[<p>Não foram implementados mecanismos para atender aos direitos dos titulares</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10024]]></qid>
-    <code><![CDATA[AO03]]></code>
-    <answer><![CDATA[<p>Foram implementados mecanismos para atender a alguns direitos, mas não a todos</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10024]]></qid>
-    <code><![CDATA[AO04]]></code>
-    <answer><![CDATA[<p>Foram implementados mecanismos para atender a todos os direitos aplicáveis à organização</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10026]]></qid>
+    <qid><![CDATA[10008]]></qid>
     <code><![CDATA[A1]]></code>
-    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <answer><![CDATA[<p>Sim, o plano foi elaborado no prazo e registrado em processo administrativo</p>]]></answer>
     <sortorder><![CDATA[1]]></sortorder>
     <assessment_value><![CDATA[0]]></assessment_value>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10026]]></qid>
+    <qid><![CDATA[10008]]></qid>
     <code><![CDATA[A2]]></code>
-    <answer><![CDATA[<p>Ainda não avaliou se realiza compartilhamentos ou não identificou todos os dados eventualmente compartilhados</p>]]></answer>
+    <answer><![CDATA[<p>O plano foi registrado em processo administrativo, mas elaborado após o prazo</p>]]></answer>
     <sortorder><![CDATA[2]]></sortorder>
     <assessment_value><![CDATA[0]]></assessment_value>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10026]]></qid>
+    <qid><![CDATA[10008]]></qid>
     <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>Avaliou a existência de compartilhamentos e identificou os dados compartilhados</p>]]></answer>
+    <answer><![CDATA[<p>Existe plano de ação, mas ele não foi registrado em processo administrativo</p>]]></answer>
     <sortorder><![CDATA[3]]></sortorder>
     <assessment_value><![CDATA[0]]></assessment_value>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10026]]></qid>
+    <qid><![CDATA[10008]]></qid>
     <code><![CDATA[A4]]></code>
-    <answer><![CDATA[<p>Identificou os dados e iniciou a avaliação dos compartilhamentos, mas ainda não pode atestar a conformidade de todos</p>]]></answer>
+    <answer><![CDATA[<p>Não existe plano de ação formal</p>]]></answer>
     <sortorder><![CDATA[4]]></sortorder>
     <assessment_value><![CDATA[0]]></assessment_value>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10026]]></qid>
-    <code><![CDATA[A5]]></code>
-    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos e declara que todos atendem aos critérios legais, mas ainda não mantém registro dos eventos</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10026]]></qid>
-    <code><![CDATA[A6]]></code>
-    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos, declara conformidade, disponibiliza informações sobre uso compartilhado e mantém registro detalhado dos eventos</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10027]]></qid>
-    <code><![CDATA[A1]]></code>
-    <answer><![CDATA[<p>Não identificou transferência internacional, mas ainda não avaliou todos os compartilhamentos</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10027]]></qid>
-    <code><![CDATA[A2]]></code>
-    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e não há transferência internacional</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10027]]></qid>
-    <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e há transferência internacional</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10028]]></qid>
-    <code><![CDATA[AO01]]></code>
-    <answer><![CDATA[<p>Ainda não avaliou todas as transferências internacionais</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10028]]></qid>
-    <code><![CDATA[AO02]]></code>
-    <answer><![CDATA[<p>Avaliou as transferências, mas elas ainda não atendem integralmente aos requisitos legais</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10028]]></qid>
-    <code><![CDATA[AO03]]></code>
-    <answer><![CDATA[<p>Avaliou as transferências e declara que elas atendem integralmente aos requisitos legais</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A1]]></code>
-    <answer><![CDATA[<p>Nenhuma solução — 0%</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A2]]></code>
-    <answer><![CDATA[<p>Mais de 0% até 25%</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>Mais de 25% até 50%</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A4]]></code>
-    <answer><![CDATA[<p>Mais de 50% até 75%</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A5]]></code>
-    <answer><![CDATA[<p>Mais de 75% e menos de 100%</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A6]]></code>
-    <answer><![CDATA[<p>Todas as soluções — 100%</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10031]]></qid>
-    <code><![CDATA[A7]]></code>
-    <answer><![CDATA[<p>Não foi possível estimar</p>]]></answer>
-    <sortorder><![CDATA[7]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A1]]></code>
-    <answer><![CDATA[<p>Não conhecia o guia antes deste questionário</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A2]]></code>
-    <answer><![CDATA[<p>Conhecia o guia, mas não chegou a consultá-lo</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A3]]></code>
-    <answer><![CDATA[<p>Consultou o guia, mas não o utilizou para orientar ações</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A4]]></code>
-    <answer><![CDATA[<p>Utilizou o guia para orientar parte das ações de adequação</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A5]]></code>
-    <answer><![CDATA[<p>Utilizou o guia como referência ampla para o processo de adequação</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10037]]></qid>
-    <code><![CDATA[A6]]></code>
-    <answer><![CDATA[<p>Não foi possível informar</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U1]]></code>
-    <answer><![CDATA[<p>Nada útil</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U2]]></code>
-    <answer><![CDATA[<p>Pouco útil</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U3]]></code>
-    <answer><![CDATA[<p>Moderadamente útil</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U4]]></code>
-    <answer><![CDATA[<p>Muito útil</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U5]]></code>
-    <answer><![CDATA[<p>Extremamente útil</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10038]]></qid>
-    <code><![CDATA[U6]]></code>
-    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[NIMP]]></code>
-    <answer><![CDATA[<p>Ainda não tentou implementar</p>]]></answer>
-    <sortorder><![CDATA[1]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[MDIF]]></code>
-    <answer><![CDATA[<p>Muito difícil</p>]]></answer>
-    <sortorder><![CDATA[2]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[DIF]]></code>
-    <answer><![CDATA[<p>Difícil</p>]]></answer>
-    <sortorder><![CDATA[3]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[REG]]></code>
-    <answer><![CDATA[<p>Dificuldade intermediária</p>]]></answer>
-    <sortorder><![CDATA[4]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[FAC]]></code>
-    <answer><![CDATA[<p>Fácil</p>]]></answer>
-    <sortorder><![CDATA[5]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[MFAC]]></code>
-    <answer><![CDATA[<p>Muito fácil</p>]]></answer>
-    <sortorder><![CDATA[6]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[NA]]></code>
-    <answer><![CDATA[<p>Não se aplica à organização</p>]]></answer>
-    <sortorder><![CDATA[7]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10039]]></qid>
-    <code><![CDATA[NINF]]></code>
-    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
-    <sortorder><![CDATA[8]]></sortorder>
-    <assessment_value><![CDATA[0]]></assessment_value>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-   </row>
-   <row>
-    <qid><![CDATA[10044]]></qid>
+    <qid><![CDATA[10020]]></qid>
     <code><![CDATA[A1]]></code>
     <answer><![CDATA[<p>Sim</p>]]></answer>
     <sortorder><![CDATA[1]]></sortorder>
@@ -629,7 +170,529 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[10044]]></qid>
+    <qid><![CDATA[10020]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não possui plano de capacitação e os colaboradores ainda não realizaram treinamento em proteção de dados pessoais</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Não possui plano de capacitação, mas colaboradores específicos já realizaram treinamento em proteção de dados pessoais</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Possui plano de capacitação sem conteúdo específico de proteção de dados, mas já realizou treinamento abrangente nessa área</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados e já treinou a maioria dos colaboradores</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Possui plano com conteúdo de proteção de dados, prevê treinamento diferenciado para funções essenciais e já treinou todos os colaboradores</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10045]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10045]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não elaborou Política de Privacidade ou instrumento equivalente</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10045]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Elaborou a política, mas não a divulga no portal institucional</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10045]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Elaborou a política e a divulga no portal institucional</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10047]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10047]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não foram implementados mecanismos para atender aos direitos dos titulares</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10047]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Foram implementados mecanismos para atender a alguns direitos, mas não a todos</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10047]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Foram implementados mecanismos para atender a todos os direitos aplicáveis à organização</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não se aplica — justifique no campo de comentário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Ainda não avaliou se realiza compartilhamentos ou não identificou todos os dados eventualmente compartilhados</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Avaliou a existência de compartilhamentos e identificou os dados compartilhados</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Identificou os dados e iniciou a avaliação dos compartilhamentos, mas ainda não pode atestar a conformidade de todos</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos e declara que todos atendem aos critérios legais, mas ainda não mantém registro dos eventos</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Identificou e avaliou os compartilhamentos, declara conformidade, disponibiliza informações sobre uso compartilhado e mantém registro detalhado dos eventos</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10054]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não identificou transferência internacional, mas ainda não avaliou todos os compartilhamentos</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10054]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e não há transferência internacional</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10054]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Avaliou todos os compartilhamentos e há transferência internacional</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10055]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Ainda não avaliou todas as transferências internacionais</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10055]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Avaliou as transferências, mas elas ainda não atendem integralmente aos requisitos legais</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10055]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Avaliou as transferências e declara que elas atendem integralmente aos requisitos legais</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Nenhuma solução — 0%</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Mais de 0% até 25%</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Mais de 25% até 50%</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Mais de 50% até 75%</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Mais de 75% e menos de 100%</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A6]]></code>
+    <answer><![CDATA[<p>Todas as soluções — 100%</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10058]]></qid>
+    <code><![CDATA[A7]]></code>
+    <answer><![CDATA[<p>Não foi possível estimar</p>]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10068]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10068]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Não</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Não conhecia o guia antes deste questionário</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[<p>Conhecia o guia, mas não chegou a consultá-lo</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[<p>Consultou o guia, mas não o utilizou para orientar ações</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <code><![CDATA[A4]]></code>
+    <answer><![CDATA[<p>Utilizou o guia para orientar parte das ações de adequação</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10070]]></qid>
+    <code><![CDATA[A5]]></code>
+    <answer><![CDATA[<p>Utilizou o guia como referência ampla para o processo de adequação</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U1]]></code>
+    <answer><![CDATA[<p>Nada útil</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U2]]></code>
+    <answer><![CDATA[<p>Pouco útil</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U3]]></code>
+    <answer><![CDATA[<p>Moderadamente útil</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U4]]></code>
+    <answer><![CDATA[<p>Muito útil</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U5]]></code>
+    <answer><![CDATA[<p>Extremamente útil</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10071]]></qid>
+    <code><![CDATA[U6]]></code>
+    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[NIMP]]></code>
+    <answer><![CDATA[<p>Ainda não tentou implementar</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[MDIF]]></code>
+    <answer><![CDATA[<p>Muito difícil</p>]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[DIF]]></code>
+    <answer><![CDATA[<p>Difícil</p>]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[REG]]></code>
+    <answer><![CDATA[<p>Dificuldade intermediária</p>]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[FAC]]></code>
+    <answer><![CDATA[<p>Fácil</p>]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[MFAC]]></code>
+    <answer><![CDATA[<p>Muito fácil</p>]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[<p>Não se aplica à organização</p>]]></answer>
+    <sortorder><![CDATA[7]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10072]]></qid>
+    <code><![CDATA[NINF]]></code>
+    <answer><![CDATA[<p>Não foi possível avaliar</p>]]></answer>
+    <sortorder><![CDATA[8]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10077]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[<p>Sim</p>]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10077]]></qid>
     <code><![CDATA[A2]]></code>
     <answer><![CDATA[<p>Não</p>]]></answer>
     <sortorder><![CDATA[2]]></sortorder>
@@ -697,144 +760,144 @@
    </row>
    <row>
     <cid><![CDATA[6]]></cid>
-    <qid><![CDATA[10007]]></qid>
-    <cqid><![CDATA[10006]]></cqid>
-    <cfieldname><![CDATA[220026X1002X10006SQ009]]></cfieldname>
+    <qid><![CDATA[10005]]></qid>
+    <cqid><![CDATA[10004]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10004]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A1]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[7]]></cid>
-    <qid><![CDATA[10008]]></qid>
-    <cqid><![CDATA[10006]]></cqid>
-    <cfieldname><![CDATA[220026X1002X10006SQ005]]></cfieldname>
+    <qid><![CDATA[10006]]></qid>
+    <cqid><![CDATA[10004]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10004]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A2]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[8]]></cid>
-    <qid><![CDATA[10010]]></qid>
-    <cqid><![CDATA[10009]]></cqid>
-    <cfieldname><![CDATA[220026X1003X10009SQ003]]></cfieldname>
+    <qid><![CDATA[10009]]></qid>
+    <cqid><![CDATA[10008]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10008]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A1]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[9]]></cid>
-    <qid><![CDATA[10011]]></qid>
-    <cqid><![CDATA[10009]]></cqid>
-    <cfieldname><![CDATA[220026X1003X10009SQ001]]></cfieldname>
+    <qid><![CDATA[10010]]></qid>
+    <cqid><![CDATA[10008]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10008]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A2]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[10]]></cid>
-    <qid><![CDATA[10012]]></qid>
-    <cqid><![CDATA[10009]]></cqid>
-    <cfieldname><![CDATA[220026X1003X10009SQ002]]></cfieldname>
+    <qid><![CDATA[10010]]></qid>
+    <cqid><![CDATA[10008]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10008]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A3]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[11]]></cid>
-    <qid><![CDATA[10013]]></qid>
-    <cqid><![CDATA[10009]]></cqid>
-    <cfieldname><![CDATA[220026X1003X10009SQ004]]></cfieldname>
+    <qid><![CDATA[10010]]></qid>
+    <cqid><![CDATA[10008]]></cqid>
+    <cfieldname><![CDATA[220026X1001X10008]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
+    <value><![CDATA[A4]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[12]]></cid>
-    <qid><![CDATA[10014]]></qid>
-    <cqid><![CDATA[10009]]></cqid>
-    <cfieldname><![CDATA[220026X1003X10009SQ005]]></cfieldname>
+    <qid><![CDATA[10012]]></qid>
+    <cqid><![CDATA[10011]]></cqid>
+    <cfieldname><![CDATA[220026X1002X10011SQ009]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[13]]></cid>
-    <qid><![CDATA[10016]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <qid><![CDATA[10013]]></qid>
+    <cqid><![CDATA[10011]]></cqid>
+    <cfieldname><![CDATA[220026X1002X10011SQ005]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO04]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[14]]></cid>
-    <qid><![CDATA[10016]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <qid><![CDATA[10015]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ003]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO05]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[15]]></cid>
     <qid><![CDATA[10016]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ001]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO06]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[16]]></cid>
     <qid><![CDATA[10017]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ002]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO03]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[17]]></cid>
-    <qid><![CDATA[10017]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <qid><![CDATA[10018]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ004]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO04]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[18]]></cid>
-    <qid><![CDATA[10017]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <qid><![CDATA[10019]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ005]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO05]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[19]]></cid>
-    <qid><![CDATA[10017]]></qid>
-    <cqid><![CDATA[10015]]></cqid>
-    <cfieldname><![CDATA[220026X1004X10015]]></cfieldname>
+    <qid><![CDATA[10020]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ001]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO06]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[20]]></cid>
-    <qid><![CDATA[10019]]></qid>
-    <cqid><![CDATA[10018]]></cqid>
-    <cfieldname><![CDATA[220026X1005X10018SQ008]]></cfieldname>
+    <qid><![CDATA[10021]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ003]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[21]]></cid>
-    <qid><![CDATA[10021]]></qid>
-    <cqid><![CDATA[10018]]></cqid>
-    <cfieldname><![CDATA[220026X1005X10018SQ009]]></cfieldname>
+    <qid><![CDATA[10022]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ004]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
@@ -842,152 +905,485 @@
    <row>
     <cid><![CDATA[22]]></cid>
     <qid><![CDATA[10023]]></qid>
-    <cqid><![CDATA[10022]]></cqid>
-    <cfieldname><![CDATA[220026X1006X10022]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[AO03]]></value>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ004]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[23]]></cid>
-    <qid><![CDATA[10023]]></qid>
-    <cqid><![CDATA[10022]]></cqid>
-    <cfieldname><![CDATA[220026X1006X10022]]></cfieldname>
+    <qid><![CDATA[10024]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ005]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO04]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[24]]></cid>
     <qid><![CDATA[10025]]></qid>
-    <cqid><![CDATA[10024]]></cqid>
-    <cfieldname><![CDATA[220026X1006X10024]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[AO03]]></value>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ005]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[25]]></cid>
-    <qid><![CDATA[10025]]></qid>
-    <cqid><![CDATA[10024]]></cqid>
-    <cfieldname><![CDATA[220026X1006X10024]]></cfieldname>
+    <qid><![CDATA[10030]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ002]]></cfieldname>
     <method><![CDATA[==]]></method>
-    <value><![CDATA[AO04]]></value>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[26]]></cid>
-    <qid><![CDATA[10027]]></qid>
-    <cqid><![CDATA[10026]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[A3]]></value>
+    <qid><![CDATA[10031]]></qid>
+    <cqid><![CDATA[10014]]></cqid>
+    <cfieldname><![CDATA[220026X1003X10014SQ002]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[27]]></cid>
-    <qid><![CDATA[10027]]></qid>
-    <cqid><![CDATA[10026]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <qid><![CDATA[10033]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A4]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[28]]></cid>
-    <qid><![CDATA[10027]]></qid>
-    <cqid><![CDATA[10026]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <qid><![CDATA[10033]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A5]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[29]]></cid>
-    <qid><![CDATA[10027]]></qid>
-    <cqid><![CDATA[10026]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10026]]></cfieldname>
+    <qid><![CDATA[10033]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A6]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[30]]></cid>
-    <qid><![CDATA[10028]]></qid>
-    <cqid><![CDATA[10027]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10027]]></cfieldname>
+    <qid><![CDATA[10034]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A3]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
     <cid><![CDATA[31]]></cid>
-    <qid><![CDATA[10030]]></qid>
-    <cqid><![CDATA[10029]]></cqid>
-    <cfieldname><![CDATA[220026X1007X10029SQ001]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
-    <scenario><![CDATA[1]]></scenario>
-   </row>
-   <row>
-    <cid><![CDATA[32]]></cid>
-    <qid><![CDATA[10033]]></qid>
+    <qid><![CDATA[10034]]></qid>
     <cqid><![CDATA[10032]]></cqid>
-    <cfieldname><![CDATA[220026X1008X10032SQ001]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
-    <scenario><![CDATA[1]]></scenario>
-   </row>
-   <row>
-    <cid><![CDATA[33]]></cid>
-    <qid><![CDATA[10038]]></qid>
-    <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[A3]]></value>
-    <scenario><![CDATA[1]]></scenario>
-   </row>
-   <row>
-    <cid><![CDATA[34]]></cid>
-    <qid><![CDATA[10038]]></qid>
-    <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A4]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
-    <cid><![CDATA[35]]></cid>
-    <qid><![CDATA[10038]]></qid>
-    <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <cid><![CDATA[32]]></cid>
+    <qid><![CDATA[10034]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A5]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
+    <cid><![CDATA[33]]></cid>
+    <qid><![CDATA[10034]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A6]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[34]]></cid>
+    <qid><![CDATA[10035]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[35]]></cid>
+    <qid><![CDATA[10035]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A6]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
     <cid><![CDATA[36]]></cid>
-    <qid><![CDATA[10039]]></qid>
-    <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <qid><![CDATA[10036]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A1]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[37]]></cid>
+    <qid><![CDATA[10036]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A2]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[38]]></cid>
+    <qid><![CDATA[10036]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A3]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
-    <cid><![CDATA[37]]></cid>
-    <qid><![CDATA[10039]]></qid>
-    <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <cid><![CDATA[39]]></cid>
+    <qid><![CDATA[10036]]></qid>
+    <cqid><![CDATA[10032]]></cqid>
+    <cfieldname><![CDATA[220026X1004X10032]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A4]]></value>
     <scenario><![CDATA[1]]></scenario>
    </row>
    <row>
-    <cid><![CDATA[38]]></cid>
-    <qid><![CDATA[10039]]></qid>
+    <cid><![CDATA[40]]></cid>
+    <qid><![CDATA[10038]]></qid>
     <cqid><![CDATA[10037]]></cqid>
-    <cfieldname><![CDATA[220026X1011X10037]]></cfieldname>
+    <cfieldname><![CDATA[220026X1005X10037SQ008]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[41]]></cid>
+    <qid><![CDATA[10040]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10037SQ009]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[42]]></cid>
+    <qid><![CDATA[10041]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10037SQ005]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[43]]></cid>
+    <qid><![CDATA[10042]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10037SQ005]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[44]]></cid>
+    <qid><![CDATA[10043]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10037SQ008]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[45]]></cid>
+    <qid><![CDATA[10044]]></qid>
+    <cqid><![CDATA[10037]]></cqid>
+    <cfieldname><![CDATA[220026X1005X10037SQ008]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[46]]></cid>
+    <qid><![CDATA[10046]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[47]]></cid>
+    <qid><![CDATA[10046]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[48]]></cid>
+    <qid><![CDATA[10048]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[49]]></cid>
+    <qid><![CDATA[10048]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[50]]></cid>
+    <qid><![CDATA[10049]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[51]]></cid>
+    <qid><![CDATA[10050]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A1]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[52]]></cid>
+    <qid><![CDATA[10050]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A2]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[53]]></cid>
+    <qid><![CDATA[10050]]></qid>
+    <cqid><![CDATA[10045]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10045]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[54]]></cid>
+    <qid><![CDATA[10051]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[55]]></cid>
+    <qid><![CDATA[10052]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A1]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[56]]></cid>
+    <qid><![CDATA[10052]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A2]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[57]]></cid>
+    <qid><![CDATA[10052]]></qid>
+    <cqid><![CDATA[10047]]></cqid>
+    <cfieldname><![CDATA[220026X1006X10047]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[58]]></cid>
+    <qid><![CDATA[10054]]></qid>
+    <cqid><![CDATA[10053]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10053]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[59]]></cid>
+    <qid><![CDATA[10054]]></qid>
+    <cqid><![CDATA[10053]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10053]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[60]]></cid>
+    <qid><![CDATA[10054]]></qid>
+    <cqid><![CDATA[10053]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10053]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[61]]></cid>
+    <qid><![CDATA[10054]]></qid>
+    <cqid><![CDATA[10053]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10053]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A6]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[62]]></cid>
+    <qid><![CDATA[10055]]></qid>
+    <cqid><![CDATA[10054]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10054]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[63]]></cid>
+    <qid><![CDATA[10057]]></qid>
+    <cqid><![CDATA[10056]]></cqid>
+    <cfieldname><![CDATA[220026X1007X10056SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[64]]></cid>
+    <qid><![CDATA[10060]]></qid>
+    <cqid><![CDATA[10059]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10059SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[65]]></cid>
+    <qid><![CDATA[10061]]></qid>
+    <cqid><![CDATA[10059]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10059SQ001]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[66]]></cid>
+    <qid><![CDATA[10062]]></qid>
+    <cqid><![CDATA[10059]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10059SQ001]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[67]]></cid>
+    <qid><![CDATA[10063]]></qid>
+    <cqid><![CDATA[10059]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10059SQ005]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[68]]></cid>
+    <qid><![CDATA[10064]]></qid>
+    <cqid><![CDATA[10059]]></cqid>
+    <cfieldname><![CDATA[220026X1008X10059SQ005]]></cfieldname>
+    <method><![CDATA[!=]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[69]]></cid>
+    <qid><![CDATA[10069]]></qid>
+    <cqid><![CDATA[10068]]></cqid>
+    <cfieldname><![CDATA[220026X1010X10068]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A1]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[70]]></cid>
+    <qid><![CDATA[10071]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[71]]></cid>
+    <qid><![CDATA[10071]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[72]]></cid>
+    <qid><![CDATA[10071]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A5]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[73]]></cid>
+    <qid><![CDATA[10072]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A3]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[74]]></cid>
+    <qid><![CDATA[10072]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[A4]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[75]]></cid>
+    <qid><![CDATA[10072]]></qid>
+    <cqid><![CDATA[10070]]></cqid>
+    <cfieldname><![CDATA[220026X1011X10070]]></cfieldname>
     <method><![CDATA[==]]></method>
     <value><![CDATA[A5]]></value>
     <scenario><![CDATA[1]]></scenario>
@@ -1285,7 +1681,7 @@
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1001]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q21]]></title>
     <question><![CDATA[<p><strong>2.1. A organização conduziu iniciativas para identificar, planejar e executar medidas preparatórias com vistas à adequação à LGPD?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1305,7 +1701,7 @@
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1001]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q211]]></title>
+    <title><![CDATA[Q211evi]]></title>
     <question><![CDATA[<p><strong>2.1.1. Anexe o plano de ação, plano de projeto ou instrumento equivalente que direciona a adequação à LGPD.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie um PDF, DOCX ou ZIP contendo somente os elementos necessários; oculte dados pessoais e informações sigilosas sem pertinência.</p>]]></help>
@@ -1324,7 +1720,7 @@
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1001]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q212]]></title>
+    <title><![CDATA[Q212evi]]></title>
     <question><![CDATA[<p><strong>2.1.2. Anexe o programa de governança em privacidade da organização.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente, preferencialmente com referência ao ato ou processo de aprovação.</p>]]></help>
@@ -1342,7 +1738,7 @@
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1001]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q22]]></title>
     <question><![CDATA[<p><strong>2.2. A organização instituiu uma comissão ou grupo de trabalho multissetorial com a participação do encarregado pelo tratamento de dados pessoais, disposto no art. 41 da LGPD, para planejar, estabelecer, gerenciar e monitorar as medidas a serem tomadas na adequação do ente à Lei Geral de Proteção de Dados Pessoais?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1361,14 +1757,52 @@
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1001]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC112S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.12 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter a comissão ou o grupo de trabalho multissetorial, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1001X10004.NAOK == "A1"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10006]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC112N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.12 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a não instituição da comissão ou do grupo de trabalho multissetorial?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1001X10004.NAOK == "A2"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10007]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q23]]></title>
     <question><![CDATA[<p><strong>2.3. A organização considerou em sua iniciativa de adequação à LGPD os encaminhamentos do Acórdão nº 3931/2025?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Considere os encaminhamentos aplicáveis à organização. No comentário, indique o plano, processo, ato ou outra iniciativa em que foram considerados.</p>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[4]]></question_order>
+    <question_order><![CDATA[6]]></question_order>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
@@ -1376,7 +1810,64 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10006]]></qid>
+    <qid><![CDATA[10008]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q24]]></title>
+    <question><![CDATA[<p><strong>2.4. A organização elaborou o Plano de Ação previsto no item 1.1 do Acórdão nº 3931/2025 e o registrou em processo administrativo?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Considere o prazo de 60 dias contado da ciência da decisão. No comentário, informe a data de conclusão do plano e o número do processo administrativo, quando existentes.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10009]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC11S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.1 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar e registrar tempestivamente o Plano de Ação, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1001X10008.NAOK == "A1"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10010]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1001]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC11N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.1 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam o atraso, a falta de registro em processo administrativo ou a inexistência do Plano de Ação?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1001X10008.NAOK == "A2" or 220026X1001X10008.NAOK == "A3" or 220026X1001X10008.NAOK == "A4")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10011]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
@@ -1395,12 +1886,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10007]]></qid>
+    <qid><![CDATA[10012]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q31riscoevi]]></title>
+    <title><![CDATA[Q311evi]]></title>
     <question><![CDATA[<p><strong>3.1.1. Anexe a matriz, relatório ou registro utilizado para identificar e avaliar riscos associados aos tratamentos de dados pessoais.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>É suficiente um extrato que demonstre escopo, metodologia, riscos, responsáveis e tratamento previsto, com ocultação de informações desnecessárias.</p>]]></help>
@@ -1410,16 +1901,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1002X10006SQ009.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1002X10011SQ009.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10008]]></qid>
+    <qid><![CDATA[10013]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q31evi]]></title>
+    <title><![CDATA[Q312evi]]></title>
     <question><![CDATA[<p><strong>3.1.2. Anexe instrumento contratual ou extrato que demonstre a definição de papéis e responsabilidades de operador ou controlador conjunto.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Oculte valores, assinaturas, dados pessoais e informações sigilosas que não sejam necessários à avaliação das cláusulas de proteção de dados.</p>]]></help>
@@ -1429,11 +1920,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1002X10006SQ005.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1002X10011SQ005.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10009]]></qid>
+    <qid><![CDATA[10014]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
@@ -1452,12 +1943,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10010]]></qid>
+    <qid><![CDATA[10015]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q411]]></title>
+    <title><![CDATA[Q411evi]]></title>
     <question><![CDATA[<p><strong>4.1.1. Anexe a Política de Proteção de Dados Pessoais ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente, com referência ao ato de aprovação e à publicação, quando existente.</p>]]></help>
@@ -1467,16 +1958,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1003X10009SQ003.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1003X10014SQ003.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10011]]></qid>
+    <qid><![CDATA[10016]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q412]]></title>
+    <title><![CDATA[Q412evi]]></title>
     <question><![CDATA[<p><strong>4.1.2. Anexe a Política de Segurança da Informação ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente.</p>]]></help>
@@ -1486,16 +1977,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1003X10009SQ001.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1003X10014SQ001.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10012]]></qid>
+    <qid><![CDATA[10017]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q413]]></title>
+    <title><![CDATA[Q413evi]]></title>
     <question><![CDATA[<p><strong>4.1.3. Anexe a Política de Classificação da Informação ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente, inclusive as regras aplicáveis a dados pessoais sensíveis e a dados de crianças e adolescentes.</p>]]></help>
@@ -1505,16 +1996,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1003X10009SQ002.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1003X10014SQ002.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10013]]></qid>
+    <qid><![CDATA[10018]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q414]]></title>
+    <title><![CDATA[Q414evi]]></title>
     <question><![CDATA[<p><strong>4.1.4. Anexe o ato formal de designação do Encarregado pelo tratamento de dados pessoais.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie o ato publicado ou documento que permita confirmar autoridade signatária, vigência e publicação oficial.</p>]]></help>
@@ -1524,11 +2015,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1003X10009SQ004.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1003X10014SQ004.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10014]]></qid>
+    <qid><![CDATA[10019]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
@@ -1543,15 +2034,243 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1003X10009SQ005.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1003X10014SQ005.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10015]]></qid>
+    <qid><![CDATA[10020]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q416]]></title>
+    <question><![CDATA[<p><strong>4.1.6. A Política de Segurança da Informação ou instrumento equivalente foi publicada em veículo ou canal oficial?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ001.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10021]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q417]]></title>
+    <question><![CDATA[<p><strong>4.1.7. A Política de Proteção de Dados Pessoais ou instrumento equivalente foi publicada em veículo ou canal oficial?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ003.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10022]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC12S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.2 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para nomear o Encarregado e publicar o ato de designação, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ004.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10023]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC12N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.2 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de nomeação do Encarregado ou de publicação do ato de designação?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ004.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10024]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC13S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.3 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para divulgar no portal a identidade e os contatos do Encarregado, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ005.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10025]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC13N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.3 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de divulgação, no portal, da identidade e dos contatos do Encarregado?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ005.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10026]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC15S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.5 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e publicar a Política de Segurança da Informação, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[12]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ001.NAOK == "Y" and 220026X1003X10020.NAOK == "A1"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10027]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC15N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.5 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Segurança da Informação?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[13]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ001.NAOK != "Y" or 220026X1003X10020.NAOK == "A2"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10028]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC16S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.6 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e publicar a Política de Proteção de Dados Pessoais, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[14]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ003.NAOK == "Y" and 220026X1003X10021.NAOK == "A1"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10029]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC16N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.6 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Proteção de Dados Pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[15]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ003.NAOK != "Y" or 220026X1003X10021.NAOK == "A2"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10030]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC114S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.14 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter atualizada a Política de Classificação da Informação, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[16]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ002.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10031]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1003]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC114N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.14 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a desatualização da Política de Classificação da Informação?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[17]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1003X10014SQ002.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10032]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q51]]></title>
     <question><![CDATA[<p><strong>5.1. Acerca da capacitação dos colaboradores em proteção de dados pessoais, qual alternativa melhor representa a organização?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1566,12 +2285,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10016]]></qid>
+    <qid><![CDATA[10033]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q511]]></title>
+    <title><![CDATA[Q511evi]]></title>
     <question><![CDATA[<p><strong>5.1.1. Anexe o Plano de Capacitação ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente; não inclua listas nominais quando dados agregados forem suficientes.</p>]]></help>
@@ -1581,11 +2300,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1004X10015.NAOK == "AO04" or 220026X1004X10015.NAOK == "AO05" or 220026X1004X10015.NAOK == "AO06")))]]></relevance>
+    <relevance><![CDATA[(((220026X1004X10032.NAOK == "A4" or 220026X1004X10032.NAOK == "A5" or 220026X1004X10032.NAOK == "A6")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10017]]></qid>
+    <qid><![CDATA[10034]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
@@ -1600,11 +2319,49 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1004X10015.NAOK == "AO03" or 220026X1004X10015.NAOK == "AO04" or 220026X1004X10015.NAOK == "AO05" or 220026X1004X10015.NAOK == "AO06")))]]></relevance>
+    <relevance><![CDATA[(((220026X1004X10032.NAOK == "A3" or 220026X1004X10032.NAOK == "A4" or 220026X1004X10032.NAOK == "A5" or 220026X1004X10032.NAOK == "A6")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10018]]></qid>
+    <qid><![CDATA[10035]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC113S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.13 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para planejar e realizar a capacitação em proteção de dados pessoais, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1004X10032.NAOK == "A5" or 220026X1004X10032.NAOK == "A6")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10036]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1004]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC113N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.13 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a insuficiência do plano e das ações de capacitação em proteção de dados pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1004X10032.NAOK == "A1" or 220026X1004X10032.NAOK == "A2" or 220026X1004X10032.NAOK == "A3" or 220026X1004X10032.NAOK == "A4")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10037]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
@@ -1623,12 +2380,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10019]]></qid>
+    <qid><![CDATA[10038]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q611]]></title>
+    <title><![CDATA[Q611evi]]></title>
     <question><![CDATA[<p><strong>6.1.1. Anexe um Relatório de Impacto à Proteção de Dados Pessoais elaborado pela organização.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Oculte dados pessoais, detalhes técnicos exploráveis e outras informações não necessárias à avaliação da estrutura do RIPD.</p>]]></help>
@@ -1638,16 +2395,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1005X10018SQ008.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1005X10037SQ008.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10020]]></qid>
+    <qid><![CDATA[10039]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q612]]></title>
+    <title><![CDATA[Q612evi]]></title>
     <question><![CDATA[<p><strong>6.1.2. Anexe o Inventário de Dados Pessoais mantido pela organização.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>É suficiente versão ou extrato que permita avaliar aprovação, atualização e conteúdo; oculte registros individuais e dados pessoais desnecessários.</p>]]></help>
@@ -1657,16 +2414,16 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1005X10018SQ005.NAOK == "Y" or 220026X1005X10018SQ006.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1005X10037SQ005.NAOK == "Y" or 220026X1005X10037SQ006.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10021]]></qid>
+    <qid><![CDATA[10040]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q61controleevi]]></title>
+    <title><![CDATA[Q613evi]]></title>
     <question><![CDATA[<p><strong>6.1.3. Anexe plano ou registro que demonstre a implementação e o monitoramento dos controles destinados a mitigar riscos apontados no RIPD.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie somente o necessário para identificar controle, responsável, prazo, situação e evidência de acompanhamento.</p>]]></help>
@@ -1676,15 +2433,91 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1005X10018SQ009.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1005X10037SQ009.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10022]]></qid>
+    <qid><![CDATA[10041]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC14S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.4 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar e manter o Inventário de Dados Pessoais, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10037SQ005.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10042]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC14N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.4 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Inventário de Dados Pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10037SQ005.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10043]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC19S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.9 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar o Relatório de Impacto à Proteção de Dados Pessoais, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10037SQ008.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10044]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1005]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC19N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.9 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Relatório de Impacto à Proteção de Dados Pessoais?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1005X10037SQ008.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10045]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1006]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q71]]></title>
     <question><![CDATA[<p><strong>7.1. A organização elaborou e divulga no portal institucional Política de Privacidade ou instrumento equivalente?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1699,12 +2532,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10023]]></qid>
+    <qid><![CDATA[10046]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1006]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q711]]></title>
+    <title><![CDATA[Q711evi]]></title>
     <question><![CDATA[<p><strong>7.1.1. Anexe a Política de Privacidade ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente.</p>]]></help>
@@ -1714,15 +2547,15 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1006X10022.NAOK == "AO03" or 220026X1006X10022.NAOK == "AO04")))]]></relevance>
+    <relevance><![CDATA[(((220026X1006X10045.NAOK == "A3" or 220026X1006X10045.NAOK == "A4")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10024]]></qid>
+    <qid><![CDATA[10047]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1006]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q72]]></title>
     <question><![CDATA[<p><strong>7.2. Foram implementados mecanismos para atender aos direitos dos titulares aplicáveis à organização, previstos nos arts. 9º e 18 da LGPD?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1737,12 +2570,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10025]]></qid>
+    <qid><![CDATA[10048]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1006]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q72evi]]></title>
+    <title><![CDATA[Q721evi]]></title>
     <question><![CDATA[<p><strong>7.2.1. Anexe o procedimento ou fluxo vigente para atendimento aos direitos dos titulares.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Oculte dados de requerentes e protocolos individuais; envie apenas o fluxo, formulário, norma ou registro necessário para demonstrar o mecanismo.</p>]]></help>
@@ -1752,15 +2585,91 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1006X10024.NAOK == "AO03" or 220026X1006X10024.NAOK == "AO04")))]]></relevance>
+    <relevance><![CDATA[(((220026X1006X10047.NAOK == "A3" or 220026X1006X10047.NAOK == "A4")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10026]]></qid>
+    <qid><![CDATA[10049]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC17S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.7 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e divulgar a Política de Privacidade no portal, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1006X10045.NAOK == "A4"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10050]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC17N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.7 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a falta de divulgação da Política de Privacidade no portal?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1006X10045.NAOK == "A1" or 220026X1006X10045.NAOK == "A2" or 220026X1006X10045.NAOK == "A3")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10051]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC18S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para implementar mecanismos destinados ao atendimento de todos os direitos aplicáveis dos titulares, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1006X10047.NAOK == "A4"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10052]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1006]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC18N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a cobertura parcial dos mecanismos de atendimento aos direitos dos titulares?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(((220026X1006X10047.NAOK == "A1" or 220026X1006X10047.NAOK == "A2" or 220026X1006X10047.NAOK == "A3")))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10053]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q81]]></title>
     <question><![CDATA[<p><strong>8.1. Quanto aos compartilhamentos de dados pessoais com terceiros, qual alternativa melhor representa a organização?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1775,11 +2684,11 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10027]]></qid>
+    <qid><![CDATA[10054]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q811]]></title>
     <question><![CDATA[<p><strong>8.1.1. A organização realiza transferência internacional de dados pessoais?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1790,15 +2699,15 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1007X10026.NAOK == "A3" or 220026X1007X10026.NAOK == "A4" or 220026X1007X10026.NAOK == "A5" or 220026X1007X10026.NAOK == "A6")))]]></relevance>
+    <relevance><![CDATA[(((220026X1007X10053.NAOK == "A3" or 220026X1007X10053.NAOK == "A4" or 220026X1007X10053.NAOK == "A5" or 220026X1007X10053.NAOK == "A6")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10028]]></qid>
+    <qid><![CDATA[10055]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q8111]]></title>
     <question><![CDATA[<p><strong>8.1.1.1. As transferências internacionais identificadas foram avaliadas quanto aos requisitos da LGPD, em especial o art. 33?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1809,11 +2718,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1007X10027.NAOK == "A3"))]]></relevance>
+    <relevance><![CDATA[((220026X1007X10054.NAOK == "A3"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10029]]></qid>
+    <qid><![CDATA[10056]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
@@ -1832,12 +2741,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10030]]></qid>
+    <qid><![CDATA[10057]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q812evi]]></title>
+    <title><![CDATA[Q8121evi]]></title>
     <question><![CDATA[<p><strong>8.1.2.1. Anexe contrato ou extrato contratual vigente com provedor de nuvem que trate dados pessoais.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>O extrato deve permitir avaliar as cláusulas de proteção de dados; oculte valores, assinaturas, credenciais e informações sem pertinência.</p>]]></help>
@@ -1847,15 +2756,15 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1007X10029SQ001.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1007X10056SQ001.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10031]]></qid>
+    <qid><![CDATA[10058]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q82]]></title>
     <question><![CDATA[<p><strong>8.2. Qual é a proporção aproximada das soluções tecnológicas da organização que tratam dados pessoais e utilizam serviços de computação em nuvem?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1870,7 +2779,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10032]]></qid>
+    <qid><![CDATA[10059]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
@@ -1889,12 +2798,12 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10033]]></qid>
+    <qid><![CDATA[10060]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[|]]></type>
-    <title><![CDATA[Q911]]></title>
+    <title><![CDATA[Q911evi]]></title>
     <question><![CDATA[<p><strong>9.1.1. Anexe o Plano de Resposta a Incidentes ou instrumento equivalente.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Envie a versão aprovada e vigente; oculte contatos pessoais, credenciais e detalhes técnicos exploráveis não necessários.</p>]]></help>
@@ -1904,11 +2813,87 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1008X10032SQ001.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1008X10059SQ001.NAOK == "Y"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10034]]></qid>
+    <qid><![CDATA[10061]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC110S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.10 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter atualizado o Plano de Resposta a Incidentes, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1008X10059SQ001.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10062]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC110N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.10 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a desatualização do Plano de Resposta a Incidentes?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1008X10059SQ001.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10063]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC111S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.11 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para estabelecer o procedimento de comunicação de incidentes à ANPD e aos titulares, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1008X10059SQ005.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10064]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1008]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC111N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.11 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do procedimento de comunicação de incidentes à ANPD e aos titulares?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1008X10059SQ005.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10065]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
@@ -1927,15 +2912,53 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10035]]></qid>
+    <qid><![CDATA[10066]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC115S]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.15 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para implementar a gestão de usuários, a criptografia em trânsito, o firewall ou WAF e a proteção do correio eletrônico, e como elas foram superadas?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1009X10065SQ002.NAOK == "Y" and 220026X1009X10065SQ005.NAOK == "Y" and 220026X1009X10065SQ010.NAOK == "Y" and 220026X1009X10065SQ011.NAOK == "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10067]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[220026]]></sid>
+    <gid><![CDATA[1009]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[QAC115N]]></title>
+    <question><![CDATA[<p><strong>Monitoramento do item 1.15 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a implementação parcial ou inexistente da gestão de usuários, da criptografia em trânsito, do firewall ou WAF e da proteção do correio eletrônico?</strong></p>]]></question>
+    <preg><![CDATA[]]></preg>
+    <help><![CDATA[<p>Identifique quais medidas permanecem pendentes e descreva as causas e os fatos concretos. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.</p>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[pt-BR]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((220026X1009X10065SQ002.NAOK != "Y" or 220026X1009X10065SQ005.NAOK != "Y" or 220026X1009X10065SQ010.NAOK != "Y" or 220026X1009X10065SQ011.NAOK != "Y"))]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10068]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q111]]></title>
-    <question><![CDATA[<p><strong>11.1. Desde janeiro de 2024, a organização contratou ou manteve contratos para apoiar a adequação à LGPD nas seguintes categorias?</strong></p>]]></question>
+    <question><![CDATA[<p><strong>11.1. Desde janeiro de 2024, a organização contratou ou manteve pelo menos um contrato para apoiar sua adequação à LGPD?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
+    <help><![CDATA[<p>Considere contratações de consultoria, assessoria jurídica, Encarregado como serviço, capacitação, segurança da informação, inventário ou registro de operações, atendimento aos titulares e outras soluções ou serviços relacionados à adequação à LGPD.</p>]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
     <question_order><![CDATA[0]]></question_order>
@@ -1946,13 +2969,13 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10036]]></qid>
+    <qid><![CDATA[10069]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1010]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[Q112]]></title>
-    <question><![CDATA[<p><strong>11.2. Descreva sucintamente as contratações assinaladas, indicando categoria, objeto, situação do contrato e unidade gestora.</strong></p>]]></question>
+    <question><![CDATA[<p><strong>11.2. Descreva sucintamente cada contratação relacionada à adequação à LGPD, indicando a categoria do serviço ou solução, o objeto, a situação do contrato e a unidade gestora.</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[<p>Não informe dados pessoais de representantes, valores sigilosos ou outras informações sem necessidade para o diagnóstico.</p>]]></help>
     <other><![CDATA[N]]></other>
@@ -1961,15 +2984,15 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((220026X1010X10035CONS.NAOK == "Y" or 220026X1010X10035JUR.NAOK == "Y" or 220026X1010X10035DPO.NAOK == "Y" or 220026X1010X10035INV.NAOK == "Y" or 220026X1010X10035TIT.NAOK == "Y" or 220026X1010X10035SEG.NAOK == "Y" or 220026X1010X10035CAP.NAOK == "Y" or 220026X1010X10035OUT.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[((220026X1010X10068.NAOK == "A1"))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10037]]></qid>
+    <qid><![CDATA[10070]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q121]]></title>
     <question><![CDATA[<p><strong>12.1. Antes desta fiscalização, qual era o grau de conhecimento e utilização do guia “Os 6 passos para adequação à LGPD” pela organização?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -1984,7 +3007,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10038]]></qid>
+    <qid><![CDATA[10071]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
@@ -1999,11 +3022,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1011X10037.NAOK == "A3" or 220026X1011X10037.NAOK == "A4" or 220026X1011X10037.NAOK == "A5")))]]></relevance>
+    <relevance><![CDATA[(((220026X1011X10070.NAOK == "A3" or 220026X1011X10070.NAOK == "A4" or 220026X1011X10070.NAOK == "A5")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10039]]></qid>
+    <qid><![CDATA[10072]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
@@ -2018,11 +3041,11 @@
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[(((220026X1011X10037.NAOK == "A3" or 220026X1011X10037.NAOK == "A4" or 220026X1011X10037.NAOK == "A5")))]]></relevance>
+    <relevance><![CDATA[(((220026X1011X10070.NAOK == "A3" or 220026X1011X10070.NAOK == "A4" or 220026X1011X10070.NAOK == "A5")))]]></relevance>
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10040]]></qid>
+    <qid><![CDATA[10073]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
@@ -2041,7 +3064,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10041]]></qid>
+    <qid><![CDATA[10074]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
@@ -2060,7 +3083,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10042]]></qid>
+    <qid><![CDATA[10075]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
@@ -2079,7 +3102,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10043]]></qid>
+    <qid><![CDATA[10076]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
@@ -2098,11 +3121,11 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10044]]></qid>
+    <qid><![CDATA[10077]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
-    <type><![CDATA[O]]></type>
+    <type><![CDATA[L]]></type>
     <title><![CDATA[Q133]]></title>
     <question><![CDATA[<p><strong>13.3. Há informações prestadas neste questionário que a organização considera não públicas?</strong></p>]]></question>
     <preg><![CDATA[]]></preg>
@@ -2140,7 +3163,7 @@
   </fields>
   <rows>
    <row>
-    <qid><![CDATA[10045]]></qid>
+    <qid><![CDATA[10078]]></qid>
     <parent_qid><![CDATA[10000]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1000]]></gid>
@@ -2159,7 +3182,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10046]]></qid>
+    <qid><![CDATA[10079]]></qid>
     <parent_qid><![CDATA[10000]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1000]]></gid>
@@ -2178,7 +3201,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10047]]></qid>
+    <qid><![CDATA[10080]]></qid>
     <parent_qid><![CDATA[10000]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1000]]></gid>
@@ -2197,7 +3220,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10048]]></qid>
+    <qid><![CDATA[10081]]></qid>
     <parent_qid><![CDATA[10000]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1000]]></gid>
@@ -2216,7 +3239,7 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10049]]></qid>
+    <qid><![CDATA[10082]]></qid>
     <parent_qid><![CDATA[10000]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1000]]></gid>
@@ -2235,8 +3258,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10050]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10083]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2254,8 +3277,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10051]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10084]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2273,8 +3296,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10052]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10085]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2292,8 +3315,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10053]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10086]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2311,8 +3334,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10054]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10087]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2330,8 +3353,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10055]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10088]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2349,8 +3372,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10056]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10089]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2368,8 +3391,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10057]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10090]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2387,8 +3410,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10058]]></qid>
-    <parent_qid><![CDATA[10006]]></parent_qid>
+    <qid><![CDATA[10091]]></qid>
+    <parent_qid><![CDATA[10011]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1002]]></gid>
     <type><![CDATA[M]]></type>
@@ -2406,8 +3429,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10059]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10092]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2425,8 +3448,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10060]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10093]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2444,8 +3467,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10061]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10094]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2463,8 +3486,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10062]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10095]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2482,8 +3505,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10063]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10096]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2501,8 +3524,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10064]]></qid>
-    <parent_qid><![CDATA[10009]]></parent_qid>
+    <qid><![CDATA[10097]]></qid>
+    <parent_qid><![CDATA[10014]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1003]]></gid>
     <type><![CDATA[M]]></type>
@@ -2520,8 +3543,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10065]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10098]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2539,8 +3562,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10066]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10099]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2558,8 +3581,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10067]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10100]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2577,8 +3600,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10068]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10101]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2596,8 +3619,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10069]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10102]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2615,8 +3638,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10070]]></qid>
-    <parent_qid><![CDATA[10017]]></parent_qid>
+    <qid><![CDATA[10103]]></qid>
+    <parent_qid><![CDATA[10034]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1004]]></gid>
     <type><![CDATA[M]]></type>
@@ -2634,8 +3657,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10071]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10104]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2653,8 +3676,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10072]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10105]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2672,8 +3695,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10073]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10106]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2691,8 +3714,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10074]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10107]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2710,8 +3733,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10075]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10108]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2729,8 +3752,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10076]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10109]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2748,8 +3771,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10077]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10110]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2767,8 +3790,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10078]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10111]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2786,8 +3809,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10079]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10112]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2805,8 +3828,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10080]]></qid>
-    <parent_qid><![CDATA[10018]]></parent_qid>
+    <qid><![CDATA[10113]]></qid>
+    <parent_qid><![CDATA[10037]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1005]]></gid>
     <type><![CDATA[M]]></type>
@@ -2824,8 +3847,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10081]]></qid>
-    <parent_qid><![CDATA[10029]]></parent_qid>
+    <qid><![CDATA[10114]]></qid>
+    <parent_qid><![CDATA[10056]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[M]]></type>
@@ -2843,8 +3866,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10082]]></qid>
-    <parent_qid><![CDATA[10029]]></parent_qid>
+    <qid><![CDATA[10115]]></qid>
+    <parent_qid><![CDATA[10056]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[M]]></type>
@@ -2862,8 +3885,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10083]]></qid>
-    <parent_qid><![CDATA[10029]]></parent_qid>
+    <qid><![CDATA[10116]]></qid>
+    <parent_qid><![CDATA[10056]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[M]]></type>
@@ -2881,8 +3904,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10084]]></qid>
-    <parent_qid><![CDATA[10029]]></parent_qid>
+    <qid><![CDATA[10117]]></qid>
+    <parent_qid><![CDATA[10056]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[M]]></type>
@@ -2900,8 +3923,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10085]]></qid>
-    <parent_qid><![CDATA[10029]]></parent_qid>
+    <qid><![CDATA[10118]]></qid>
+    <parent_qid><![CDATA[10056]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1007]]></gid>
     <type><![CDATA[M]]></type>
@@ -2919,8 +3942,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10086]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10119]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -2938,8 +3961,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10087]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10120]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -2957,8 +3980,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10088]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10121]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -2976,8 +3999,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10089]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10122]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -2995,8 +4018,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10090]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10123]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -3014,8 +4037,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10091]]></qid>
-    <parent_qid><![CDATA[10032]]></parent_qid>
+    <qid><![CDATA[10124]]></qid>
+    <parent_qid><![CDATA[10059]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1008]]></gid>
     <type><![CDATA[M]]></type>
@@ -3033,8 +4056,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10092]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10125]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3052,8 +4075,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10093]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10126]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3071,8 +4094,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10094]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10127]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3090,8 +4113,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10095]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10128]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3109,8 +4132,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10096]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10129]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3128,8 +4151,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10097]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10130]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3147,8 +4170,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10098]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10131]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3166,8 +4189,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10099]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10132]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3185,8 +4208,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10100]]></qid>
-    <parent_qid><![CDATA[10034]]></parent_qid>
+    <qid><![CDATA[10133]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
@@ -3204,18 +4227,18 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10101]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
+    <qid><![CDATA[10134]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
+    <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
-    <title><![CDATA[CONS]]></title>
-    <question><![CDATA[<p>Consultoria em privacidade ou proteção de dados pessoais</p>]]></question>
+    <title><![CDATA[SQ010]]></title>
+    <question><![CDATA[<p>Instalou e mantém sistema de firewall e/ou Web Application Firewall (WAF), diretamente ou por meio de provedor responsável pelo serviço</p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
+    <question_order><![CDATA[10]]></question_order>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
@@ -3223,18 +4246,18 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10102]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
+    <qid><![CDATA[10135]]></qid>
+    <parent_qid><![CDATA[10065]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
+    <gid><![CDATA[1009]]></gid>
     <type><![CDATA[M]]></type>
-    <title><![CDATA[JUR]]></title>
-    <question><![CDATA[<p>Assessoria jurídica especializada em proteção de dados</p>]]></question>
+    <title><![CDATA[SQ011]]></title>
+    <question><![CDATA[<p>Protege o correio eletrônico com ferramentas antispam, filtros de e-mail e solução antimalware ou antivírus integrada</p>]]></question>
     <preg><![CDATA[]]></preg>
     <help><![CDATA[]]></help>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[2]]></question_order>
+    <question_order><![CDATA[11]]></question_order>
     <language><![CDATA[pt-BR]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
@@ -3242,141 +4265,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10103]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[DPO]]></title>
-    <question><![CDATA[<p>Encarregado pelo tratamento de dados pessoais como serviço</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[3]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10104]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[INV]]></title>
-    <question><![CDATA[<p>Solução para inventário de dados ou Registro das Operações de Tratamento</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[4]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10105]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[TIT]]></title>
-    <question><![CDATA[<p>Solução para atendimento aos direitos dos titulares</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[5]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10106]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[SEG]]></title>
-    <question><![CDATA[<p>Serviços ou soluções de segurança da informação relacionados à proteção de dados</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[6]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10107]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[CAP]]></title>
-    <question><![CDATA[<p>Capacitação especializada em LGPD</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[7]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10108]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[OUT]]></title>
-    <question><![CDATA[<p>Outra categoria de serviço ou solução tecnológica</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[8]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10109]]></qid>
-    <parent_qid><![CDATA[10035]]></parent_qid>
-    <sid><![CDATA[220026]]></sid>
-    <gid><![CDATA[1010]]></gid>
-    <type><![CDATA[M]]></type>
-    <title><![CDATA[NENHUM]]></title>
-    <question><![CDATA[<p>Não contratou nem manteve contrato dessas categorias no período</p>]]></question>
-    <preg><![CDATA[]]></preg>
-    <help><![CDATA[]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[9]]></question_order>
-    <language><![CDATA[pt-BR]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename><![CDATA[]]></modulename>
-   </row>
-   <row>
-    <qid><![CDATA[10110]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10136]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3394,8 +4284,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10111]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10137]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3413,8 +4303,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10112]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10138]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3432,8 +4322,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10113]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10139]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3451,8 +4341,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10114]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10140]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3470,8 +4360,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10115]]></qid>
-    <parent_qid><![CDATA[10039]]></parent_qid>
+    <qid><![CDATA[10141]]></qid>
+    <parent_qid><![CDATA[10072]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[T]]></type>
@@ -3489,8 +4379,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10116]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10142]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3508,8 +4398,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10117]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10143]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3527,8 +4417,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10118]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10144]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3546,8 +4436,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10119]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10145]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3565,8 +4455,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10120]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10146]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3584,8 +4474,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10121]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10147]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3603,8 +4493,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10122]]></qid>
-    <parent_qid><![CDATA[10040]]></parent_qid>
+    <qid><![CDATA[10148]]></qid>
+    <parent_qid><![CDATA[10073]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1011]]></gid>
     <type><![CDATA[M]]></type>
@@ -3622,8 +4512,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10123]]></qid>
-    <parent_qid><![CDATA[10042]]></parent_qid>
+    <qid><![CDATA[10149]]></qid>
+    <parent_qid><![CDATA[10075]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
     <type><![CDATA[M]]></type>
@@ -3641,8 +4531,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10124]]></qid>
-    <parent_qid><![CDATA[10042]]></parent_qid>
+    <qid><![CDATA[10150]]></qid>
+    <parent_qid><![CDATA[10075]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
     <type><![CDATA[M]]></type>
@@ -3660,8 +4550,8 @@
     <modulename><![CDATA[]]></modulename>
    </row>
    <row>
-    <qid><![CDATA[10125]]></qid>
-    <parent_qid><![CDATA[10042]]></parent_qid>
+    <qid><![CDATA[10151]]></qid>
+    <parent_qid><![CDATA[10075]]></parent_qid>
     <sid><![CDATA[220026]]></sid>
     <gid><![CDATA[1012]]></gid>
     <type><![CDATA[M]]></type>
@@ -3725,133 +4615,79 @@
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10006]]></qid>
+    <qid><![CDATA[10011]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10006]]></qid>
+    <qid><![CDATA[10011]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ010]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10007]]></qid>
+    <qid><![CDATA[10012]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10007]]></qid>
+    <qid><![CDATA[10012]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10007]]></qid>
+    <qid><![CDATA[10012]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10008]]></qid>
+    <qid><![CDATA[10013]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10008]]></qid>
+    <qid><![CDATA[10013]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10008]]></qid>
+    <qid><![CDATA[10013]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10009]]></qid>
+    <qid><![CDATA[10014]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10009]]></qid>
+    <qid><![CDATA[10014]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ006]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10010]]></qid>
+    <qid><![CDATA[10015]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10010]]></qid>
+    <qid><![CDATA[10015]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10010]]></qid>
-    <attribute><![CDATA[max_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10011]]></qid>
-    <attribute><![CDATA[allowed_filetypes]]></attribute>
-    <value><![CDATA[pdf, docx, zip]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10011]]></qid>
-    <attribute><![CDATA[min_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10011]]></qid>
-    <attribute><![CDATA[max_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10012]]></qid>
-    <attribute><![CDATA[allowed_filetypes]]></attribute>
-    <value><![CDATA[pdf, docx, zip]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10012]]></qid>
-    <attribute><![CDATA[min_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10012]]></qid>
-    <attribute><![CDATA[max_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10013]]></qid>
-    <attribute><![CDATA[allowed_filetypes]]></attribute>
-    <value><![CDATA[pdf, docx, zip]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10013]]></qid>
-    <attribute><![CDATA[min_num_of_files]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10013]]></qid>
+    <qid><![CDATA[10015]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
@@ -3876,216 +4712,258 @@
    </row>
    <row>
     <qid><![CDATA[10017]]></qid>
-    <attribute><![CDATA[hide_tip]]></attribute>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10017]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
     <qid><![CDATA[10017]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10018]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[allowed_filetypes]]></attribute>
+    <value><![CDATA[pdf, docx, zip]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[min_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10033]]></qid>
+    <attribute><![CDATA[max_num_of_files]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10034]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+    <language><![CDATA[]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[10034]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ006]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10018]]></qid>
+    <qid><![CDATA[10037]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10018]]></qid>
+    <qid><![CDATA[10037]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ010]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10019]]></qid>
+    <qid><![CDATA[10038]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10019]]></qid>
+    <qid><![CDATA[10038]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10019]]></qid>
+    <qid><![CDATA[10038]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10020]]></qid>
+    <qid><![CDATA[10039]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10020]]></qid>
+    <qid><![CDATA[10039]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10020]]></qid>
+    <qid><![CDATA[10039]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10021]]></qid>
+    <qid><![CDATA[10040]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10021]]></qid>
+    <qid><![CDATA[10040]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10021]]></qid>
+    <qid><![CDATA[10040]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10023]]></qid>
+    <qid><![CDATA[10046]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10023]]></qid>
+    <qid><![CDATA[10046]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10023]]></qid>
+    <qid><![CDATA[10046]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10025]]></qid>
+    <qid><![CDATA[10048]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10025]]></qid>
+    <qid><![CDATA[10048]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10025]]></qid>
+    <qid><![CDATA[10048]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10029]]></qid>
+    <qid><![CDATA[10056]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10029]]></qid>
+    <qid><![CDATA[10056]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ005]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10030]]></qid>
+    <qid><![CDATA[10057]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10030]]></qid>
+    <qid><![CDATA[10057]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10030]]></qid>
+    <qid><![CDATA[10057]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10032]]></qid>
+    <qid><![CDATA[10059]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10032]]></qid>
+    <qid><![CDATA[10059]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ006]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10033]]></qid>
+    <qid><![CDATA[10060]]></qid>
     <attribute><![CDATA[allowed_filetypes]]></attribute>
     <value><![CDATA[pdf, docx, zip]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10033]]></qid>
+    <qid><![CDATA[10060]]></qid>
     <attribute><![CDATA[min_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10033]]></qid>
+    <qid><![CDATA[10060]]></qid>
     <attribute><![CDATA[max_num_of_files]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10034]]></qid>
+    <qid><![CDATA[10065]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10034]]></qid>
+    <qid><![CDATA[10065]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ009]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10035]]></qid>
+    <qid><![CDATA[10073]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10035]]></qid>
-    <attribute><![CDATA[exclude_all_others]]></attribute>
-    <value><![CDATA[NENHUM]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10040]]></qid>
+    <qid><![CDATA[10075]]></qid>
     <attribute><![CDATA[hide_tip]]></attribute>
     <value><![CDATA[1]]></value>
     <language><![CDATA[]]></language>
    </row>
    <row>
-    <qid><![CDATA[10042]]></qid>
-    <attribute><![CDATA[hide_tip]]></attribute>
-    <value><![CDATA[1]]></value>
-    <language><![CDATA[]]></language>
-   </row>
-   <row>
-    <qid><![CDATA[10042]]></qid>
+    <qid><![CDATA[10075]]></qid>
     <attribute><![CDATA[exclude_all_others]]></attribute>
     <value><![CDATA[SQ003]]></value>
     <language><![CDATA[]]></language>

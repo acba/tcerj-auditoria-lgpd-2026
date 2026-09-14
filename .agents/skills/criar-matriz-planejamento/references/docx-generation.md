@@ -57,3 +57,5 @@ python scripts/build_matrix.py matriz_planejamento.md --template outro-template.
 ```
 
 O template deve manter a estrutura tabular esperada: linha de questão, linha de riscos e tabela de seis colunas para fontes, informações requeridas, critérios, procedimentos, evidências e achados/análise.
+
+Na renderização de uma questão declarada como `natureza: levantamento`, a linha de riscos e a coluna de critérios são omitidas do DOCX, pois o levantamento não formula risco de achado nem critério de conformidade.

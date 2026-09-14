@@ -755,6 +755,48 @@ def set_paragraph_text(paragraph: ET.Element, text: str, *, bold: bool | None = 
     text_el.text = text
 
 
+def set_paragraph_run_style(
+    paragraph: ET.Element,
+    *,
+    font_name: str | None = None,
+    font_size_pt: int | None = None,
+    bold: bool | None = None,
+) -> None:
+    """Aplica formatação direta aos runs de um parágrafo.
+
+    O primeiro parágrafo da linha de questão do template possui a fonte apenas
+    em ``pPr/rPr``. Alguns editores acabam resolvendo essa combinação pela
+    fonte padrão (Times New Roman). A formatação direta no run torna a saída
+    determinística, independentemente do editor utilizado para abrir o DOCX.
+    """
+
+    for run in paragraph.findall(f"{W}r"):
+        rpr = ensure_child(run, f"{W}rPr")
+        if font_name:
+            fonts = rpr.find(f"{W}rFonts")
+            if fonts is None:
+                fonts = ET.SubElement(rpr, f"{W}rFonts")
+            for attribute in ("ascii", "hAnsi", "cs", "eastAsia"):
+                fonts.set(f"{W}{attribute}", font_name)
+        if font_size_pt is not None:
+            half_points = str(max(1, int(font_size_pt * 2)))
+            for tag in ("sz", "szCs"):
+                size = rpr.find(f"{W}{tag}")
+                if size is None:
+                    size = ET.SubElement(rpr, f"{W}{tag}")
+                size.set(f"{W}val", half_points)
+        if bold is not None:
+            for tag in ("b", "bCs"):
+                existing = rpr.find(f"{W}{tag}")
+                if bold:
+                    if existing is None:
+                        ET.SubElement(rpr, f"{W}{tag}")
+                    else:
+                        existing.attrib.pop(f"{W}val", None)
+                elif existing is not None:
+                    rpr.remove(existing)
+
+
 def set_labeled_paragraph_text(paragraph: ET.Element, label: str, value: str) -> None:
     runs = paragraph.findall(f"{W}r")
     label_rpr = (
@@ -917,6 +959,17 @@ def format_question_text(question: Question) -> str:
     if question.natureza:
         return f"{prefix}: {text} ({question.natureza})"
     return f"{prefix}: {text}"
+
+
+def is_levantamento(question: Question) -> bool:
+    """Indica se a questão é descritiva/ de levantamento.
+
+    A classificação é declarada no Markdown por meio de ``natureza: levantamento``.
+    Mantê-la em um predicado único evita que o renderizador trate, por engano,
+    uma questão descritiva como se tivesse risco e critério de conformidade.
+    """
+
+    return (question.natureza or "").strip().casefold() == "levantamento"
 
 
 def format_risk_or_comparability(
@@ -1085,6 +1138,110 @@ def remove_floating_table_properties(table: ET.Element) -> None:
             tbl_pr.remove(element)
 
 
+def _cell_width(cell: ET.Element) -> int | None:
+    tc_pr = cell.find(f"{W}tcPr")
+    if tc_pr is None:
+        return None
+    tc_w = tc_pr.find(f"{W}tcW")
+    if tc_w is None:
+        return None
+    try:
+        return int(tc_w.get(f"{W}w", ""))
+    except (TypeError, ValueError):
+        return None
+
+
+def _set_cell_width(cell: ET.Element, width: int) -> None:
+    tc_pr = cell.find(f"{W}tcPr")
+    if tc_pr is None:
+        tc_pr = ET.Element(f"{W}tcPr")
+        cell.insert(0, tc_pr)
+    tc_w = tc_pr.find(f"{W}tcW")
+    if tc_w is None:
+        tc_w = ET.Element(f"{W}tcW")
+        tc_pr.insert(0, tc_w)
+    tc_w.set(f"{W}w", str(max(1, width)))
+    tc_w.set(f"{W}type", "dxa")
+
+
+def _scaled_widths(widths: list[int], target_total: int) -> list[int]:
+    """Redimensiona larguras preservando proporções e o total da tabela."""
+
+    if not widths:
+        return []
+    target_total = max(len(widths), target_total)
+    source_total = sum(max(1, width) for width in widths)
+    raw = [max(1, width) * target_total / source_total for width in widths]
+    result = [max(1, int(value)) for value in raw]
+    remainder = target_total - sum(result)
+    # Distribui o arredondamento de modo determinístico, sem alterar a ordem.
+    step = 1 if remainder >= 0 else -1
+    for index in range(abs(remainder)):
+        position = index % len(result)
+        if step < 0 and result[position] <= 1:
+            continue
+        result[position] += step
+    return result
+
+
+def remove_table_columns(table: ET.Element, column_indexes: Iterable[int]) -> None:
+    """Remove colunas de uma tabela Word e mantém a grade visual consistente.
+
+    As tabelas de detalhamento do template não usam células mescladas nas
+    colunas de dados. Ainda assim, a função atualiza tanto ``tblGrid`` quanto
+    ``tcW`` das linhas restantes, evitando que a retirada de uma coluna deixe
+    uma tabela estreita ou com larguras conflitantes no DOCX.
+    """
+
+    indexes = sorted({index for index in column_indexes if index >= 0}, reverse=True)
+    if not indexes:
+        return
+
+    rows = table.findall(f"{W}tr")
+    # Use a primeira linha completa para preservar a distribuição de larguras
+    # definida pelo template. As linhas de cabeçalho e dados têm a mesma grade.
+    source_widths: list[int] = []
+    for row in rows:
+        cells = row.findall(f"{W}tc")
+        widths = [_cell_width(cell) for cell in cells]
+        if len(widths) > max(indexes, default=-1) and all(width is not None for width in widths):
+            source_widths = [int(width) for width in widths if width is not None]
+            break
+
+    grid = table.find(f"{W}tblGrid")
+    grid_columns = grid.findall(f"{W}gridCol") if grid is not None else []
+    grid_widths: list[int] = []
+    for column in grid_columns:
+        try:
+            grid_widths.append(int(column.get(f"{W}w", "")))
+        except (TypeError, ValueError):
+            grid_widths.append(1)
+    target_total = sum(source_widths) if source_widths else sum(grid_widths)
+
+    for row in rows:
+        cells = row.findall(f"{W}tc")
+        for index in indexes:
+            if index < len(cells):
+                row.remove(cells[index])
+
+    remaining_source = [
+        width for index, width in enumerate(source_widths) if index not in indexes
+    ]
+    new_widths = _scaled_widths(remaining_source, target_total) if remaining_source else []
+
+    if grid is not None:
+        for index in indexes:
+            if index < len(grid_columns):
+                grid.remove(grid_columns[index])
+        new_grid_columns = grid.findall(f"{W}gridCol")
+        for column, width in zip(new_grid_columns, new_widths):
+            column.set(f"{W}w", str(width))
+
+    for row in rows:
+        for cell, width in zip(row.findall(f"{W}tc"), new_widths):
+            _set_cell_width(cell, width)
+
+
 def build_question_summary_table(template_table: ET.Element, question: Question) -> ET.Element:
     table = copy.deepcopy(template_table)
     remove_floating_table_properties(table)
@@ -1093,23 +1250,42 @@ def build_question_summary_table(template_table: ET.Element, question: Question)
         raise ValueError("A tabela modelo deve possuir pelo menos 4 linhas.")
 
     row0_cell = rows[0].find(f"{W}tc")
-    row1_cell = rows[1].find(f"{W}tc")
-    if row0_cell is None or row1_cell is None:
-        raise ValueError("A tabela modelo deve possuir linhas de questão e riscos.")
+    if row0_cell is None:
+        raise ValueError("A tabela modelo deve possuir uma linha de questão.")
 
     row0_templates = row0_cell.findall(f"{W}p")
     question_p = row0_templates[0] if row0_templates else ET.Element(f"{W}p")
     subquestion_p = row0_templates[1] if len(row0_templates) > 1 else question_p
-    risk_p = first_paragraph(row1_cell)
-
     clear_cell(row0_cell)
-    row0_cell.append(clone_paragraph(question_p, format_question_text(question)))
+    question_paragraph = clone_paragraph(question_p, format_question_text(question), bold=True)
+    set_paragraph_run_style(
+        question_paragraph,
+        font_name="Arial",
+        font_size_pt=10,
+        bold=True,
+    )
+    row0_cell.append(question_paragraph)
     for subquestion in question.subquestoes:
-        row0_cell.append(clone_paragraph(subquestion_p, subquestion.text))
+        subquestion_paragraph = clone_paragraph(subquestion_p, subquestion.text)
+        set_paragraph_run_style(
+            subquestion_paragraph,
+            font_name="Arial",
+            font_size_pt=10,
+        )
+        row0_cell.append(subquestion_paragraph)
 
-    display_mapping = compact_display_identifiers(question)
-    fill_cell(row1_cell, format_risk_or_comparability(question, display_mapping), risk_p)
-    remove_table_rows(table, [2, 3])
+    if is_levantamento(question):
+        # Levantamentos não formulam risco de achado; a linha azul de riscos
+        # não deve aparecer no documento final.
+        remove_table_rows(table, [1, 2, 3])
+    else:
+        row1_cell = rows[1].find(f"{W}tc")
+        if row1_cell is None:
+            raise ValueError("A tabela modelo deve possuir uma linha de riscos.")
+        risk_p = first_paragraph(row1_cell)
+        display_mapping = compact_display_identifiers(question)
+        fill_cell(row1_cell, format_risk_or_comparability(question, display_mapping), risk_p)
+        remove_table_rows(table, [2, 3])
     return table
 
 
@@ -1149,6 +1325,10 @@ def build_question_details_table(template_table: ET.Element, question: Question)
         fill_cell(cell, payload, first_paragraph(cell))
 
     remove_table_rows(table, [0, 1])
+    if is_levantamento(question):
+        # A análise de levantamento não tem critério de conformidade. A
+        # coluna é retirada, em vez de exibir uma célula vazia ou uma ressalva.
+        remove_table_columns(table, [2])
     return table
 
 

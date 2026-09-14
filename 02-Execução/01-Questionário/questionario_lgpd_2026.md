@@ -102,10 +102,10 @@ subquestions:
 > - [Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controle 0, especialmente medidas 0.7 e 0.10](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf)
 > - [Guia de Implementação da LGPD do TCE-RJ](https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd)
 
-### Q21 [single_comment]
+### Q21 [single]
 question: **2.1. A organização conduziu iniciativas para identificar, planejar e executar medidas preparatórias com vistas à adequação à LGPD?**
 mandatory: true
-help: Selecione a alternativa que melhor representa a situação atual e use o comentário para indicar datas, responsáveis, atos, processos e documentos relacionados.
+explain: Selecione a alternativa que melhor representa a situação atual e use o comentário para indicar datas, responsáveis, atos, processos e documentos relacionados.
 options:
 - A1 | Não se aplica — justifique no campo de comentário
 - A2 | Não realizou medidas preparatórias com vistas à adequação à LGPD
@@ -115,7 +115,7 @@ options:
 - A6 | Mapeou os principais processos de tratamento e publicou normativos sobre os aspectos mais importantes, mas ainda não possui programa de governança em privacidade implementado
 - A7 | Mapeou os processos de tratamento, publicou normativos abrangentes e possui programa de governança em privacidade implementado, monitorado e atualizado
 
-### Q211 [upload]
+### Q211evi [upload]
 question: **2.1.1. Anexe o plano de ação, plano de projeto ou instrumento equivalente que direciona a adequação à LGPD.**
 mandatory: true
 visible_if: Q21 in [A4, A5, A6, A7]
@@ -124,7 +124,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q212 [upload]
+### Q212evi [upload]
 question: **2.1.2. Anexe o programa de governança em privacidade da organização.**
 mandatory: true
 visible_if: Q21 == A7
@@ -133,24 +133,56 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q22 [single_comment]
+### Q22 [single]
 question: **2.2. A organização instituiu uma comissão ou grupo de trabalho multissetorial com a participação do encarregado pelo tratamento de dados pessoais, disposto no art. 41 da LGPD, para planejar, estabelecer, gerenciar e monitorar as medidas a serem tomadas na adequação do ente à Lei Geral de Proteção de Dados Pessoais?**
 mandatory: true
 help: Responda “Sim” somente se o colegiado tiver sido instituído, for multissetorial, contar com a participação do Encarregado e abranger as quatro finalidades indicadas. No comentário, informe o ato ou processo de instituição e as unidades representadas, quando existente.
 options:
 - A1 | Sim
 - A2 | Não
-- A3 | Não foi possível informar
 
-### Q23 [single_comment]
+### QAC112S [long]
+question: **Monitoramento do item 1.12 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter a comissão ou o grupo de trabalho multissetorial, e como elas foram superadas?**
+mandatory: true
+visible_if: Q22 == A1
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC112N [long]
+question: **Monitoramento do item 1.12 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a não instituição da comissão ou do grupo de trabalho multissetorial?**
+mandatory: true
+visible_if: Q22 == A2
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### Q23 [single]
 question: **2.3. A organização considerou em sua iniciativa de adequação à LGPD os encaminhamentos do Acórdão nº 3931/2025?**
 mandatory: true
 help: Considere os encaminhamentos aplicáveis à organização. No comentário, indique o plano, processo, ato ou outra iniciativa em que foram considerados.
 options:
 - A1 | Sim, os encaminhamentos aplicáveis foram considerados
 - A2 | Não, os encaminhamentos aplicáveis não foram considerados
-- A3 | A organização não conduziu iniciativa de adequação à LGPD
-- A4 | Não foi possível informar
+- A3 | A organização ainda não conduziu iniciativa de adequação à LGPD
+
+### Q24 [single]
+question: **2.4. A organização elaborou o Plano de Ação previsto no item 1.1 do Acórdão nº 3931/2025 e o registrou em processo administrativo?**
+mandatory: true
+help: Considere o prazo de 60 dias contado da ciência da decisão. No comentário, informe a data de conclusão do plano e o número do processo administrativo, quando existentes.
+options:
+- A1 | Sim, o plano foi elaborado no prazo e registrado em processo administrativo
+- A2 | O plano foi registrado em processo administrativo, mas elaborado após o prazo
+- A3 | Existe plano de ação, mas ele não foi registrado em processo administrativo
+- A4 | Não existe plano de ação formal
+
+### QAC11S [long]
+question: **Monitoramento do item 1.1 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar e registrar tempestivamente o Plano de Ação, e como elas foram superadas?**
+mandatory: true
+visible_if: Q24 == A1
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC11N [long]
+question: **Monitoramento do item 1.1 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam o atraso, a falta de registro em processo administrativo ou a inexistência do Plano de Ação?**
+mandatory: true
+visible_if: Q24 in [A2, A3, A4]
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g03 | 3. Contexto organizacional
 > A organização precisa conhecer o contexto em que trata dados pessoais antes de definir controles e prioridades. Isso inclui identificar as normas aplicáveis, as categorias de titulares, os processos de negócio, os dados tratados, os locais de armazenamento, os agentes de tratamento e os riscos envolvidos.
@@ -181,7 +213,7 @@ subquestions:
 - SQ008 | Os locais de armazenamento dos dados pessoais, inclusive serviços de nuvem e meios físicos
 - SQ010 | A organização ainda não conduziu iniciativa para identificar qualquer dos elementos anteriores
 
-### Q31riscoevi [upload]
+### Q311evi [upload]
 question: **3.1.1. Anexe a matriz, relatório ou registro utilizado para identificar e avaliar riscos associados aos tratamentos de dados pessoais.**
 mandatory: true
 visible_if: Q31.SQ009 == Y
@@ -190,7 +222,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q31evi [upload]
+### Q312evi [upload]
 question: **3.1.2. Anexe instrumento contratual ou extrato que demonstre a definição de papéis e responsabilidades de operador ou controlador conjunto.**
 mandatory: true
 visible_if: Q31.SQ005 == Y
@@ -227,7 +259,7 @@ subquestions:
 - SQ005 | Divulga no portal institucional a identidade e as informações de contato do Encarregado em local de fácil acesso
 - SQ006 | Ainda não atende a nenhum dos itens anteriores
 
-### Q411 [upload]
+### Q411evi [upload]
 question: **4.1.1. Anexe a Política de Proteção de Dados Pessoais ou instrumento equivalente.**
 mandatory: true
 visible_if: Q41.SQ003 == Y
@@ -236,7 +268,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q412 [upload]
+### Q412evi [upload]
 question: **4.1.2. Anexe a Política de Segurança da Informação ou instrumento equivalente.**
 mandatory: true
 visible_if: Q41.SQ001 == Y
@@ -245,7 +277,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q413 [upload]
+### Q413evi [upload]
 question: **4.1.3. Anexe a Política de Classificação da Informação ou instrumento equivalente.**
 mandatory: true
 visible_if: Q41.SQ002 == Y
@@ -254,7 +286,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q414 [upload]
+### Q414evi [upload]
 question: **4.1.4. Anexe o ato formal de designação do Encarregado pelo tratamento de dados pessoais.**
 mandatory: true
 visible_if: Q41.SQ004 == Y
@@ -269,6 +301,84 @@ mandatory: true
 visible_if: Q41.SQ005 == Y
 help: Informe o endereço completo, iniciado por https:// ou http://.
 
+### Q416 [single]
+question: **4.1.6. A Política de Segurança da Informação ou instrumento equivalente foi publicada em veículo ou canal oficial?**
+mandatory: true
+visible_if: Q41.SQ001 == Y
+help: No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.
+options:
+- A1 | Sim
+- A2 | Não
+
+### Q417 [single]
+question: **4.1.7. A Política de Proteção de Dados Pessoais ou instrumento equivalente foi publicada em veículo ou canal oficial?**
+mandatory: true
+visible_if: Q41.SQ003 == Y
+help: No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.
+options:
+- A1 | Sim
+- A2 | Não
+
+### QAC12S [long]
+question: **Monitoramento do item 1.2 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para nomear o Encarregado e publicar o ato de designação, e como elas foram superadas?**
+mandatory: true
+visible_if: Q41.SQ004 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC12N [long]
+question: **Monitoramento do item 1.2 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de nomeação do Encarregado ou de publicação do ato de designação?**
+mandatory: true
+visible_if: Q41.SQ004 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC13S [long]
+question: **Monitoramento do item 1.3 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para divulgar no portal a identidade e os contatos do Encarregado, e como elas foram superadas?**
+mandatory: true
+visible_if: Q41.SQ005 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC13N [long]
+question: **Monitoramento do item 1.3 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de divulgação, no portal, da identidade e dos contatos do Encarregado?**
+mandatory: true
+visible_if: Q41.SQ005 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC15S [long]
+question: **Monitoramento do item 1.5 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e publicar a Política de Segurança da Informação, e como elas foram superadas?**
+mandatory: true
+visible_if: Q41.SQ001 == Y and Q416 == A1
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC15N [long]
+question: **Monitoramento do item 1.5 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Segurança da Informação?**
+mandatory: true
+visible_if: Q41.SQ001 != Y or Q416 == A2
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC16S [long]
+question: **Monitoramento do item 1.6 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e publicar a Política de Proteção de Dados Pessoais, e como elas foram superadas?**
+mandatory: true
+visible_if: Q41.SQ003 == Y and Q417 == A1
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC16N [long]
+question: **Monitoramento do item 1.6 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Proteção de Dados Pessoais?**
+mandatory: true
+visible_if: Q41.SQ003 != Y or Q417 == A2
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC114S [long]
+question: **Monitoramento do item 1.14 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter atualizada a Política de Classificação da Informação, e como elas foram superadas?**
+mandatory: true
+visible_if: Q41.SQ002 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC114N [long]
+question: **Monitoramento do item 1.14 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a desatualização da Política de Classificação da Informação?**
+mandatory: true
+visible_if: Q41.SQ002 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
 ## Grupo: g05 | 5. Capacitação
 > A proteção de dados pessoais depende de pessoas que conheçam suas responsabilidades e saibam aplicar as regras institucionais. Por isso, a organização deve promover ações de conscientização e capacitação compatíveis com as atividades desempenhadas.
 >
@@ -282,7 +392,7 @@ help: Informe o endereço completo, iniciado por https:// ou http://.
 > - ABNT NBR ISO/IEC 27701:2019, itens 5.5.2, 5.5.3 e 5.5.4
 > - [Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 14 e 20](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf)
 
-### Q51 [single_comment]
+### Q51 [single]
 question: **5.1. Acerca da capacitação dos colaboradores em proteção de dados pessoais, qual alternativa melhor representa a organização?**
 mandatory: true
 help: Use o comentário para identificar o plano, as ações, datas, públicos alcançados e unidades responsáveis.
@@ -294,7 +404,7 @@ options:
 - A5 | Possui plano com conteúdo de proteção de dados e já treinou a maioria dos colaboradores
 - A6 | Possui plano com conteúdo de proteção de dados, prevê treinamento diferenciado para funções essenciais e já treinou todos os colaboradores
 
-### Q511 [upload]
+### Q511evi [upload]
 question: **5.1.1. Anexe o Plano de Capacitação ou instrumento equivalente.**
 mandatory: true
 visible_if: Q51 in [A4, A5, A6]
@@ -315,6 +425,18 @@ subquestions:
 - SQ004 | Orientou os participantes sobre os enunciados da Portaria Normativa CGU nº 71/2023
 - SQ005 | Orientou os participantes sobre as diretrizes do Parecer da CGU sobre acesso à informação elaborado em 2023
 - SQ006 | Não atendeu a nenhum dos itens anteriores
+
+### QAC113S [long]
+question: **Monitoramento do item 1.13 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para planejar e realizar a capacitação em proteção de dados pessoais, e como elas foram superadas?**
+mandatory: true
+visible_if: Q51 in [A5, A6]
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC113N [long]
+question: **Monitoramento do item 1.13 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a insuficiência do plano e das ações de capacitação em proteção de dados pessoais?**
+mandatory: true
+visible_if: Q51 in [A1, A2, A3, A4]
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g06 | 6. Conformidade do tratamento
 > A organização deve conhecer e documentar por que, como e por quanto tempo trata dados pessoais. Cada tratamento precisa ter finalidade legítima, base legal identificada e coleta limitada ao necessário.
@@ -347,7 +469,7 @@ subquestions:
 - SQ009 | Implementou controles para mitigar os riscos identificados no RIPD
 - SQ010 | Ainda não atende a nenhum dos itens anteriores
 
-### Q611 [upload]
+### Q611evi [upload]
 question: **6.1.1. Anexe um Relatório de Impacto à Proteção de Dados Pessoais elaborado pela organização.**
 mandatory: true
 visible_if: Q61.SQ008 == Y
@@ -356,7 +478,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q612 [upload]
+### Q612evi [upload]
 question: **6.1.2. Anexe o Inventário de Dados Pessoais mantido pela organização.**
 mandatory: true
 visible_if: Q61.SQ005 == Y or Q61.SQ006 == Y
@@ -365,7 +487,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q61controleevi [upload]
+### Q613evi [upload]
 question: **6.1.3. Anexe plano ou registro que demonstre a implementação e o monitoramento dos controles destinados a mitigar riscos apontados no RIPD.**
 mandatory: true
 visible_if: Q61.SQ009 == Y
@@ -373,6 +495,30 @@ help: Envie somente o necessário para identificar controle, responsável, prazo
 allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
+
+### QAC14S [long]
+question: **Monitoramento do item 1.4 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar e manter o Inventário de Dados Pessoais, e como elas foram superadas?**
+mandatory: true
+visible_if: Q61.SQ005 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC14N [long]
+question: **Monitoramento do item 1.4 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Inventário de Dados Pessoais?**
+mandatory: true
+visible_if: Q61.SQ005 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC19S [long]
+question: **Monitoramento do item 1.9 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para elaborar o Relatório de Impacto à Proteção de Dados Pessoais, e como elas foram superadas?**
+mandatory: true
+visible_if: Q61.SQ008 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC19N [long]
+question: **Monitoramento do item 1.9 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Relatório de Impacto à Proteção de Dados Pessoais?**
+mandatory: true
+visible_if: Q61.SQ008 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g07 | 7. Direitos dos titulares
 > Os titulares devem receber informações claras e acessíveis sobre o tratamento de seus dados pessoais e dispor de meios para exercer os direitos previstos na LGPD.
@@ -388,7 +534,7 @@ max_files: 1
 > - [Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 21 e 25](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf)
 > - [Guia de Implementação da LGPD do TCE-RJ](https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd)
 
-### Q71 [single_comment]
+### Q71 [single]
 question: **7.1. A organização elaborou e divulga no portal institucional Política de Privacidade ou instrumento equivalente?**
 mandatory: true
 help: Se houver publicação, informe no comentário a URL exata. Se não se aplicar, apresente a justificativa.
@@ -398,7 +544,7 @@ options:
 - A3 | Elaborou a política, mas não a divulga no portal institucional
 - A4 | Elaborou a política e a divulga no portal institucional
 
-### Q711 [upload]
+### Q711evi [upload]
 question: **7.1.1. Anexe a Política de Privacidade ou instrumento equivalente.**
 mandatory: true
 visible_if: Q71 in [A3, A4]
@@ -407,7 +553,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q72 [single_comment]
+### Q72 [single]
 question: **7.2. Foram implementados mecanismos para atender aos direitos dos titulares aplicáveis à organização, previstos nos arts. 9º e 18 da LGPD?**
 mandatory: true
 help: No comentário, informe os canais, os direitos atendidos, a forma de autenticação e o fluxo de encaminhamento das solicitações.
@@ -417,7 +563,7 @@ options:
 - A3 | Foram implementados mecanismos para atender a alguns direitos, mas não a todos
 - A4 | Foram implementados mecanismos para atender a todos os direitos aplicáveis à organização
 
-### Q72evi [upload]
+### Q721evi [upload]
 question: **7.2.1. Anexe o procedimento ou fluxo vigente para atendimento aos direitos dos titulares.**
 mandatory: true
 visible_if: Q72 in [A3, A4]
@@ -425,6 +571,30 @@ help: Oculte dados de requerentes e protocolos individuais; envie apenas o fluxo
 allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
+
+### QAC17S [long]
+question: **Monitoramento do item 1.7 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir, manter atualizada e divulgar a Política de Privacidade no portal, e como elas foram superadas?**
+mandatory: true
+visible_if: Q71 == A4
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC17N [long]
+question: **Monitoramento do item 1.7 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a falta de divulgação da Política de Privacidade no portal?**
+mandatory: true
+visible_if: Q71 in [A1, A2, A3]
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC18S [long]
+question: **Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para implementar mecanismos destinados ao atendimento de todos os direitos aplicáveis dos titulares, e como elas foram superadas?**
+mandatory: true
+visible_if: Q72 == A4
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC18N [long]
+question: **Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a cobertura parcial dos mecanismos de atendimento aos direitos dos titulares?**
+mandatory: true
+visible_if: Q72 in [A1, A2, A3]
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g08 | 8. Compartilhamento de dados pessoais e computação em nuvem
 > O compartilhamento ocorre quando dados pessoais são comunicados, transferidos ou disponibilizados a outro órgão, entidade, empresa ou agente de tratamento. A organização deve identificar esses fluxos, suas finalidades, os destinatários, as bases legais e os controles aplicáveis.
@@ -442,7 +612,7 @@ max_files: 1
 > - [Guia da ANPD sobre tratamento de dados pessoais pelo Poder Público](https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/documentos-de-publicacoes/guia-poder-publico-anpd-versao-final.pdf)
 > - [Guia de Implementação da LGPD do TCE-RJ](https://www.tcerj.tc.br/portalnovo/pagina/guia_lgpd)
 
-### Q81 [single_comment]
+### Q81 [single]
 question: **8.1. Quanto aos compartilhamentos de dados pessoais com terceiros, qual alternativa melhor representa a organização?**
 mandatory: true
 help: Use o comentário para identificar os principais fluxos, destinatários, finalidades e registros existentes.
@@ -454,7 +624,7 @@ options:
 - A5 | Identificou e avaliou os compartilhamentos e declara que todos atendem aos critérios legais, mas ainda não mantém registro dos eventos
 - A6 | Identificou e avaliou os compartilhamentos, declara conformidade, disponibiliza informações sobre uso compartilhado e mantém registro detalhado dos eventos
 
-### Q811 [single_comment]
+### Q811 [single]
 question: **8.1.1. A organização realiza transferência internacional de dados pessoais?**
 mandatory: true
 visible_if: Q81 in [A3, A4, A5, A6]
@@ -464,7 +634,7 @@ options:
 - A2 | Avaliou todos os compartilhamentos e não há transferência internacional
 - A3 | Avaliou todos os compartilhamentos e há transferência internacional
 
-### Q8111 [single_comment]
+### Q8111 [single]
 question: **8.1.1.1. As transferências internacionais identificadas foram avaliadas quanto aos requisitos da LGPD, em especial o art. 33?**
 mandatory: true
 visible_if: Q811 == A3
@@ -485,7 +655,7 @@ subquestions:
 - SQ004 | Incluiu nos contratos com provedores cláusulas sobre sigilo, segurança, transferência a terceiros, eliminação ao término e limitação de uso dos dados
 - SQ005 | Não realiza tratamento de dados pessoais em nuvem
 
-### Q812evi [upload]
+### Q8121evi [upload]
 question: **8.1.2.1. Anexe contrato ou extrato contratual vigente com provedor de nuvem que trate dados pessoais.**
 mandatory: true
 visible_if: Q812.SQ001 == Y
@@ -494,7 +664,7 @@ allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
 
-### Q82 [single_comment]
+### Q82 [single]
 question: **8.2. Qual é a proporção aproximada das soluções tecnológicas da organização que tratam dados pessoais e utilizam serviços de computação em nuvem?**
 mandatory: true
 help: Use como denominador o total de soluções tecnológicas conhecidas que tratam dados pessoais e, como numerador, aquelas que utilizam computação em nuvem. Considere sistemas, aplicações, armazenamento, cópias de segurança, correio eletrônico e ferramentas de colaboração. No comentário, indique a base da estimativa e os principais tipos de serviço considerados.
@@ -534,7 +704,7 @@ subquestions:
 - SQ005 | Estabeleceu e executa procedimentos padronizados para comunicar à ANPD e aos titulares incidentes que possam acarretar risco ou dano relevante
 - SQ006 | Ainda não atende a nenhum dos itens anteriores
 
-### Q911 [upload]
+### Q911evi [upload]
 question: **9.1.1. Anexe o Plano de Resposta a Incidentes ou instrumento equivalente.**
 mandatory: true
 visible_if: Q91.SQ001 == Y
@@ -542,6 +712,30 @@ help: Envie a versão aprovada e vigente; oculte contatos pessoais, credenciais 
 allowed_filetypes: pdf, docx, zip
 min_files: 1
 max_files: 1
+
+### QAC110S [long]
+question: **Monitoramento do item 1.10 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para instituir e manter atualizado o Plano de Resposta a Incidentes, e como elas foram superadas?**
+mandatory: true
+visible_if: Q91.SQ001 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC110N [long]
+question: **Monitoramento do item 1.10 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a desatualização do Plano de Resposta a Incidentes?**
+mandatory: true
+visible_if: Q91.SQ001 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC111S [long]
+question: **Monitoramento do item 1.11 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para estabelecer o procedimento de comunicação de incidentes à ANPD e aos titulares, e como elas foram superadas?**
+mandatory: true
+visible_if: Q91.SQ005 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC111N [long]
+question: **Monitoramento do item 1.11 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do procedimento de comunicação de incidentes à ANPD e aos titulares?**
+mandatory: true
+visible_if: Q91.SQ005 != Y
+explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g10 | 10. Medidas de proteção
 > A organização deve adotar medidas técnicas e administrativas compatíveis com os riscos dos tratamentos realizados. Essas medidas devem proteger os dados pessoais contra acesso não autorizado, perda, alteração, divulgação e outras formas de tratamento inadequado ou ilícito.
@@ -573,6 +767,20 @@ subquestions:
 - SQ007 | Disponibiliza ferramenta para mascaramento, ocultação ou tarjamento de dados pessoais
 - SQ008 | Adota medidas de privacidade desde a concepção e por padrão em processos e sistemas
 - SQ009 | Ainda não atende a nenhum dos itens anteriores
+- SQ010 | Instalou e mantém sistema de firewall e/ou Web Application Firewall (WAF), diretamente ou por meio de provedor responsável pelo serviço
+- SQ011 | Protege o correio eletrônico com ferramentas antispam, filtros de e-mail e solução antimalware ou antivírus integrada
+
+### QAC115S [long]
+question: **Monitoramento do item 1.15 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para implementar a gestão de usuários, a criptografia em trânsito, o firewall ou WAF e a proteção do correio eletrônico, e como elas foram superadas?**
+mandatory: true
+visible_if: Q101.SQ002 == Y and Q101.SQ005 == Y and Q101.SQ010 == Y and Q101.SQ011 == Y
+explain: Se não houve dificuldade relevante, registre expressamente essa informação. Relate fatos institucionais e não informe nomes de servidores nem dados pessoais desnecessários.
+
+### QAC115N [long]
+question: **Monitoramento do item 1.15 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a implementação parcial ou inexistente da gestão de usuários, da criptografia em trânsito, do firewall ou WAF e da proteção do correio eletrônico?**
+mandatory: true
+visible_if: Q101.SQ002 != Y or Q101.SQ005 != Y or Q101.SQ010 != Y or Q101.SQ011 != Y
+explain: Identifique quais medidas permanecem pendentes e descreva as causas e os fatos concretos. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g11 | 11. Contratações de apoio à adequação à LGPD
 > Este grupo identifica contratações mantidas desde janeiro de 2024 para apoiar a adequação à LGPD, como consultoria, assessoria jurídica especializada, capacitação, serviços de Encarregado e soluções tecnológicas.
@@ -585,25 +793,18 @@ subquestions:
 > - [Lei Federal nº 14.133/2021, art. 92](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)
 > - [Guia do Framework de Privacidade e Segurança da Informação — PPSI 2.0, versão 1.2, controles 15 e 22](https://www.gov.br/governodigital/pt-br/privacidade-e-seguranca/ppsi-2.0/arquivos/guiafwppsi2-0-v1-2-11062026.pdf)
 
-### Q111 [multi]
-question: **11.1. Desde janeiro de 2024, a organização contratou ou manteve contratos para apoiar a adequação à LGPD nas seguintes categorias?**
+### Q111 [single]
+question: **11.1. Desde janeiro de 2024, a organização contratou ou manteve pelo menos um contrato para apoiar sua adequação à LGPD?**
 mandatory: true
-exclude_all_others: NENHUM
-subquestions:
-- CONS | Consultoria em privacidade ou proteção de dados pessoais
-- JUR | Assessoria jurídica especializada em proteção de dados
-- DPO | Encarregado pelo tratamento de dados pessoais como serviço
-- INV | Solução para inventário de dados ou Registro das Operações de Tratamento
-- TIT | Solução para atendimento aos direitos dos titulares
-- SEG | Serviços ou soluções de segurança da informação relacionados à proteção de dados
-- CAP | Capacitação especializada em LGPD
-- OUT | Outra categoria de serviço ou solução tecnológica
-- NENHUM | Não contratou nem manteve contrato dessas categorias no período
+help: Considere contratações de consultoria, assessoria jurídica, Encarregado como serviço, capacitação, segurança da informação, inventário ou registro de operações, atendimento aos titulares e outras soluções ou serviços relacionados à adequação à LGPD.
+options:
+- A1 | Sim
+- A2 | Não
 
 ### Q112 [long]
-question: **11.2. Descreva sucintamente as contratações assinaladas, indicando categoria, objeto, situação do contrato e unidade gestora.**
+question: **11.2. Descreva sucintamente cada contratação relacionada à adequação à LGPD, indicando a categoria do serviço ou solução, o objeto, a situação do contrato e a unidade gestora.**
 mandatory: true
-visible_if: Q111.CONS == Y or Q111.JUR == Y or Q111.DPO == Y or Q111.INV == Y or Q111.TIT == Y or Q111.SEG == Y or Q111.CAP == Y or Q111.OUT == Y
+visible_if: Q111 == A1
 help: Não informe dados pessoais de representantes, valores sigilosos ou outras informações sem necessidade para o diagnóstico.
 
 ## Grupo: g12 | 12. Avaliação do guia “Os 6 passos para adequação à LGPD”
@@ -611,7 +812,7 @@ help: Não informe dados pessoais de representantes, valores sigilosos ou outras
 >
 > As perguntas tratam da utilidade prática do material, da dificuldade de implementação de cada passo e de sugestões para novos instrumentos de orientação. As respostas não alteram diretamente o cálculo do iLGPD.
 
-### Q121 [single_comment]
+### Q121 [single]
 question: **12.1. Antes desta fiscalização, qual era o grau de conhecimento e utilização do guia “Os 6 passos para adequação à LGPD” pela organização?**
 mandatory: true
 help: Use o comentário para indicar como o material foi divulgado e utilizado pelas unidades municipais.
@@ -621,7 +822,6 @@ options:
 - A3 | Consultou o guia, mas não o utilizou para orientar ações
 - A4 | Utilizou o guia para orientar parte das ações de adequação
 - A5 | Utilizou o guia como referência ampla para o processo de adequação
-- A6 | Não foi possível informar
 
 ### Q122 [single]
 question: **12.2. Como a organização avalia a utilidade prática do guia para orientar sua adequação à LGPD?**
@@ -699,7 +899,7 @@ question: **13.2. Registre os principais desafios, deficiências e pontos de ate
 mandatory: false
 help: Não inclua nomes de pessoas, dados de casos individuais, credenciais ou informações sigilosas desnecessárias.
 
-### Q133 [single_comment]
+### Q133 [single]
 question: **13.3. Há informações prestadas neste questionário que a organização considera não públicas?**
 mandatory: true
 help: Em caso positivo, identifique no comentário os itens e apresente a justificativa e a referência do instrumento de classificação, sem repetir o conteúdo protegido.
