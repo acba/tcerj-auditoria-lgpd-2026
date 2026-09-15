@@ -35,7 +35,7 @@ welcome: |
 
     <p style="color:#000000;">Recomenda-se que o responsável pelo preenchimento reúna previamente as informações necessárias e consulte, conforme a estrutura da prefeitura, as unidades responsáveis por proteção de dados e privacidade, Encarregado, tecnologia da informação, segurança da informação, gestão de pessoas e capacitação, contratações, planejamento e governança, assessoria jurídica, transparência, ouvidoria, controle interno e áreas finalísticas que realizem tratamentos relevantes de dados pessoais.</p>
 
-    <p style="color:#000000;">Nos campos de comentário, informe datas, unidades responsáveis e referências de atos, processos ou documentos que permitam compreender a resposta. Nos anexos, envie somente o conteúdo necessário e oculte dados pessoais, informações sigilosas, credenciais e detalhes técnicos sem pertinência para a fiscalização.</p>
+    <p style="color:#000000;">Nas respostas abertas, informe datas, unidades responsáveis e referências de atos, processos ou documentos que permitam compreender a resposta. Nos anexos, envie somente o conteúdo necessário e oculte dados pessoais, informações sigilosas, credenciais e detalhes técnicos sem pertinência para a fiscalização.</p>
 
 
     <p style="color:#000000;margin-top:5px;"><strong>Observações importantes:</strong></p>
@@ -133,7 +133,7 @@ max_files: 1
 ### Q22 [single]
 question: **2.2. A organização instituiu uma comissão ou grupo de trabalho multissetorial com a participação do encarregado pelo tratamento de dados pessoais, disposto no art. 41 da LGPD, para planejar, estabelecer, gerenciar e monitorar as medidas a serem tomadas na adequação do ente à Lei Geral de Proteção de Dados Pessoais?**
 mandatory: true
-help: Responda “Sim” somente se o colegiado tiver sido instituído, for multissetorial, contar com a participação do Encarregado e abranger as quatro finalidades indicadas. No comentário, informe o ato ou processo de instituição e as unidades representadas, quando existente.
+help: Responda “Sim” somente se o colegiado tiver sido instituído, for multissetorial, contar com a participação do Encarregado e abranger as quatro finalidades indicadas.
 options:
 - A1 | Sim
 - A2 | Não
@@ -153,7 +153,7 @@ explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se n�
 ### Q23 [single]
 question: **2.3. A organização considerou em sua iniciativa de adequação à LGPD os encaminhamentos do Acórdão nº 3931/2025?**
 mandatory: true
-help: Considere os encaminhamentos aplicáveis à organização. No comentário, indique o plano, processo, ato ou outra iniciativa em que foram considerados.
+help: Considere todos os encaminhamentos do Acórdão aplicáveis à organização e responda de acordo com a iniciativa de adequação efetivamente conduzida.
 options:
 - A1 | Sim, os encaminhamentos aplicáveis foram considerados
 - A2 | Não, os encaminhamentos aplicáveis não foram considerados
@@ -162,7 +162,7 @@ options:
 ### Q24 [single]
 question: **2.4. A organização elaborou o Plano de Ação previsto no item 1.1 do Acórdão nº 3931/2025 e o registrou em processo administrativo?**
 mandatory: true
-help: Considere o prazo de 60 dias contado da ciência da decisão. No comentário, informe a data de conclusão do plano e o número do processo administrativo, quando existentes.
+help: Considere o prazo de 60 dias contado da ciência da decisão e a existência de registro formal em processo administrativo.
 options:
 - A1 | Sim, o plano foi elaborado no prazo e registrado em processo administrativo
 - A2 | O plano foi registrado em processo administrativo, mas elaborado após o prazo
@@ -302,7 +302,7 @@ help: Informe o endereço completo, iniciado por https:// ou http://.
 question: **4.1.6. A Política de Segurança da Informação ou instrumento equivalente foi publicada em veículo ou canal oficial?**
 mandatory: true
 visible_if: Q41.SQ001 == Y
-help: No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.
+help: Considere como publicada a política divulgada em veículo ou canal oficial, com data e referência verificáveis.
 options:
 - A1 | Sim
 - A2 | Não
@@ -311,7 +311,7 @@ options:
 question: **4.1.7. A Política de Proteção de Dados Pessoais ou instrumento equivalente foi publicada em veículo ou canal oficial?**
 mandatory: true
 visible_if: Q41.SQ003 == Y
-help: No comentário, informe a data, o veículo ou canal oficial e a referência da publicação.
+help: Considere como publicada a política divulgada em veículo ou canal oficial, com data e referência verificáveis.
 options:
 - A1 | Sim
 - A2 | Não
@@ -325,7 +325,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC12N [long]
 question: **Monitoramento do item 1.2 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de nomeação do Encarregado ou de publicação do ato de designação?**
 mandatory: true
-visible_if: Q41.SQ004 != Y
+visible_if: Q41.SQ004 != Y and (Q41.SQ001 == Y or Q41.SQ002 == Y or Q41.SQ003 == Y or Q41.SQ004 == Y or Q41.SQ005 == Y or Q41.SQ006 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC13S [long]
@@ -337,7 +337,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC13N [long]
 question: **Monitoramento do item 1.3 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a falta de divulgação, no portal, da identidade e dos contatos do Encarregado?**
 mandatory: true
-visible_if: Q41.SQ005 != Y
+visible_if: Q41.SQ005 != Y and (Q41.SQ001 == Y or Q41.SQ002 == Y or Q41.SQ003 == Y or Q41.SQ004 == Y or Q41.SQ005 == Y or Q41.SQ006 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC15S [long]
@@ -349,7 +349,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC15N [long]
 question: **Monitoramento do item 1.5 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Segurança da Informação?**
 mandatory: true
-visible_if: Q41.SQ001 != Y or Q416 == A2
+visible_if: (Q41.SQ001 != Y and (Q41.SQ001 == Y or Q41.SQ002 == Y or Q41.SQ003 == Y or Q41.SQ004 == Y or Q41.SQ005 == Y or Q41.SQ006 == Y)) or Q416 == A2
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC16S [long]
@@ -361,7 +361,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC16N [long]
 question: **Monitoramento do item 1.6 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência, a desatualização ou a falta de publicação da Política de Proteção de Dados Pessoais?**
 mandatory: true
-visible_if: Q41.SQ003 != Y or Q417 == A2
+visible_if: (Q41.SQ003 != Y and (Q41.SQ001 == Y or Q41.SQ002 == Y or Q41.SQ003 == Y or Q41.SQ004 == Y or Q41.SQ005 == Y or Q41.SQ006 == Y)) or Q417 == A2
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC114S [long]
@@ -373,7 +373,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC114N [long]
 question: **Monitoramento do item 1.14 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a desatualização da Política de Classificação da Informação?**
 mandatory: true
-visible_if: Q41.SQ002 != Y
+visible_if: Q41.SQ002 != Y and (Q41.SQ001 == Y or Q41.SQ002 == Y or Q41.SQ003 == Y or Q41.SQ004 == Y or Q41.SQ005 == Y or Q41.SQ006 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g05 | 5. Capacitação
@@ -392,9 +392,9 @@ explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se n�
 ### Q51 [single]
 question: **5.1. Acerca da capacitação dos colaboradores em proteção de dados pessoais, qual alternativa melhor representa a organização?**
 mandatory: true
-help: Use o comentário para identificar o plano, as ações, datas, públicos alcançados e unidades responsáveis.
+help: Considere o plano vigente e as ações efetivamente realizadas, inclusive datas e públicos alcançados.
 options:
-- A1 | Não se aplica — justifique no campo de comentário
+- A1 | Não se aplica
 - A2 | Não possui plano de capacitação e os colaboradores ainda não realizaram treinamento em proteção de dados pessoais
 - A3 | Não possui plano de capacitação, mas colaboradores específicos já realizaram treinamento em proteção de dados pessoais
 - A4 | Possui plano de capacitação sem conteúdo específico de proteção de dados, mas já realizou treinamento abrangente nessa área
@@ -433,7 +433,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 question: **Monitoramento do item 1.13 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a insuficiência do plano e das ações de capacitação em proteção de dados pessoais?**
 mandatory: true
 visible_if: Q51 in [A1, A2, A3, A4]
-explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+explain: Se a resposta à questão 5.1 foi “Não se aplica”, justifique objetivamente a não aplicabilidade. Nos demais casos, descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g06 | 6. Conformidade do tratamento
 > A organização deve conhecer e documentar por que, como e por quanto tempo trata dados pessoais. Cada tratamento precisa ter finalidade legítima, base legal identificada e coleta limitada ao necessário.
@@ -478,7 +478,7 @@ max_files: 1
 ### Q612evi [upload]
 question: **6.1.2. Anexe o Inventário de Dados Pessoais mantido pela organização.**
 mandatory: true
-visible_if: Q61.SQ005 == Y or Q61.SQ006 == Y
+visible_if: Q61.SQ005 == Y
 help: É suficiente versão ou extrato que permita avaliar aprovação, atualização e conteúdo; oculte registros individuais e dados pessoais desnecessários.
 allowed_filetypes: pdf, docx, zip
 min_files: 1
@@ -502,7 +502,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC14N [long]
 question: **Monitoramento do item 1.4 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Inventário de Dados Pessoais?**
 mandatory: true
-visible_if: Q61.SQ005 != Y
+visible_if: Q61.SQ005 != Y and (Q61.SQ001 == Y or Q61.SQ002 == Y or Q61.SQ003 == Y or Q61.SQ004 == Y or Q61.SQ005 == Y or Q61.SQ006 == Y or Q61.SQ007 == Y or Q61.SQ008 == Y or Q61.SQ009 == Y or Q61.SQ010 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC19S [long]
@@ -514,7 +514,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC19N [long]
 question: **Monitoramento do item 1.9 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do Relatório de Impacto à Proteção de Dados Pessoais?**
 mandatory: true
-visible_if: Q61.SQ008 != Y
+visible_if: Q61.SQ008 != Y and (Q61.SQ001 == Y or Q61.SQ002 == Y or Q61.SQ003 == Y or Q61.SQ004 == Y or Q61.SQ005 == Y or Q61.SQ006 == Y or Q61.SQ007 == Y or Q61.SQ008 == Y or Q61.SQ009 == Y or Q61.SQ010 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g07 | 7. Direitos dos titulares
@@ -534,9 +534,9 @@ explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se n�
 ### Q71 [single]
 question: **7.1. A organização elaborou e divulga no portal institucional Política de Privacidade ou instrumento equivalente?**
 mandatory: true
-help: Se houver publicação, informe no comentário a URL exata. Se não se aplicar, apresente a justificativa.
+help: Considere como publicada a declaração disponível no portal institucional em endereço verificável. Se a opção “Não se aplica” for selecionada, apresente a justificativa na pergunta de monitoramento exibida em seguida.
 options:
-- A1 | Não se aplica — justifique no campo de comentário
+- A1 | Não se aplica
 - A2 | Não elaborou Política de Privacidade ou instrumento equivalente
 - A3 | Elaborou a política, mas não a divulga no portal institucional
 - A4 | Elaborou a política e a divulga no portal institucional
@@ -553,9 +553,9 @@ max_files: 1
 ### Q72 [single]
 question: **7.2. Foram implementados mecanismos para atender aos direitos dos titulares aplicáveis à organização, previstos nos arts. 9º e 18 da LGPD?**
 mandatory: true
-help: No comentário, informe os canais, os direitos atendidos, a forma de autenticação e o fluxo de encaminhamento das solicitações.
+help: Considere os canais efetivamente disponíveis, os direitos atendidos, a forma de autenticação e o fluxo de encaminhamento das solicitações. Se a opção “Não se aplica” for selecionada, apresente a justificativa na pergunta de monitoramento exibida em seguida.
 options:
-- A1 | Não se aplica — justifique no campo de comentário
+- A1 | Não se aplica
 - A2 | Não foram implementados mecanismos para atender aos direitos dos titulares
 - A3 | Foram implementados mecanismos para atender a alguns direitos, mas não a todos
 - A4 | Foram implementados mecanismos para atender a todos os direitos aplicáveis à organização
@@ -579,7 +579,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 question: **Monitoramento do item 1.7 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a falta de divulgação da Política de Privacidade no portal?**
 mandatory: true
 visible_if: Q71 in [A1, A2, A3]
-explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+explain: Se a resposta à questão 7.1 foi “Não se aplica”, justifique objetivamente a não aplicabilidade. Nos demais casos, descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC18S [long]
 question: **Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais foram as principais dificuldades enfrentadas para implementar mecanismos destinados ao atendimento de todos os direitos aplicáveis dos titulares, e como elas foram superadas?**
@@ -591,7 +591,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 question: **Monitoramento do item 1.8 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a ausência ou a cobertura parcial dos mecanismos de atendimento aos direitos dos titulares?**
 mandatory: true
 visible_if: Q72 in [A1, A2, A3]
-explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
+explain: Se a resposta à questão 7.2 foi “Não se aplica”, justifique objetivamente a não aplicabilidade. Nos demais casos, descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g08 | 8. Compartilhamento de dados pessoais e computação em nuvem
 > O compartilhamento ocorre quando dados pessoais são comunicados, transferidos ou disponibilizados a outro órgão, entidade, empresa ou agente de tratamento. A organização deve identificar esses fluxos, suas finalidades, os destinatários, as bases legais e os controles aplicáveis.
@@ -612,20 +612,26 @@ explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se n�
 ### Q81 [single]
 question: **8.1. Quanto aos compartilhamentos de dados pessoais com terceiros, qual alternativa melhor representa a organização?**
 mandatory: true
-help: Use o comentário para identificar os principais fluxos, destinatários, finalidades e registros existentes.
+help: Considere os principais fluxos, destinatários, finalidades e registros existentes. Se escolher “Não se aplica”, justifique a não aplicabilidade na pergunta exibida em seguida.
 options:
-- A1 | Não se aplica — justifique no campo de comentário
+- A1 | Não se aplica — justifique na pergunta seguinte
 - A2 | Ainda não avaliou se realiza compartilhamentos ou não identificou todos os dados eventualmente compartilhados
 - A3 | Avaliou a existência de compartilhamentos e identificou os dados compartilhados
 - A4 | Identificou os dados e iniciou a avaliação dos compartilhamentos, mas ainda não pode atestar a conformidade de todos
 - A5 | Identificou e avaliou os compartilhamentos e declara que todos atendem aos critérios legais, mas ainda não mantém registro dos eventos
 - A6 | Identificou e avaliou os compartilhamentos, declara conformidade, disponibiliza informações sobre uso compartilhado e mantém registro detalhado dos eventos
 
+### Q81just [long]
+question: **8.1.A. Justifique a seleção da alternativa “Não se aplica” na questão 8.1, descrevendo por que o compartilhamento de dados pessoais com terceiros não se aplica à organização.**
+mandatory: true
+visible_if: Q81 == A1
+explain: Apresente fundamentos objetivos relacionados aos tratamentos realizados pela prefeitura. Não informe dados pessoais nem informações sigilosas desnecessárias.
+
 ### Q811 [single]
 question: **8.1.1. A organização realiza transferência internacional de dados pessoais?**
 mandatory: true
 visible_if: Q81 in [A3, A4, A5, A6]
-help: Use o comentário para identificar serviços, operadores e países ou regiões envolvidos, sem registrar dados pessoais.
+help: Considere todos os serviços, operadores e países ou regiões envolvidos, sem registrar dados pessoais na resposta.
 options:
 - A1 | Não identificou transferência internacional, mas ainda não avaliou todos os compartilhamentos
 - A2 | Avaliou todos os compartilhamentos e não há transferência internacional
@@ -635,7 +641,7 @@ options:
 question: **8.1.1.1. As transferências internacionais identificadas foram avaliadas quanto aos requisitos da LGPD, em especial o art. 33?**
 mandatory: true
 visible_if: Q811 == A3
-help: No comentário, identifique a hipótese ou salvaguarda considerada e o processo administrativo correspondente.
+help: Considere a hipótese ou salvaguarda aplicável e a existência de registro no processo administrativo correspondente.
 options:
 - A1 | Ainda não avaliou todas as transferências internacionais
 - A2 | Avaliou as transferências, mas elas ainda não atendem integralmente aos requisitos legais
@@ -645,6 +651,7 @@ options:
 question: **8.1.2. Acerca do tratamento de dados pessoais em serviços de computação em nuvem, a organização:**
 mandatory: true
 exclude_all_others: SQ005
+explain: Marque as alternativas sobre território de armazenamento, avaliação de riscos e cláusulas contratuais somente se também marcar que a organização realiza tratamento de dados pessoais em nuvem. Se não houver esse tratamento, marque exclusivamente a última alternativa.
 subquestions:
 - SQ001 | Realiza tratamento de dados pessoais em nuvem, ainda que somente armazenamento
 - SQ002 | Avaliou e pode assegurar que não há armazenamento de dados pessoais em território estrangeiro
@@ -655,7 +662,7 @@ subquestions:
 ### Q8121evi [upload]
 question: **8.1.2.1. Anexe contrato ou extrato contratual vigente com provedor de nuvem que trate dados pessoais.**
 mandatory: true
-visible_if: Q812.SQ001 == Y
+visible_if: Q812.SQ004 == Y
 help: O extrato deve permitir avaliar as cláusulas de proteção de dados; oculte valores, assinaturas, credenciais e informações sem pertinência.
 allowed_filetypes: pdf, docx, zip
 min_files: 1
@@ -664,7 +671,8 @@ max_files: 1
 ### Q82 [single]
 question: **8.2. Qual é a proporção aproximada das soluções tecnológicas da organização que tratam dados pessoais e utilizam serviços de computação em nuvem?**
 mandatory: true
-help: Use como denominador o total de soluções tecnológicas conhecidas que tratam dados pessoais e, como numerador, aquelas que utilizam computação em nuvem. Considere sistemas, aplicações, armazenamento, cópias de segurança, correio eletrônico e ferramentas de colaboração. No comentário, indique a base da estimativa e os principais tipos de serviço considerados.
+visible_if: Q812.SQ001 == Y or Q812.SQ002 == Y or Q812.SQ003 == Y or Q812.SQ004 == Y or Q812.SQ005 == Y
+help: Use como denominador o total de soluções tecnológicas conhecidas que tratam dados pessoais e, como numerador, aquelas que utilizam computação em nuvem. Considere sistemas, aplicações, armazenamento, cópias de segurança, correio eletrônico e ferramentas de colaboração. Se a organização informou que não realiza tratamento em nuvem, selecione “Nenhuma solução — 0%”.
 options:
 - A1 | Nenhuma solução — 0%
 - A2 | Mais de 0% até 25%
@@ -719,7 +727,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC110N [long]
 question: **Monitoramento do item 1.10 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência ou a desatualização do Plano de Resposta a Incidentes?**
 mandatory: true
-visible_if: Q91.SQ001 != Y
+visible_if: Q91.SQ001 != Y and (Q91.SQ001 == Y or Q91.SQ002 == Y or Q91.SQ003 == Y or Q91.SQ004 == Y or Q91.SQ005 == Y or Q91.SQ006 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ### QAC111S [long]
@@ -731,7 +739,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC111N [long]
 question: **Monitoramento do item 1.11 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a inexistência do procedimento de comunicação de incidentes à ANPD e aos titulares?**
 mandatory: true
-visible_if: Q91.SQ005 != Y
+visible_if: Q91.SQ005 != Y and (Q91.SQ001 == Y or Q91.SQ002 == Y or Q91.SQ003 == Y or Q91.SQ004 == Y or Q91.SQ005 == Y or Q91.SQ006 == Y)
 explain: Descreva as causas e os fatos concretos que mantêm a pendência. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g10 | 10. Medidas de proteção
@@ -776,7 +784,7 @@ explain: Se não houve dificuldade relevante, registre expressamente essa inform
 ### QAC115N [long]
 question: **Monitoramento do item 1.15 do Acórdão nº 3931/2025: quais dificuldades ou impedimentos institucionais explicam a implementação parcial ou inexistente da gestão de usuários, da criptografia em trânsito, do firewall ou WAF e da proteção do correio eletrônico?**
 mandatory: true
-visible_if: Q101.SQ002 != Y or Q101.SQ005 != Y or Q101.SQ010 != Y or Q101.SQ011 != Y
+visible_if: (Q101.SQ001 == Y or Q101.SQ002 == Y or Q101.SQ003 == Y or Q101.SQ004 == Y or Q101.SQ005 == Y or Q101.SQ006 == Y or Q101.SQ007 == Y or Q101.SQ008 == Y or Q101.SQ009 == Y or Q101.SQ010 == Y or Q101.SQ011 == Y) and (Q101.SQ002 != Y or Q101.SQ005 != Y or Q101.SQ010 != Y or Q101.SQ011 != Y)
 explain: Identifique quais medidas permanecem pendentes e descreva as causas e os fatos concretos. Se não houver justificativa institucional registrada, declare isso expressamente. Não informe nomes de servidores nem dados pessoais desnecessários.
 
 ## Grupo: g11 | 11. Contratações de apoio à adequação à LGPD
@@ -812,7 +820,7 @@ help: Não informe dados pessoais de representantes, valores sigilosos ou outras
 ### Q121 [single]
 question: **12.1. Antes desta fiscalização, qual era o grau de conhecimento e utilização do guia “Os 6 passos para adequação à LGPD” pela organização?**
 mandatory: true
-help: Use o comentário para indicar como o material foi divulgado e utilizado pelas unidades municipais.
+help: Considere o conhecimento institucional prévio e o uso efetivo do material pelas unidades municipais.
 options:
 - A1 | Não conhecia o guia antes deste questionário
 - A2 | Conhecia o guia, mas não chegou a consultá-lo
@@ -866,6 +874,12 @@ subquestions:
 - FER | Ferramentas ou planilhas de apoio
 - OUT | Outro material ou ação
 
+### Q124out [long]
+question: **12.4.A. Descreva o outro material ou ação que poderia apoiar melhor a adequação municipal à LGPD.**
+mandatory: true
+visible_if: Q124.OUT == Y
+explain: Seja objetivo e não inclua dados pessoais ou informações sigilosas desnecessárias.
+
 ### Q125 [long]
 question: **12.5. Apresente críticas, sugestões de melhoria e exemplos de como o guia contribuiu — ou deixou de contribuir — para o processo de adequação.**
 mandatory: false
@@ -899,7 +913,20 @@ help: Não inclua nomes de pessoas, dados de casos individuais, credenciais ou i
 ### Q133 [single]
 question: **13.3. Há informações prestadas neste questionário que a organização considera não públicas?**
 mandatory: true
-help: Em caso positivo, identifique no comentário os itens e apresente a justificativa e a referência do instrumento de classificação, sem repetir o conteúdo protegido.
+help: Em caso positivo, identifique os itens e apresente a fundamentação na pergunta exibida em seguida, sem repetir o conteúdo protegido.
 options:
 - A1 | Sim
 - A2 | Não
+
+### Q133just [long]
+question: **13.3.A. Identifique as respostas ou os anexos considerados não públicos e informe a justificativa e a referência do instrumento de classificação aplicável.**
+mandatory: true
+visible_if: Q133 == A1
+explain: Não repita o conteúdo protegido nem inclua dados pessoais ou informações sigilosas desnecessárias.
+
+### Q134 [single]
+question: **13.4. Finalizar o questionário**
+mandatory: true
+explain: Antes de confirmar, revise as respostas e os anexos. A conclusão do envio ocorrerá quando o botão de envio do questionário for acionado.
+options:
+- A1 | Declaro que revisei as respostas e estou ciente de que, ao finalizar o questionário, elas serão enviadas ao TCE-RJ
